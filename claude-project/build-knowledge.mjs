@@ -45,3 +45,16 @@ for (const [name, { title, test, list = units }] of Object.entries(files)) {
   writeFileSync(`${outDir}/${name}`, `# ${title}\n\nFacts checked against UN sources as of late October 2026. Items that change often (officeholders, ongoing processes) should be checked against current news.\n\n${parts.join('\n\n---\n\n')}\n`);
   console.log(name, parts.length, 'units');
 }
+
+// 06: the study plan and how the whole system fits together, for planning chats outside mocks.
+vm.runInNewContext(readFileSync(`${appDir}/data/plan.js`, 'utf8'), ctx);
+const plan = ctx.window.PLAN;
+const fmt = (iso) => new Date(`${iso}T12:00:00Z`).toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
+const days = plan.days.map((d) => {
+  const total = d.tasks.reduce((n, t) => n + (t.mins || 0), 0);
+  const tasks = d.tasks.map((t) => `- ${t.when ? `[${t.when}] ` : ''}${t.text}${t.mins ? ` (${t.mins} min)` : ''}${t.say ? ` — say: "${t.say}"` : ''}`);
+  return `### ${fmt(d.date)}: ${d.title} (about ${Math.round(total / 6) / 10} h)\n\n${tasks.join('\n')}`;
+});
+const intro = readFileSync(new URL('./study_hq_intro.md', import.meta.url), 'utf8').trim();
+writeFileSync(`${outDir}/06_study_hq.md`, `${intro}\n\n## Rules of the plan\n\n${plan.rules.map((r) => `- ${r}`).join('\n')}\n\n## The day-by-day plan (as it is in the app)\n\n${days.join('\n\n')}\n`);
+console.log('06_study_hq.md', plan.days.length, 'days');

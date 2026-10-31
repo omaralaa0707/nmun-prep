@@ -49,13 +49,13 @@ window.PLAN = {
       "sc",
       "ecosoc",
       "icj",
-      "secretariat",
+      "secretariat"
+    ],
+    "2026-10-31": [
       "moz",
       "mozrecord",
       "ga1",
-      "pmsc"
-    ],
-    "2026-10-31": [
+      "pmsc",
       "laws",
       "unhcr",
       "mhpss",
@@ -214,7 +214,6 @@ window.PLAN = {
           "text": "Flashcards: 401 new (the rest) + everything due",
           "mins": 180,
           "href": "#cards/session/all",
-          "when": "In class",
           "key": "v4:2026-11-01#0"
         },
         {
