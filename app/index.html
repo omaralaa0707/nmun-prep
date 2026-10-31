@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NMUN Prep Desk</title>
+<meta name="description" content="Study desk for the NMUN 2027 selection interview: readings, flashcards, quizzes and speaking drills.">
+<meta name="theme-color" content="#14202e">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
+<link rel="icon" type="image/png" href="/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Prep Desk">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/styles.css?v=22">
+</head>
+<body>
+<div id="gate" class="gate" hidden>
+  <form id="gate-form" class="gate-card">
+    <p class="eyebrow">NMUN 2027 · Selection prep</p>
+    <h1 class="gate-title">Prep Desk</h1>
+    <p class="muted">Enter your password to load your progress on this device.</p>
+    <label for="gate-pw" class="field-label">Password</label>
+    <input id="gate-pw" type="password" autocomplete="current-password" required>
+    <p id="gate-error" class="error" hidden></p>
+    <button class="btn primary" type="submit">Open desk</button>
+  </form>
+</div>
+
+<div id="shell" hidden>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a href="#plan" class="brand"><span class="brand-mark">UN</span><span>Prep Desk</span></a>
+      <nav class="tabs" aria-label="Sections">
+        <a href="#plan" data-tab="plan">Plan</a>
+        <a href="#cards" data-tab="cards">Flashcards</a>
+      </nav>
+      <button id="sync-pill" class="sync-pill" type="button" title="Sync now"><span class="dot"></span><span class="sync-text">Local</span></button>
+    </div>
+  </header>
+  <main id="view" class="view" tabindex="-1"></main>
+  <nav class="bottom-tabs" aria-label="Sections">
+    <a href="#plan" data-tab="plan"><span>Plan</span></a>
+    <a href="#cards" data-tab="cards"><span>Flashcards</span></a>
+  </nav>
+</div>
+<div id="toast" class="toast" role="status" hidden></div>
+
+<script src="/data/units.js?v=22"></script>
+<script src="/data/units2.js?v=22"></script>
+<script src="/data/depth1.js?v=22"></script>
+<script src="/data/depth2.js?v=22"></script>
+<script src="/data/cards.js?v=22"></script>
+<script src="/data/cards2.js?v=22"></script>
+<script src="/data/mine1.js?v=22"></script>
+<script src="/data/mine2.js?v=22"></script>
+<script src="/data/cards_mine.js?v=22"></script>
+<script src="/data/plan.js?v=22"></script>
+<script src="/app.js?v=22"></script>
+</body>
+</html>

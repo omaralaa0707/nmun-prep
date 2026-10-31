@@ -1,0 +1,7 @@
+# secrets and local-only files
+REMINDER_SETUP.md
+.env*
+.vercel
+node_modules
+.DS_Store
+.claude/settings.local.json

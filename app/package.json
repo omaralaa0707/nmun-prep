@@ -1,0 +1,12 @@
+{
+  "name": "nmun-prep",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@vercel/blob": "2.8.1",
+    "web-push": "3.6.7"
+  }
+}
