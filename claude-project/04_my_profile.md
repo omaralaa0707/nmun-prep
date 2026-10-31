@@ -5,10 +5,9 @@
 - Selection interview: **Sunday 8 November 2026, 8:30 pm** (Nadia Younes Conference Room P131, HUSS). A mock conference comes in late November; not the focus yet.
 - Experience: two high-school MUN conferences, not taken seriously. Effectively a first-timer.
 - Not naturally outgoing. Speaking under pressure is the main thing to train.
-- Studying about 2–3+ hours a day, mostly from my study app (reading units + flashcards).
+- I've studied exactly the material in `01_un_core.md` and `05_mozambique_and_topics.md`, with flashcards on the same facts.
 
 ## Delegation and committees
-- Delegation options announced: Mozambique (11 committees) and Peru (8 committees).
 - My delegation: **Mozambique**
 - Committee preference 1: **GA1, Disarmament and International Security**
 - Committee preference 2: **UNHCR**
@@ -20,9 +19,9 @@
 - Why these: Mozambique hired Wagner (2019) and Dyck Advisory Group (2020–21) in Cabo Delgado; over 1.3 million displaced since 2017; it sits on the southern migration route; Tanzania pushed back 10,000+ Mozambican asylum seekers in 2021.
 - Acceptance is to the delegation as a whole, so the committee choice was made purely for interview strength.
 
-## What I've covered so far
-- 29 Oct: read the interview guide, League of Nations, Road to the UN, the Charter, Membership, UN system, General Assembly; did their flashcards and quizzes.
-- From 30 Oct: the delegation units (Mozambique, GA1, PMSCs, LAWS, UNHCR, psychosocial support, migration routes, situational questions), then the Security Council, disarmament, human rights, procedure and peacekeeping.
+## Where I am
+- By the end of Saturday 31 October I'll have read all the material once (UN core on Friday, everything else on Saturday). From Sunday 1 November it's mocks and drills.
+- Mock #1 (45 min) is on Saturday night; then 60 min on Sunday 1, 90 min on Wednesday 4 and 2 hours on Thursday 5 November.
 
 ## Known weak spots (update after each session)
 - Speaking confidently under pressure.

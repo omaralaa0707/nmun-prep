@@ -16,7 +16,7 @@ This folder is a study system for one goal: the user's NMUN 2027 delegation sele
   - `app.js`: `NEW_PER_DAY` (currently 401) and `CARDS_RESET` (progress older than this timestamp is ignored). Cards are introduced in reading order. There is a "Due only" deck at `#cards/session/due:all`.
   - After any change to `app/`, bump the `?v=N` cache-buster on every script tag in `app/index.html` (currently `v=26`).
   - `app/api/progress.js` syncs progress to Vercel Blob; `app/api/remind.js` + `push.js` send the 8:20 pm Cairo push reminder. Secrets (`APP_PASSWORD`, `REMIND_SECRET`, `BLOB_READ_WRITE_TOKEN`) live only in Vercel env vars. Never write them into files, commits or chat.
-- `claude-project/`: knowledge files for the claude.ai Project "NMUN Interview Coach". Regenerate with `node claude-project/build-knowledge.mjs app claude-project` after unit changes, then tell the user which files to re-upload.
+- `claude-project/`: instructions and knowledge files for the claude.ai Project "NMUN Interview Coach", which is only an interview coach (no study planning). `01_un_core.md` and `05_mozambique_and_topics.md` are generated from the readings Google Doc: after Doc changes, save the Docs connector's `read_doc` JSON and run `node claude-project/build-from-doc.mjs <doc.json> claude-project`, then tell the user which files to re-upload. See `claude-project/SETUP.md`.
 - `docs/`, `archive/`: generated Doc HTML and older versions of files (plans, data) kept for reference.
 
 ## Deploying

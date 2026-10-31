@@ -79,7 +79,7 @@ Each question has likely follow-ups and the points a strong answer must hit. Pan
 
 **A10. How is the Secretary-General chosen, and what's happening now?**
 - Follow-ups: What powers does the SG have? Has there been a woman SG?
-- Must hit: nominations, GA dialogues, SC straw polls, SC recommendation (no veto), GA appointment; 5-year term; Art. 97 and 99; Guterres's term ends 31 Dec 2026; current race status (check news); no woman SG yet; regional rotation argument for Latin America.
+- Must hit: nominations, GA dialogues, SC straw polls, SC recommendation (no veto), GA appointment; 5-year term; Art. 97 and 99; Guterres's term ends 31 Dec 2026; straw polls deadlocked as of late October 2026; no woman SG yet; regional rotation argument for Latin America.
 
 **A11. Name a few Secretaries-General and what they're known for.**
 - Must hit: Hammarskjöld (UNEF, died 1961), U Thant (first non-European), Boutros-Ghali (Egypt, Agenda for Peace, US veto of second term), Annan (MDGs, Nobel), Ban (SDGs, Paris), Guterres.
@@ -105,7 +105,7 @@ Each question has likely follow-ups and the points a strong answer must hit. Pan
 
 **A17. What are the SDGs? Are they on track?**
 - Follow-ups: How do they differ from the MDGs? Who monitors them?
-- Must hit: A/RES/70/1 (2015), 17 goals, 169 targets, universal; MDGs 2000–2015; HLPF + VNRs; ~15% on track (2023); SDG Summit 2027; financing gap; FfD4 Sevilla 2025.
+- Must hit: A/RES/70/1 (2015), 17 goals, 169 targets, universal; MDGs 2000–2015; HLPF + VNRs; ~15% on track (2023); SDG Summit 2027.
 
 **A18. What is R2P? Does it work?**
 - Follow-ups: Why are many states suspicious of it? Is it law?
@@ -118,7 +118,7 @@ Each question has likely follow-ups and the points a strong answer must hit. Pan
 - Must hit: signature = intent + don't defeat object and purpose (VCLT Art. 18); ratification = consent to be bound; accession; reservations allowed unless incompatible with object and purpose (CEDAW example).
 
 **A21. Difference between peacekeeping and peacebuilding?**
-- Must hit: Agenda for Peace (1992) four tools; peacekeeping principles (consent, impartiality, minimal force); peacebuilding = root causes, institutions; PBC (2005, 31 members, advisory, consensus), PBF; transitions (MINUSMA, UNIFIL ending 2026).
+- Must hit: Agenda for Peace (1992) four tools; peacekeeping principles (consent, impartiality, non-use of force except self-defence and defence of the mandate); peacebuilding = root causes, institutions; missions shrinking (MINUSMA closed 2023, UNIFIL ending 2026). For Mozambique: ONUMOZ (1992–94) and the RENAMO DDR completed in 2023.
 
 **A22. Difference between IHL and international human rights law?**
 - Must hit: IHL only in armed conflict, binds all parties, Geneva Conventions; IHRL always, binds states, UDHR/covenants; both apply in war.
@@ -126,7 +126,7 @@ Each question has likely follow-ups and the points a strong answer must hit. Pan
 ---
 
 ## B. Committee mandate, powers and limits
-Use these for whichever committees are in my profile. If none chosen yet, ask them about any committee from `03_nmun_2027_committees.md`.
+Ask these about GA1 and UNHCR (both committee sheets are in `05_mozambique_and_topics.md`).
 
 **B1. What is your committee's mandate?**
 - Follow-ups: What document created it? When? What is it NOT allowed to do?
@@ -137,7 +137,7 @@ Use these for whichever committees are in my profile. If none chosen yet, ask th
 
 **B3. What are its subsidiary bodies and key partners?**
 - Follow-ups: How does it work with [related body]? Which agency would implement your proposals?
-- Must hit: subsidiaries and the agencies/funds that implement its recommendations (e.g. GA3 ↔ HRC, OHCHR, UNHCR; CSW ↔ UN Women; PBC ↔ PBSO, PBF).
+- Must hit: subsidiaries and the bodies that implement its recommendations (GA1 ↔ UNDC, the Conference on Disarmament, UNODA, UNIDIR, GGEs and OEWGs; UNHCR ↔ ExCom and its Standing Committee, IOM, UNICEF, WFP, OCHA).
 
 **B4. What has the committee achieved? What are its limits?**
 - Must hit: one concrete past outcome; honest limit (non-binding, consensus slows it, funding).
@@ -146,7 +146,7 @@ Use these for whichever committees are in my profile. If none chosen yet, ask th
 - Must hit: which body adopts it (e.g. GA Main Committees → plenary), who implements, reporting back by SG/agency, funding via Fifth Committee for new costs.
 
 **B6. How does your committee relate to the Security Council / HRC / ECOSOC?**
-- Must hit: the relationship and the boundary (e.g. GA can't recommend on disputes SC is handling, Art. 12; PBC advises both GA and SC).
+- Must hit: the relationship and the boundary (GA1 can't recommend on disputes the SC is handling, Art. 12, and the SC owns plans to regulate armaments, Art. 26; UNHCR reports to the GA through ECOSOC, which created ExCom, and is non-political, so it takes no orders from the SC).
 
 ---
 
@@ -224,7 +224,7 @@ For each of my topics, rotate through these.
 
 ---
 
-## Current events (rotate; check news before each mock)
+## Current events (rotate; judge answers against the knowledge files)
 - **N1.** What is happening with the selection of the next Secretary-General?
 - **N2.** What happened at the 2026 NPT Review Conference and why does it matter?
 - **N3.** What is the UN80 Initiative?
