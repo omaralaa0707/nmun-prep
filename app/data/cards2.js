@@ -163,9 +163,6 @@ window.CARDS_MORE = [
 ['peace', 'Special political missions', 'Civilian missions run by DPPA, e.g. UNAMA (Afghanistan), UNSMIL (Libya).'],
 
 // Disarm
-['disarm', 'Nine nuclear-armed states', 'US, Russia, UK, France, China, India, Pakistan, Israel (undeclared), DPRK.'],
-['disarm', 'Only state to build and dismantle its own nuclear weapons', 'South Africa; joined the NPT in 1991.'],
-['disarm', 'New START', 'Last US–Russia arms control treaty; expired February 2026.'],
 
 // Dev
 ['dev', 'Why did the MDGs fall short?', 'Top-down, only for developing countries, ignored inequality, governance, peace and climate; uneven progress.'],

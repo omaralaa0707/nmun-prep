@@ -224,11 +224,8 @@ window.CARDS = [
 // Disarmament
 ['disarm', 'NPT: opened, in force, extended', 'Opened 1 July 1968; in force 5 March 1970; extended indefinitely 1995. 191 parties.'],
 ['disarm', 'Three pillars of the NPT', 'Non-proliferation, disarmament (Art. VI), peaceful use of nuclear energy (Art. IV).'],
-['disarm', 'States outside the NPT', 'India, Pakistan, Israel, South Sudan; DPRK announced withdrawal in 2003. (Iran IS a party.)'],
-['disarm', 'Outcome of the 2026 NPT Review Conference', 'Ended 22 May 2026 without a consensus final document, the third failure in a row (2015, 2022, 2026).'],
 ['disarm', 'TPNW', 'Treaty on the Prohibition of Nuclear Weapons: adopted 2017, in force 22 Jan 2021; no nuclear-armed state has joined.'],
 ['disarm', 'Why is the CTBT not in force?', 'It needs ratification by 44 specific states, including the US, China, India, Pakistan, Israel, Iran, Egypt and the DPRK.'],
-['disarm', 'Treaty of Tlatelolco', '1967: nuclear-weapon-free zone in Latin America and the Caribbean.'],
 ['disarm', 'Treaty of Pelindaba', 'African nuclear-weapon-free zone (signed 1996, in force 2009).'],
 
 // Development & climate

@@ -42,7 +42,7 @@ Use this file when I'm not doing a mock: planning my day, re-planning when I fal
 
 ## Rules of the plan
 
-- Flashcards: 400 new on Friday and the remaining 312 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.
+- Flashcards: 400 new on Friday and the remaining 283 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.
 - Read the day's part of the Google Doc first, then its flashcards, so every new card is something you have just read.
 - Study in 45–60 minute blocks with 10–15 minute breaks.
 - A 20-minute voice quiz every day, except on mock days. Voice sessions run in the NMUN Interview Coach Claude Project: start a chat, tap voice, say the phrase.
@@ -68,32 +68,27 @@ Use this file when I'm not doing a mock: planning my day, re-planning when I fal
 - Read The International Court of Justice (11 min)
 - Read The Secretariat and the Secretary-General (17 min)
 
-### Sat 31 Oct: Mozambique, GA1, PMSCs + Mock #1 (45 min), then autonomous weapons to the end (about 10.6 h)
+### Sat 31 Oct: All the readings, then all the flashcards, then Mock #1 (45 min) (about 8.8 h)
 
-- Flashcards: 312 new (the rest) + everything due (150 min)
 - Read Mozambique: country profile (35 min)
 - Read Mozambique in GA1 and UNHCR: its record and statements (15 min)
-- Read GA First Committee: full committee sheet (35 min)
+- Read GA First Committee: full committee sheet (33 min)
 - Read Topic: private military and security companies (30 min)
-- Mock #1: 45 minutes (after the reading) (50 min) — say: "Full mock, 45 minutes. Include my country."
-- Write better versions of your 3 weakest mock answers (20 min)
 - Read Topic: lethal autonomous weapon systems (28 min)
-- Read UNHCR: full committee sheet (40 min)
+- Read UNHCR: full committee sheet (34 min)
 - Read Topic: psychosocial support for refugees and displaced persons (35 min)
 - Read Topic: protection along migration routes (28 min)
 - Read Interview: your pitch, NMUN rules and situations (30 min)
-- Draft your personal answers: about you, why NMUN, why Mozambique, why GA1 and UNHCR, your weakness (30 min)
-- Voice quiz on today's reading (20 min) — say: "Rapid-fire on UNHCR, psychosocial support and migration routes."
 - Read International law essentials (15 min)
 - Read UN vocabulary and documents (4 min)
 - Read Use of force and the laws of war (10 min)
 - Read The human rights system and the HRC (8 min)
 - Read Responsibility to Protect (R2P) (6 min)
 - Read Peacekeeping and peacebuilding (8 min)
-- Read Disarmament and non-proliferation (5 min)
 - Read SDGs and climate (6 min)
 - Read Speeches and resolution writing (8 min)
-- Voice quiz on today's reading (20 min) — say: "Rapid-fire on international law, human rights, peacekeeping and disarmament."
+- Flashcards: 283 new (the rest) + everything due (150 min)
+- Mock #1: 45 minutes (after all the reading and flashcards) (45 min) — say: "Full mock, 45 minutes. Include my country."
 
 ### Sun 1 Nov: Mock #2: 60 minutes (about 2.7 h)
 

@@ -29,7 +29,7 @@ window.PLAN = {
     "hr": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.97nb98ob57lc",
     "r2p": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.8rhmsn76ngz0",
     "peace": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.dutx7fcybw6",
-    "disarm": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.ve6df2st2op3",
+    "disarm": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.fmh03r197qrz",
     "dev": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.f3bp3t7k7s0n",
     "clauses": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.7x9dbe1ax982",
     "groups": "https://docs.google.com/document/d/1p-mkQqUD9IqeHiZYBUCTP-XiItM0lBJLlkMHKHeB3hc/edit?tab=t.0#heading=h.y2kckvr8sis0",
@@ -91,7 +91,7 @@ window.PLAN = {
     }
   },
   "rules": [
-    "Flashcards: 400 new on Friday and the remaining 312 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.",
+    "Flashcards: 400 new on Friday and the remaining 283 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.",
     "Read the day's part of the Google Doc first, then its flashcards, so every new card is something you have just read.",
     "Study in 45–60 minute blocks with 10–15 minute breaks.",
     "A 20-minute voice quiz every day, except on mock days. Voice sessions run in the NMUN Interview Coach Claude Project: start a chat, tap voice, say the phrase.",
@@ -207,15 +207,8 @@ window.PLAN = {
     {
       "date": "2026-10-31",
       "level": "most",
-      "title": "Mozambique, GA1, PMSCs + Mock #1 (45 min), then autonomous weapons to the end",
+      "title": "All the readings, then all the flashcards, then Mock #1 (45 min)",
       "tasks": [
-        {
-          "kind": "cards",
-          "text": "Flashcards: 312 new (the rest) + everything due",
-          "mins": 150,
-          "href": "#cards/session/all",
-          "key": "v4:2026-11-01#0"
-        },
         {
           "kind": "read",
           "text": "Read Mozambique: country profile",
@@ -233,7 +226,7 @@ window.PLAN = {
         {
           "kind": "read",
           "text": "Read GA First Committee: full committee sheet",
-          "mins": 35,
+          "mins": 33,
           "unit": "ga1",
           "key": "v4:2026-10-31#6"
         },
@@ -245,19 +238,6 @@ window.PLAN = {
           "key": "v4:2026-10-31#7"
         },
         {
-          "kind": "voice",
-          "text": "Mock #1: 45 minutes (after the reading)",
-          "mins": 50,
-          "say": "Full mock, 45 minutes. Include my country.",
-          "key": "v4:2026-10-31#8"
-        },
-        {
-          "kind": "write",
-          "text": "Write better versions of your 3 weakest mock answers",
-          "mins": 20,
-          "key": "v4:2026-10-31#9"
-        },
-        {
           "kind": "read",
           "text": "Read Topic: lethal autonomous weapon systems",
           "mins": 28,
@@ -267,7 +247,7 @@ window.PLAN = {
         {
           "kind": "read",
           "text": "Read UNHCR: full committee sheet",
-          "mins": 40,
+          "mins": 34,
           "unit": "unhcr",
           "key": "v4:2026-11-01#2"
         },
@@ -291,20 +271,6 @@ window.PLAN = {
           "mins": 30,
           "unit": "situations",
           "key": "v4:2026-11-01#5"
-        },
-        {
-          "kind": "write",
-          "text": "Draft your personal answers: about you, why NMUN, why Mozambique, why GA1 and UNHCR, your weakness",
-          "mins": 30,
-          "unit": "situations",
-          "key": "v4:2026-11-01#6"
-        },
-        {
-          "kind": "voice",
-          "text": "Voice quiz on today's reading",
-          "mins": 20,
-          "say": "Rapid-fire on UNHCR, psychosocial support and migration routes.",
-          "key": "v4:2026-11-01#7"
         },
         {
           "kind": "read",
@@ -350,13 +316,6 @@ window.PLAN = {
         },
         {
           "kind": "read",
-          "text": "Read Disarmament and non-proliferation",
-          "mins": 5,
-          "unit": "disarm",
-          "key": "v4:2026-11-02#7"
-        },
-        {
-          "kind": "read",
           "text": "Read SDGs and climate",
           "mins": 6,
           "unit": "dev",
@@ -370,11 +329,18 @@ window.PLAN = {
           "key": "v4:2026-11-02#9"
         },
         {
+          "kind": "cards",
+          "text": "Flashcards: 283 new (the rest) + everything due",
+          "mins": 150,
+          "href": "#cards/session/all",
+          "key": "v4:2026-11-01#0"
+        },
+        {
           "kind": "voice",
-          "text": "Voice quiz on today's reading",
-          "mins": 20,
-          "say": "Rapid-fire on international law, human rights, peacekeeping and disarmament.",
-          "key": "v4:2026-11-02#10"
+          "text": "Mock #1: 45 minutes (after all the reading and flashcards)",
+          "mins": 45,
+          "say": "Full mock, 45 minutes. Include my country.",
+          "key": "v4:2026-10-31#8"
         }
       ]
     },
