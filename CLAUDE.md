@@ -12,9 +12,9 @@ This folder is a study system for one goal: the user's NMUN 2027 delegation sele
 - `app/`: the study web app, live at https://nmun-prep.vercel.app (Vercel project `nmun-prep`). Vanilla JS with hash routing. Two tabs: **Plan** and **Flashcards**.
   - `app/data/plan.js`: the day-by-day plan (30 Oct – 8 Nov), `interviewDate`, `readingsUrl`, `docLinks` (unit id → Doc heading URL). Every task has an explicit `key` so ticks survive reshuffles: never change an existing key. Tasks support `when`, `unit`, `href`, `say`, `mins`.
   - Unit content: `units.js`, `units2.js`, `depth1.js`, `depth2.js` (UN foundations, organs, law, skills) and `mine1.js` / `mine2.js` (`window.UNITS_MINE`, group "My delegation: Mozambique": moz, mozrecord, ga1, pmsc, laws, unhcr, mhpss, routes, situations).
-  - Flashcards: `cards.js`, `cards2.js`, `cards_mine.js` as `[unitId, front, back]`. Card IDs derive from unit id + front text, so edit fronts sparingly (editing a back is safe). 801 cards in total.
+  - Flashcards: `cards.js`, `cards2.js`, `cards_mine.js` as `[unitId, front, back]`. Card IDs derive from unit id + front text, so edit fronts sparingly (editing a back is safe). 673 cards in total.
   - `app.js`: `NEW_PER_DAY` (currently 401) and `CARDS_RESET` (progress older than this timestamp is ignored). Cards are introduced in reading order. There is a "Due only" deck at `#cards/session/due:all`.
-  - After any change to `app/`, bump the `?v=N` cache-buster on every script tag in `app/index.html` (currently `v=23`).
+  - After any change to `app/`, bump the `?v=N` cache-buster on every script tag in `app/index.html` (currently `v=25`).
   - `app/api/progress.js` syncs progress to Vercel Blob; `app/api/remind.js` + `push.js` send the 8:20 pm Cairo push reminder. Secrets (`APP_PASSWORD`, `REMIND_SECRET`, `BLOB_READ_WRITE_TOKEN`) live only in Vercel env vars. Never write them into files, commits or chat.
 - `claude-project/`: knowledge files for the claude.ai Project "NMUN Interview Coach". Regenerate with `node claude-project/build-knowledge.mjs app claude-project` after unit changes, then tell the user which files to re-upload.
 - `docs/`, `archive/`: generated Doc HTML and older versions of files (plans, data) kept for reference.

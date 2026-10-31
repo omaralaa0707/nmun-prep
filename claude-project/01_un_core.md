@@ -75,25 +75,10 @@ The **ILO** (1919) became the first UN specialized agency; the **Permanent Court
 | International Labour Organization | Labour standards | Still exists: first UN specialized agency |
 | Health Organisation, Nansen Office for refugees | Epidemics, refugee passports | WHO, UNHCR |
 
-**The mandates system** placed colonies taken from the defeated powers under "advanced nations": Class A (Middle East: Iraq, Syria, Lebanon, Palestine, Transjordan) were closest to independence; Class B (central Africa: Tanganyika, Cameroons, Togoland, Ruanda-Urundi); Class C (South West Africa and Pacific islands) were run almost as colonies. The UN turned most remaining mandates into Trust Territories; South West Africa (Namibia) only became independent in 1990.
-
-#### Successes worth naming
-
-- **Åland Islands (1921):** awarded to Finland with autonomy for the Swedish-speaking population; Sweden accepted.
-
-- **Upper Silesia (1921)** partitioned between Germany and Poland after a plebiscite.
-
-- **Greece–Bulgaria (1925):** the League stopped a border war and Greece paid compensation.
-
-- **Refugees:** the Nansen passport (1922) gave stateless refugees travel documents; Fridtjof Nansen won the 1922 Nobel Peace Prize.
-
-- **Social work:** the 1926 Slavery Convention, campaigns against leprosy and malaria, drug trafficking controls.
-
 #### The failures, in order
 
 | Year | Crisis | What the League did |
 | --- | --- | --- |
-| 1923 | Corfu: Mussolini bombarded and occupied the Greek island | Council deferred to the great powers; Greece forced to pay Italy compensation |
 | 1931–33 | Japan invades Manchuria, sets up the puppet state Manchukuo | Lytton Commission took a year, condemned Japan; Japan left in 1933. No sanctions |
 | 1932–34 | World Disarmament Conference | Collapsed; Germany walked out and left the League (1933) |
 | 1935–36 | Italy invades Ethiopia (Abyssinia) | Sanctions, but not on oil, and the Suez Canal stayed open; the secret Hoare–Laval Pact offered Italy much of Ethiopia. Emperor Haile Selassie's appeal in Geneva went unanswered. Italy left in 1937 |
@@ -108,7 +93,7 @@ The League survived the war in skeleton form and held its final Assembly in Gene
 | --- | --- | --- |
 | Created | After WWI ended, by the victors | Planned during WWII; drafted by 50 states at San Francisco |
 | Decisions | Unanimity: every member had a de facto veto | Majority voting; veto only for the P5 on substantive SC votes |
-| Ban on war | Delayed war (cooling-off periods); no outright ban. The separate Kellogg–Briand Pact (1928) renounced war but had no enforcement | Article 2(4) bans the threat or use of force; exceptions only for self-defence and SC authorization |
+| Ban on war | Delayed war (cooling-off periods); no outright ban. | Article 2(4) bans the threat or use of force; exceptions only for self-defence and SC authorization |
 | Enforcement | No forces; sanctions depended on willing members | Chapter VII binding sanctions and force; peacekeeping |
 | Great powers | US never joined; others left or were expelled | All great powers inside with permanent seats |
 | Scope | Mainly security, some social work | Security plus development, human rights and humanitarian work (ECOSOC, agencies) |
@@ -295,26 +280,6 @@ It opens with **"We the peoples of the United Nations"**, not "we the states", a
 
 - No UN intervention in matters essentially within domestic jurisdiction, but this does not prejudice Chapter VII enforcement.
 
-#### Articles people forget
-
-| Art. | Content | Why it comes up |
-| --- | --- | --- |
-| 7(2) | Subsidiary organs may be established | Legal basis for the HRC, PBC, UNICEF and hundreds more |
-| 8 | No restrictions on men and women participating equally in UN bodies | Gender equality is in the Charter from day one |
-| 11–14 | GA may discuss peace and security, call situations to the SC's attention, initiate studies, recommend peaceful adjustment | The GA's powers in security, short of action |
-| 24(2) | The SC acts under specific powers in Chapters VI, VII, VIII and XII | The SC's powers are not unlimited |
-| 29 | SC may establish subsidiary organs | Sanctions committees, peacekeeping missions, tribunals |
-| 43–47 | Agreements to provide forces; Military Staff Committee | Never implemented: the UN has no standing army, which is why peacekeeping relies on volunteers |
-| 53 | Regional organizations may take enforcement action only with SC authorization | Debates on the AU, NATO and ECOWAS interventions |
-| 56 | Members pledge joint and separate action for Article 55 aims | Basis for development and human rights obligations |
-| 57, 63 | Specialized agencies brought into relationship with the UN via ECOSOC agreements | How WHO, ILO and others connect |
-| 73 | Administering powers of Non-Self-Governing Territories accept a "sacred trust" and report to the UN | Basis of decolonization work (Fourth Committee, C-24) |
-| 102 | Treaties must be registered with the Secretariat or cannot be invoked before UN organs | Ends secret treaties |
-| 104–105 | The UN's legal capacity, privileges and immunities | Basis of the 1946 Convention on Privileges and Immunities |
-| 106–107 | "Enemy state" clauses about WWII Axis states | Obsolete; the 2005 World Summit resolved to delete them, but no amendment has followed |
-| 109 | A General Conference to review the Charter | Never held |
-| 110–111 | Ratification; Chinese, French, Russian, English and Spanish texts equally authentic | Why Arabic is official but not an "authentic" Charter language |
-
 #### How the amendments were made
 
 All five amendments came from the wave of decolonization: membership grew from 51 (1945) to 117 (1965) and 135 (1973), so the Security Council and ECOSOC had to grow to keep regional representation fair. They were adopted by the GA (the 1963 resolutions entered into force in 1965) and ratified by two-thirds of members including all permanent members. No amendment has been adopted since 1973. The phrase "Republic of China" and "Union of Soviet Socialist Republics" in Article 23 has never been changed; the seats are held by the PRC (since 1971) and the Russian Federation (since December 1991, as continuator state of the USSR, accepted without a vote).
@@ -372,18 +337,6 @@ The UN does not "recognize" states; only states recognize other states. The UN a
 > **Observer organizations** (EU, AU, ICRC, IOC and others) can attend and speak in the GA but not vote.
 
 ### In depth
-
-#### How membership grew
-
-| Period | What happened |
-| --- | --- |
-| 1945 | 51 original members |
-| 1946–55 | Cold War deadlock: the US and USSR blocked each other's candidates. A **1955 "package deal"** admitted 16 states at once (including Italy, Austria, Ireland, Jordan, Spain, Hungary) |
-| 1960 | "Year of Africa": 17 new members, 16 of them African. Decolonization made the Global South the GA majority |
-| 1973 | Both German states admitted (unified in 1990 as one member) |
-| 1990s | Former Soviet and Yugoslav republics, Czech Republic and Slovakia (split 1993), Eritrea, Palau |
-| 2002 | Switzerland (after a referendum; it had stayed out for neutrality) and Timor-Leste |
-| 2006 / 2011 | Montenegro; South Sudan (193rd) |
 
 #### Observers: three kinds
 
@@ -651,43 +604,10 @@ Not by themselves. But they can be **evidence of customary international law** w
 
 | Session | Years | President | Regional group |
 | --- | --- | --- | --- |
-| 75th | 2020–21 | Volkan Bozkır (Türkiye) | WEOG |
-| 76th | 2021–22 | Abdulla Shahid (Maldives) | Asia-Pacific |
-| 77th | 2022–23 | Csaba Kőrösi (Hungary) | Eastern Europe |
-| 78th | 2023–24 | Dennis Francis (Trinidad and Tobago) | GRULAC |
-| 79th | 2024–25 | Philemon Yang (Cameroon) | Africa |
 | 80th | 2025–26 | Annalena Baerbock (Germany) | WEOG |
 | 81st | 2026–27 | Khalilur Rahman (Bangladesh) | Asia-Pacific |
 
 The presidency rotates among the five regional groups. The first President was Paul-Henri Spaak (Belgium, 1946). By tradition **Brazil speaks first** in the general debate and the host country, the **United States, second**.
-
-#### The GA's year
-
-- **June:** elections of the next PGA, the Main Committee chairs and the non-permanent SC members.
-
-- **September:** the session opens; high-level week and general debate; summits held alongside (SDG Summit, high-level meetings on health topics).
-
-- **October–December:** the six Main Committees work through their agendas; elections to the HRC (October) and ECOSOC; ICJ elections every three years.
-
-- **December:** plenary adopts the committees' resolutions and the budget.
-
-- **January–August:** the "resumed" part: working groups, special and emergency sessions, high-level meetings, negotiations on outcome documents.
-
-#### The eleven emergency special sessions
-
-| # | Year | Subject |
-| --- | --- | --- |
-| 1 | 1956 | Suez Crisis (created UNEF I) |
-| 2 | 1956 | Soviet intervention in Hungary |
-| 3 | 1958 | Lebanon and Jordan |
-| 4 | 1960 | Congo |
-| 5 | 1967 | Middle East (Six-Day War) |
-| 6 | 1980 | Soviet invasion of Afghanistan |
-| 7 | 1980 | Question of Palestine |
-| 8 | 1981 | Namibia |
-| 9 | 1982 | Occupied Arab territories (Golan Heights) |
-| 10 | 1997– | Occupied East Jerusalem and the rest of the Occupied Palestinian Territory; repeatedly resumed (Wall advisory opinion request 2003, Gaza resolutions since 2023, Palestine's rights 2024) |
-| 11 | 2022– | Ukraine (A/RES/ES-11/1, March 2022: 141 votes deploring Russia's aggression); resumed several times |
 
 #### Subsidiary organs, by type
 
@@ -710,10 +630,6 @@ The presidency rotates among the five regional groups. The first President was P
 | Scope | Anything within the Charter | Peace and security |
 | Meets | Regular session September to December, resumed through the year | Continuously; must be able to meet at any time |
 | Strength | Universal legitimacy; sets norms; controls the budget | Power to act |
-
-#### Ways of adopting
-
-**Consensus / without a vote**: the President asks if there is any objection and declares it adopted; about two-thirds of resolutions pass this way. **Recorded vote**: a state requests it and each delegation's yes/no/abstain is published. **Acclamation**: used for elections with one candidate. Explanations of vote can be given before or after.
 
 ---
 
@@ -789,26 +705,6 @@ Negotiated in the GA's **Intergovernmental Negotiations (IGN)**. The **G4** (Bra
 
 - Non-members directly affected may take part without a vote (Article 31), and parties to a dispute are invited (Article 32).
 
-#### Resolutions every applicant should recognize
-
-| Resolution | Year | Subject |
-| --- | --- | --- |
-| S/RES/82–84 | 1950 | Korea: UN Command authorized while the USSR was boycotting the Council |
-| S/RES/242 | 1967 | After the Six-Day War: withdrawal from occupied territories and the right of every state to live in peace ("land for peace") |
-| S/RES/678 | 1990 | Authorized "all necessary means" to expel Iraq from Kuwait |
-| S/RES/827 / 955 | 1993 / 1994 | Created the ICTY and ICTR |
-| S/RES/1244 | 1999 | Kosovo: UNMIK and the international security presence |
-| S/RES/1267 | 1999 | Sanctions on the Taliban, later Al-Qaida and ISIL |
-| S/RES/1325 | 2000 | Women, Peace and Security |
-| S/RES/1373 | 2001 | Binding counter-terrorism obligations on all states |
-| S/RES/1540 | 2004 | Keeping weapons of mass destruction from non-state actors |
-| S/RES/1718 | 2006 | DPRK sanctions after its first nuclear test |
-| S/RES/1973 | 2011 | Libya: no-fly zone and protection of civilians |
-| S/RES/2231 | 2015 | Endorsed the Iran nuclear deal (JCPOA); its "snapback" was used in 2025 |
-| S/RES/2334 | 2016 | Israeli settlements have "no legal validity" (US abstained) |
-| S/RES/2417 | 2018 | Conflict-induced hunger |
-| S/RES/2728 | 2024 | Demanded a Gaza ceasefire during Ramadan (US abstained) |
-
 #### The veto in practice
 
 - The first veto was cast by the USSR in February 1946 (on troop withdrawals from Syria and Lebanon). The USSR cast most vetoes in the early Cold War, partly to block new members.
@@ -820,14 +716,6 @@ Negotiated in the GA's **Intergovernmental Negotiations (IGN)**. The **G4** (Bra
 - The UK and France have not used the veto since 1989.
 
 - A member that is a party to a dispute should abstain on Chapter VI decisions about it (Art. 27(3)), but this is rarely enforced.
-
-#### Peacekeeping operations in the field (late 2026)
-
-UNTSO (Middle East, 1948), UNMOGIP (India–Pakistan, 1949), UNFICYP (Cyprus, 1964), UNDOF (Golan, 1974), UNIFIL (Lebanon, 1978; ending after 31 December 2026), MINURSO (Western Sahara, 1991), UNMIK (Kosovo, 1999), MONUSCO (DR Congo), UNISFA (Abyei), UNMISS (South Sudan), MINUSCA (Central African Republic). Political missions such as UNAMA (Afghanistan) and UNSMIL (Libya) are run by DPPA. In Haiti the SC authorized a non-UN multinational force rather than blue helmets.
-
-#### Sanctions
-
-Around 14 sanctions regimes, each overseen by a committee with a panel of experts. Examples: ISIL and Al-Qaida (1267), DPRK (1718), Libya (1970), DR Congo (1533), South Sudan (2206), Yemen (2140), Haiti (2653). Tools: arms embargoes, asset freezes, travel bans, commodity bans (diamonds, oil, charcoal). Since 2022, S/RES/2664 exempts humanitarian aid from asset freezes. Criticism: sanctions can hurt civilians, are hard to monitor, and Russia's veto ended the Mali regime and its panel (2023).
 
 #### Working with regional organizations
 
@@ -879,10 +767,6 @@ Three of these are NMUN 2027 committees: **CSW, CPD, CCPCJ**, plus the regional 
 
 ### In depth
 
-#### The ECOSOC year
-
-Its cycle runs from **July to July**, with a one-year President. Main segments and forums: Youth Forum; Partnership Forum; **Financing for Development Forum**; Operational Activities for Development segment (oversight of UN development work); **Humanitarian Affairs segment**; Integration and Coordination segments; the **High-Level Political Forum** each July; and a Management segment for elections and subsidiary reports.
-
 #### Full subsidiary machinery
 
 | Type | Bodies |
@@ -895,14 +779,6 @@ Its cycle runs from **July to July**, with a one-year President. Main segments a
 #### Specialized agencies it coordinates
 
 Under Articles 57 and 63, each agency signs a relationship agreement with ECOSOC: ILO, FAO, UNESCO, WHO, the World Bank Group, IMF, ICAO, IMO, ITU, UPU, WMO, WIPO, IFAD, UNIDO and UN Tourism. The IMF and World Bank are formally specialized agencies but run largely independently with weighted voting.
-
-#### The Commission on Narcotic Drugs (often confused with CCPCJ)
-
-Created in 1946, 53 members, Vienna. It oversees the three drug control conventions (**1961 Single Convention**, **1971 Psychotropic Substances**, **1988 Trafficking**) and decides which substances are placed under international control; in 2020 it removed cannabis from the strictest schedule. UNODC is the secretariat for both CND and CCPCJ.
-
-#### Why ECOSOC is criticized
-
-Overlap with the GA Second and Third Committees, a sprawling subsidiary system, and little real authority over agencies that have their own governing bodies and budgets. Reforms (2013 and 2018 GA resolutions) refocused it on SDG follow-up, which is why the HLPF and Financing for Development Forum are now its centrepiece.
 
 ---
 
@@ -955,56 +831,14 @@ Both sit in The Hague. A few states have recently announced withdrawals from the
 
 ### In depth
 
-#### Key articles of the ICJ Statute
-
-| Art. | Content |
-| --- | --- |
-| 2–3 | 15 independent judges of high moral character, elected regardless of nationality; no two from the same state |
-| 9 | The bench as a whole should represent the main forms of civilization and principal legal systems |
-| 31 | Judges ad hoc |
-| 34 | Only states may be parties in contentious cases |
-| 36 | Jurisdiction: special agreements, treaty clauses, and the optional clause (36(2)) |
-| 38 | Sources of law the Court applies |
-| 41 | Provisional measures (binding, as the Court confirmed in *LaGrand*, 2001) |
-| 59 | Decisions bind only the parties and only for that case (no formal precedent) |
-| 60 | Judgments are final, without appeal |
-| 65 | Advisory opinions |
-
-#### How a case runs
-
-- A state files an application (or both notify a special agreement).
-
-- Requests for **provisional measures** are heard fast if there is urgency and a risk of irreparable harm.
-
-- Preliminary objections: the respondent often challenges jurisdiction or admissibility first.
-
-- Written phase (memorial, counter-memorial), then oral hearings in the Great Hall of Justice.
-
-- Deliberation in private; the judgment is read in public. Judges can attach separate or dissenting opinions.
-
-Cases often take years. If a party fails to comply, the other may go to the Security Council (Charter Art. 94(2)), where the veto can block enforcement, as with *Nicaragua v. United States*.
-
 #### Landmark cases and opinions
 
 | Case | Year | Why it matters |
 | --- | --- | --- |
-| Corfu Channel (UK v. Albania) | 1949 | First case; state responsibility for mines in its waters |
-| Reparation for Injuries (advisory) | 1949 | The UN has international legal personality and can bring claims |
-| Asylum (Colombia v. Peru) | 1950 | Regional custom must be proven |
-| Western Sahara (advisory) | 1975 | Self-determination applies to the territory |
 | Nicaragua v. United States | 1986 | US support for the Contras and mining of harbours violated the ban on force and non-intervention; the US rejected the ruling |
-| Legality of Nuclear Weapons (advisory) | 1996 | Threat or use generally contrary to IHL; the Court could not decide on extreme self-defence |
 | The Wall (advisory) | 2004 | Israel's separation wall in the occupied West Bank is contrary to international law |
-| Bosnia v. Serbia | 2007 | Srebrenica was genocide; Serbia failed to prevent it, but was not directly responsible |
 | Kosovo (advisory) | 2010 | Declaration of independence not unlawful |
-| Germany v. Italy | 2012 | State immunity applies even for alleged serious violations; jus cogens does not remove immunity before foreign courts |
-| Chagos (advisory) | 2019 | Decolonization of Mauritius incomplete; UK should end its administration. A UK–Mauritius agreement followed in 2025 |
 | The Gambia v. Myanmar | 2019– | Rohingya genocide; any party to the Genocide Convention can sue (erga omnes partes) |
-| Ukraine v. Russia | 2022– | Russia ordered to suspend military operations (provisional measures, not complied with) |
-| South Africa v. Israel | 2023– | Genocide Convention; several provisional measures orders in 2024 |
-| Occupied Palestinian Territory (advisory) | 2024 | Occupation unlawful; states should not recognize or aid it |
-| Climate change (advisory) | 2025 | Legal duties to prevent significant climate harm |
-| Israel's obligations on UN and humanitarian presence (advisory) | October 2025 | Requested by the GA in late 2024 after Israel restricted UNRWA; the Court found Israel must allow and facilitate UN relief, including UNRWA |
 
 #### Correcting a common mistake
 
@@ -1104,10 +938,6 @@ Supervised **11 Trust Territories** (former League mandates and territories take
 
 A/RES/69/321 (2015) made the race public for the first time: candidates are formally announced in a joint letter of the GA and SC Presidents, publish vision statements and CVs, and answer member states and civil society in live interactive dialogues. Guterres won the 2016 race this way. The 2026 race follows the same process, with strong calls for the first woman SG and for a Latin American and Caribbean candidate.
 
-#### Structure and staff
-
-The Secretariat employs tens of thousands of staff at Headquarters, the offices in Geneva, Vienna and Nairobi, the regional commissions and field missions. Main departments: DPPA (Political and Peacebuilding Affairs), DPO (Peace Operations; DPKO until 2019), DOS (Operational Support), DMSPC (Management Strategy, Policy and Compliance), DESA (Economic and Social Affairs), OCHA (humanitarian coordination), ODA (Disarmament), OLA (Legal Affairs), DGACM (General Assembly and Conference Management), DSS (Safety and Security), DGC (Global Communications). Staff are selected on merit with regard to "as wide a geographical basis as possible" (Art. 101(3)).
-
 #### GA Fifth Committee vs the Secretariat
 
 The **Secretariat** (led by the SG) prepares the budget proposal and spends the money. The **Fifth Committee** (all member states, advised by the ACABQ) reviews, negotiates and approves it; the GA plenary then adopts it. In short: the Secretariat proposes and implements, member states decide.
@@ -1196,21 +1026,7 @@ The **Vienna Convention on the Law of Treaties (VCLT)**, adopted 1969 and in for
 
 ### In depth
 
-#### Branches of international law
-
-| Branch | Covers | Key instruments |
-| --- | --- | --- |
-| Public international law | Relations between states and international organizations ("made by states, for states") | UN Charter, VCLT, Vienna Convention on Diplomatic Relations |
-| Private international law | Which country's law applies to cross-border disputes between individuals and companies | Hague Conference conventions, UNCITRAL model laws |
-| International humanitarian law | Conduct of armed conflict | Geneva and Hague Conventions |
-| International human rights law | States' duties towards individuals | UDHR, ICCPR, ICESCR, core treaties |
-| International criminal law | Individual responsibility for the gravest crimes | Rome Statute, Genocide Convention (1948) |
-| Law of the sea | Territorial sea (12 nautical miles), exclusive economic zone (200), high seas | UNCLOS (1982); the BBNJ "High Seas Treaty" (2023, in force January 2026) |
-| Environmental, trade, space law | Climate, biodiversity, WTO rules, outer space | UNFCCC, CBD, GATT/WTO, Outer Space Treaty (1967) |
-
 #### Custom in more depth
-
-- **Examples of customary rules:** diplomatic immunity (before it was codified in 1961), the prohibition of piracy, non-refoulement, the prohibition of torture, much of the UDHR and of IHL.
 
 - **State practice** must be widespread, representative and consistent; **opinio juris** is the belief it is legally required, not just habit or courtesy.
 
@@ -1223,48 +1039,6 @@ The **Vienna Convention on the Law of Treaties (VCLT)**, adopted 1969 and in for
 #### General principles
 
 Principles found across national legal systems "recognized by civilized nations" (old wording now read as "recognized by the community of nations"): good faith, *pacta sunt servanda*, estoppel, *res judicata*, the duty to repair harm caused. They fill gaps and help interpret treaties. Many carry Latin names because they come from Roman law.
-
-#### Treaties: more vocabulary
-
-- **Depositary:** the body that holds the treaty and receives ratifications; for most multilateral treaties, the UN Secretary-General.
-
-- **Interpretation** (VCLT Arts. 31–32): ordinary meaning, in context, in light of object and purpose; preparatory work only as a supplement.
-
-- **Derogation:** temporarily suspending some obligations in an emergency (ICCPR Art. 4), never for the right to life, ban on torture or slavery.
-
-- **Termination and withdrawal:** as the treaty allows; otherwise only under VCLT rules (material breach, fundamental change of circumstances).
-
-- **Treaty vs convention:** legally identical. In practice "convention" is used for broad multilateral treaties open to all on a general subject (UNFCCC, CEDAW), and "treaty" for more specific arrangements, often among particular parties (peace treaties, border treaties), though usage is loose (NPT is a "treaty" open to all).
-
-- **Covenant:** a solemn treaty, mostly used for the two 1966 human rights covenants and the League Covenant.
-
-- **Charter:** the constituent treaty of an organization (UN Charter, African Charter on Human and Peoples' Rights).
-
-#### The Montevideo Convention in detail
-
-- Convention on the Rights and Duties of States, signed **26 December 1933** at the Seventh International Conference of American States in Montevideo, Uruguay; in force 26 December 1934. A regional treaty, but Article 1 is accepted as the customary definition of a state.
-
-- **Article 1:** permanent population, defined territory, government, capacity to enter into relations with other states.
-
-- **Article 3:** a state's political existence is independent of recognition (the **declaratory theory**).
-
-- **Article 8:** no state has the right to intervene in the internal or external affairs of another.
-
-- **Article 11:** no recognition of territory acquired by force.
-
-- The US (on intervention), Brazil and Peru signed with reservations.
-
-#### Sovereignty in more depth
-
-- **Peace of Westphalia (1648):** ended the Thirty Years' War and the Eighty Years' War; the origin of the idea of independent, equal territorial states with no outside authority over religion or internal affairs.
-
-- **Elements:** supreme authority within the territory; independence from outside control; legal equality with other states; immunity of the state and its property from other states' courts.
-
-- **Internal vs external sovereignty:** internal is effective control and law-making at home; external is independence and recognition in international relations.
-
-- **Sovereign immunity** protects states from being sued in other states' courts without consent. The ICJ held in *Germany v. Italy* (2012) that immunity still applies even when serious violations (jus cogens) are alleged, so "violating jus cogens waives immunity" is not the current law, though it is a live debate, especially for individual officials before international courts.
-
-- **Sovereignty as responsibility** (R2P) and human rights law have limited what states can do to their own people.
 
 #### Self-determination vs territorial integrity
 
@@ -1310,7 +1084,6 @@ Using UN terms precisely is one of the fastest ways to sound prepared.
 | Declaration | No | Solemn political statement (UDHR, Beijing Declaration) |
 | Resolution | Depends on the body | Formal text adopted by an organ |
 | Decision | Usually procedural | Shorter formal act (e.g. on dates, agenda) |
-| Agreed conclusions | No | Negotiated outcome of the CSW and some commissions |
 | Report of the Secretary-General | No | Analysis and recommendations requested by a resolution; the basis of most debates |
 | Framework / action plan / compact | No | Guides action (Sendai Framework, Global Compacts) |
 
@@ -1322,7 +1095,7 @@ Using UN terms precisely is one of the fastest ways to sound prepared.
 
 - **Recorded vote:** each state's yes, no or abstention is listed. **Roll-call vote:** states are called by name.
 
-- **Sponsor / co-sponsor:** states that submit a draft; others can join as co-sponsors. **Penholder:** the state that drafts.
+- **Sponsor / co-sponsor:** states that submit a draft; others can join as co-sponsors.
 
 - **Explanation of vote / position:** statement before or after adoption, often to register disagreement with parts of a text.
 
@@ -1331,21 +1104,6 @@ Using UN terms precisely is one of the fastest ways to sound prepared.
 - **Special Rapporteur:** independent expert reporting on a theme or country for the HRC.
 
 - **Consultative status:** NGO access to ECOSOC and its bodies (Art. 71).
-
-### Reading UN document symbols
-
-| Symbol | What it is |
-| --- | --- |
-| A/RES/70/1 | General Assembly resolution, 70th session, number 1 (the 2030 Agenda) |
-| A/C.3/80/L.12 | Draft (L = limited distribution) in the GA Third Committee (C.3) at the 80th session |
-| A/80/150 | A GA document at the 80th session, often a report of the Secretary-General |
-| S/RES/1325 (2000) | Security Council resolution 1325, adopted in 2000 (SC resolutions are numbered continuously, not by session) |
-| S/PRST/2024/1 | Presidential statement of the SC |
-| E/CN.6/2026/L.1 | ECOSOC (E) functional commission (CN) number 6 = the CSW, 2026 session, draft |
-| A/HRC/RES/48/13 | Human Rights Council resolution 48/13 (session 48) |
-| A/RES/ES-11/1 | Resolution of the 11th emergency special session |
-
-Older GA resolutions use Roman numerals for the session: 377 (V) means resolution 377 of the 5th session (1950).
 
 ---
 
@@ -1396,39 +1154,13 @@ Humanity, neutrality, impartiality, independence (A/RES/46/182, 1991, which also
 
 ### In depth
 
-#### The just war tradition behind jus ad bellum
-
-Older criteria for a lawful war: just cause, right (legitimate) authority, right intention, last resort, proportionality, and reasonable chance of success. The Charter replaced most of this with a single rule (Art. 2(4)) and two exceptions, but **necessity** and **proportionality** survive as conditions on self-defence.
-
-#### Self-defence debates
-
-- **The Caroline (1837):** British forces destroyed a US steamer supplying Canadian rebels; US Secretary of State Webster set the test of a necessity "instant, overwhelming, leaving no choice of means, and no moment for deliberation".
-
-- **Anticipatory self-defence** against an imminent attack is widely accepted; **pre-emptive** self-defence against a non-imminent threat (the 2003 Iraq war rationale) is not.
-
-- **Non-state actors:** since 9/11 (S/RES/1368, 1373) several states claim self-defence against groups in states "unable or unwilling" to stop them (e.g. against ISIL in Syria); contested.
-
-- **Collective self-defence:** helping a victim state at its request (basis of NATO's Article 5).
-
-- **Intervention by invitation:** force at the request of the recognized government; disputed when the government's legitimacy is in doubt.
-
-- **Humanitarian intervention** without SC approval (Kosovo 1999) remains unlawful in most views; R2P channels it through the SC.
-
-#### SC authorizations of force
-
-Korea (1950, possible because the USSR was boycotting), Iraq/Kuwait (S/RES/678, 1990), Somalia (1992), Haiti (1994), Bosnia (NATO air power, 1990s), Libya (S/RES/1973, 2011), and robust peacekeeping mandates such as the DR Congo Force Intervention Brigade (2013).
-
 #### IHL in more depth
 
 - **Combatants** may be attacked and, if captured, are prisoners of war (Geneva Convention III); they cannot be prosecuted merely for fighting. **Civilians** are protected unless and for such time as they take a direct part in hostilities.
 
 - **International vs non-international armed conflicts:** the full Conventions and Protocol I apply between states; civil wars are governed by **Common Article 3** (minimum humane treatment) and Protocol II.
 
-- **Occupation law:** the occupier must maintain order and civilian life, may not transfer its own population into the territory (GC IV Art. 49) and must allow relief.
-
 - **Protected persons and objects:** the wounded and sick, medical staff and hospitals, humanitarian workers, cultural property (Hague Convention 1954), objects indispensable to survival (food, water).
-
-- **Weapons law:** bans on chemical and biological weapons, anti-personnel mines (Ottawa 1997), cluster munitions (Oslo 2008), blinding lasers; the CCW framework; weapons reviews for new technology (Additional Protocol I Art. 36), which is where the debate on autonomous weapons sits.
 
 - **Enforcement:** national courts, universal jurisdiction (states can prosecute grave breaches wherever committed), ad hoc tribunals, and the ICC.
 
@@ -1457,10 +1189,6 @@ Korea (1950, possible because the USSR was boycotting), Iraq/Kuwait (S/RES/678, 
 
 Both covenants were adopted together by A/RES/2200 A (XXI), split along Cold War lines (West stressing civil and political rights, East stressing economic and social rights).
 
-### The nine core treaties, each with a monitoring committee (treaty body)
-
-ICERD (racial discrimination, 1965); ICCPR and ICESCR (1966); **CEDAW** (women, 1979); **CAT** (torture, 1984); **CRC** (children, 1989, the most ratified; the US is the only state not party); ICRMW (migrant workers, 1990); **CRPD** (persons with disabilities, 2006); CPED (enforced disappearance, 2006).
-
 ### The Human Rights Council
 
 - Created by A/RES/60/251 on 15 March 2006 as a **subsidiary organ of the GA**, replacing the discredited **Commission on Human Rights** (an ECOSOC commission, 1946–2006), which was criticized for politicization and for abusive states sitting on it. First session June 2006, in **Geneva**.
@@ -1473,117 +1201,13 @@ ICERD (racial discrimination, 1965); ICCPR and ICESCR (1966); **CEDAW** (women, 
 
 - At least three regular sessions a year (roughly February–April, June–July, September–October), at least ten weeks in total. A **special session** can be called by one-third of members.
 
-- The President and four Vice-Presidents form the Bureau, one per regional group, for a one-year cycle. 2026 President: Ambassador Sidharto Reza Suryodipuro (Indonesia).
-
 - Resolutions are **not binding**; its power is scrutiny, investigation, naming and standard-setting.
 
 - The United States withdrew from the Council again in 2025.
 
-#### The Institution-Building Package (HRC resolution 5/1, June 2007)
-
-| Mechanism | What it does |
-| --- | --- |
-| **Universal Periodic Review (UPR)** | A peer review of **every** UN member's human rights record, roughly every 4.5 years. Three states (a "troika") act as rapporteurs; others make recommendations, which the state "supports" or "notes". The fourth cycle runs 2022–2027 |
-| **Special Procedures** | Independent, unpaid experts (Special Rapporteurs, Independent Experts, Working Groups) with **thematic** mandates (such as freedom of expression or the rights of persons with disabilities) or **country** mandates (such as Myanmar, the DPRK, Iran or the Occupied Palestinian Territory). Terms of three years, renewable once |
-| **Advisory Committee** | A think tank of 18 experts that does studies on request; cannot adopt resolutions |
-| **Complaint Procedure** | Confidential handling of consistent patterns of gross violations, through the Working Group on Communications and then the Working Group on Situations |
-
-The HRC also creates **commissions of inquiry and fact-finding missions** (Syria, Ukraine, Sudan, the Occupied Palestinian Territory) and holds forums and expert mechanisms (such as the Expert Mechanism on the Rights of Indigenous Peoples).
-
 ### OHCHR
 
 The Office of the High Commissioner for Human Rights, created by A/RES/48/141 (December 1993) following the **Vienna Declaration and Programme of Action** (World Conference on Human Rights, June 1993, which declared all rights "universal, indivisible and interdependent"). It is the HRC's secretariat and supports treaty bodies, field offices and technical cooperation. **High Commissioner: Volker Türk (Austria)** since October 2022.
-
-### HRC vs GA Third Committee
-
-The HRC is a 47-member specialist body in Geneva that meets most of the year and runs investigative mechanisms. The Third Committee includes all 193 members in New York, meets in the autumn, adopts norm-setting resolutions and reviews the HRC's annual report and Special Procedures' reports to the GA.
-
-### In depth
-
-#### All nine core treaties and their monitoring committees
-
-| Treaty | Adopted | Treaty body |
-| --- | --- | --- |
-| Convention on the Elimination of Racial Discrimination (ICERD) | 1965 | Committee on the Elimination of Racial Discrimination |
-| ICCPR | 1966 | Human Rights Committee |
-| ICESCR | 1966 | Committee on Economic, Social and Cultural Rights |
-| CEDAW (women) | 1979 | CEDAW Committee |
-| Convention against Torture (CAT) | 1984 | Committee against Torture (plus a Subcommittee on Prevention) |
-| Convention on the Rights of the Child (CRC) | 1989 | Committee on the Rights of the Child |
-| Migrant Workers Convention (ICRMW) | 1990 | Committee on Migrant Workers (few destination states have joined) |
-| CRPD (persons with disabilities) | 2006 | Committee on the Rights of Persons with Disabilities |
-| Enforced Disappearance (CPED) | 2006 | Committee on Enforced Disappearances |
-
-Treaty bodies are committees of **independent experts** (not states) that review periodic state reports, issue "concluding observations" and "general comments", and, where states accept it, hear individual complaints. Don't confuse the **Human Rights Committee** (ICCPR treaty body) with the **Human Rights Council** (intergovernmental body of 47 states).
-
-#### UDHR and the covenants: more detail
-
-- The UDHR was drafted by a committee chaired by Eleanor Roosevelt, with René Cassin (France), Charles Malik (Lebanon), P.C. Chang (China) and others. Adopted in Paris on 10 December 1948 by 48 votes, 0 against, 8 abstentions (the Soviet bloc, South Africa and Saudi Arabia).
-
-- Structure: preamble and 30 articles; Arts. 3–21 civil and political rights, Arts. 22–27 economic, social and cultural rights. Art. 18 freedom of religion; Art. 19 freedom of opinion and expression.
-
-- ICESCR: preamble and 31 articles in five parts; the Optional Protocol (2008) allows individual complaints. ICCPR: preamble and 53 articles in six parts.
-
-- **"Three generations" of rights**: civil and political; economic, social and cultural; collective rights (development, a healthy environment, peace). The 1993 Vienna Declaration rejected ranking them: all are "universal, indivisible, interdependent and interrelated".
-
-#### The HRC year and leadership
-
-- Each year is a "cycle" (January–December) with three regular sessions: roughly **February–April** (the longest, about six weeks), **June–July** and **September–October**. Sessions are numbered consecutively (the 60th was in September–October 2025).
-
-- Recent Presidents: 2024 Omar Zniber (Morocco); 2025 Jürg Lauber (Switzerland); 2026 Sidharto Reza Suryodipuro (Indonesia). The first President (2006) was Luis Alfonso de Alba (Mexico).
-
-- **The Bureau** is the President and four Vice-Presidents, one per regional group; one Vice-President also serves as Rapporteur. It handles procedural and organizational matters.
-
-- **Funding:** the UN regular budget plus voluntary contributions to OHCHR (the annual UN Human Rights Appeal); chronic underfunding is a recurring problem.
-
-#### The UPR step by step
-
-- Three documents: the state's national report; a UN compilation (from treaty bodies and Special Procedures); a stakeholder summary (NGOs, national human rights institutions).
-
-- Review in the **UPR Working Group** (all 47 HRC members; any UN member may speak), three and a half hours per state, with a "troika" of three rapporteur states drawn by lot.
-
-- Other states make recommendations; the state under review "supports" or "notes" each.
-
-- The HRC adopts the outcome at its next session; implementation is checked at the next review.
-
-Pace: three Working Group sessions a year, 14 states each, 42 a year, all 193 in a 4.5-year cycle (HRC resolution 16/21). The fourth cycle started in November 2022.
-
-#### Special Procedures in practice
-
-- About 46 thematic and 14 country mandates. Examples of thematic mandates: freedom of expression, human rights defenders, violence against women, torture, the right to a healthy environment, the rights of persons with disabilities, extreme poverty, contemporary racism, sale and sexual exploitation of children, rights of Indigenous Peoples. Country mandates include Myanmar, the DPRK, Iran, Afghanistan, Belarus, Syria and the Occupied Palestinian Territories.
-
-- Mandate holders are appointed by the HRC on the President's proposal, serve unpaid in their personal capacity, conduct country visits (only with the state's invitation), send communications to governments, and report annually to the HRC and often the GA Third Committee.
-
-- Controversy example: in July 2025 the United States imposed sanctions on Francesca Albanese, Special Rapporteur on the Occupied Palestinian Territories, after her reports accused Israel of genocide and named companies; many states and UN experts condemned the move.
-
-#### Advisory Committee and Complaint Procedure details
-
-- **Advisory Committee:** 18 independent experts nominated by governments and elected by the HRC (normally at its September session), three-year terms renewable once; meets twice a year (one week in February, one in August); first met in August 2008; produces studies only when the HRC requests them; cannot adopt resolutions.
-
-- **Complaint Procedure:** confidential, for consistent patterns of gross violations. (1) Initial screening by the Chair of the **Working Group on Communications** with the Secretariat: in an official UN language, not manifestly politically motivated or abusive, domestic remedies tried. (2) The Working Group on Communications (meets twice a year) dismisses, asks for more information or passes it on. (3) The **Working Group on Situations** (twice a year) reports to the HRC on patterns. (4) The HRC, usually in private, can end the review, keep it under review, appoint an expert, make it public, or recommend OHCHR technical assistance.
-
-#### Other HRC mechanisms
-
-- **Commissions of inquiry and fact-finding missions** (Syria since 2011, Myanmar, Ukraine, Sudan, Venezuela, the Occupied Palestinian Territory and Israel since 2021) gather evidence for accountability.
-
-- **Open-ended intergovernmental working groups** negotiate new instruments (e.g. on business and human rights, private military and security companies, the right to development). "Open-ended" means any UN member can join; "intergovernmental" means negotiators are states, with NGOs as observers.
-
-- **Expert mechanisms** (e.g. the Expert Mechanism on the Rights of Indigenous Peoples) and **forums** (Social Forum, Forum on Minority Issues, Forum on Business and Human Rights) meet annually.
-
-#### Common HRC questions
-
-| Question | Answer |
-| --- | --- |
-| Are HRC resolutions binding? | No. Their weight comes from scrutiny, investigations and the norms they build on, many of which are binding treaty or customary law |
-| Is the HRC in the Charter? | No. It is a GA subsidiary organ created under Article 22 |
-| Can members be suspended? | Yes, by two-thirds of the GA for gross and systematic violations: Libya (March 2011, reinstated November 2011), Russia (April 2022) |
-| Who has left? | The US withdrew in 2018, returned (elected 2021), and withdrew again in 2025 |
-| Main criticisms | Members with poor records (election is not competitive in many regions); selectivity (a permanent agenda item on Israel); politicized votes; limited follow-up |
-| Relationship with OHCHR | OHCHR is its secretariat: organizes sessions, prepares reports, supports Special Procedures and investigations |
-
-#### OHCHR in more depth
-
-Created by A/RES/48/141 (20 December 1993), succeeding the UN Centre for Human Rights. Based in Geneva with an office in New York and field presences in dozens of countries. High Commissioners: José Ayala-Lasso (Ecuador, first, 1994), Mary Robinson, Sérgio Vieira de Mello (killed in Baghdad, 2003), Louise Arbour, Navi Pillay, Zeid Ra'ad Al Hussein, Michelle Bachelet (Chile, 2018–22), Volker Türk (Austria, since 2022). Its work: supports the HRC and treaty bodies, monitors and reports, provides technical cooperation and capacity-building to states and national human rights institutions (which should meet the **Paris Principles**, 1993), and mainstreams human rights across the UN.
 
 ---
 
@@ -1621,41 +1245,11 @@ R2P is the political commitment that sovereignty is a **responsibility**, not ju
 
 - Veto restraint initiatives: the **France–Mexico** initiative (2015) asks the P5 voluntarily not to veto in mass-atrocity situations; the **ACT Group's Code of Conduct** (2015) asks all SC members not to vote against credible action to prevent atrocities, with 120+ supporters.
 
-- There is a UN Special Adviser on R2P, working with the Special Adviser on the Prevention of Genocide.
-
 > Example answer: If asked: "R2P reframes sovereignty as responsibility. It is strongest on pillars one and two, prevention and assistance, which most states support; pillar three remains contested after Libya, which is why many delegations prefer prevention and early warning."
-
-### In depth
-
-#### Key moments
-
-| Year | Event |
-| --- | --- |
-| 1999 | Kosovo: NATO acts without the SC; Kofi Annan asks how to reconcile sovereignty with stopping mass atrocities |
-| 2001 | ICISS report "The Responsibility to Protect" (co-chaired by Gareth Evans and Mohamed Sahnoun) |
-| 2005 | World Summit Outcome paras 138–139; the SC first refers to R2P in S/RES/1674 (2006) on protection of civilians |
-| 2008 | Kenya post-election violence: mediation led by Kofi Annan, often cited as successful pillar 2 prevention |
-| 2009 | Ban Ki-moon's report sets out the three pillars; the GA holds its first R2P debate |
-| 2011 | Libya (S/RES/1970, 1973) and Côte d'Ivoire (S/RES/1975); Brazil proposes "Responsibility while Protecting" |
-| 2011– | Syria: repeated Russian and Chinese vetoes; R2P's credibility questioned |
-| 2015 | France–Mexico veto restraint declaration; ACT Code of Conduct |
-| 2021 | R2P becomes a formal item on the GA agenda (annual debate on the SG's report) |
-
-#### Who works on it
-
-The **Special Adviser on the Responsibility to Protect** and the **Special Adviser on the Prevention of Genocide** share a joint office, which uses a Framework of Analysis for Atrocity Crimes for early warning. More than 60 states have appointed national R2P focal points. The SC, HRC and GA have all referred to R2P in many resolutions, most often to the state's primary responsibility (pillar 1).
-
-#### Arguments for and against
-
-| Supporters | Critics |
-| --- | --- |
-| Sovereignty cannot shield mass atrocities; Rwanda and Srebrenica show the cost of inaction; most of R2P is prevention and assistance, which nearly all states support; it channels force through the SC rather than unilateral action | Pillar 3 can be a pretext for regime change (Libya); applied selectively depending on great-power interests; the veto blocks it where most needed (Syria); risk to the sovereignty of weaker states |
-
-A balanced line for an interview: R2P is widely accepted as a principle and in its preventive pillars, while pillar 3 remains contested; the realistic debate today is about prevention, early warning and veto restraint.
 
 ---
 
-## Peacekeeping, peacebuilding and the PBC
+## Peacekeeping and peacebuilding
 
 ### Peacekeeping basics
 
@@ -1675,64 +1269,15 @@ A balanced line for an interview: R2P is widely accepted as a principle and in i
 
 - Funded by a separate assessed budget; the largest payers are the US and China. The budget and number of missions have shrunk since 2023. MINUSMA (Mali) closed in 2023; the SC decided UNIFIL (Lebanon) will end after a final extension to 31 December 2026.
 
-### Evolution
-
-| Generation | What |
-| --- | --- |
-| Traditional | Monitor ceasefires between states (UNEF, UNDOF, UNFICYP) |
-| Multidimensional (after 1989) | Rebuild states: elections, police, protection of civilians, disarmament and reintegration (DDR) (Namibia, Cambodia, MONUSCO, UNMISS) |
-| Robust | Chapter VII mandates to protect civilians, including the Force Intervention Brigade in the DRC (2013) |
-
-Key reviews: the **Brahimi Report** (2000), the **HIPPO** report (2015), **Action for Peacekeeping (A4P)** (2018).
-
 ### From peacekeeping to peacebuilding
 
 Boutros-Ghali's *An Agenda for Peace* (1992) defined the toolbox: **preventive diplomacy** (before conflict), **peacemaking** (negotiating an end), **peacekeeping** (holding a ceasefire) and **post-conflict peacebuilding** (preventing relapse by building institutions, the economy and reconciliation). About half of countries emerging from conflict used to relapse within a decade.
-
-### The Peacebuilding Commission (PBC)
-
-- Created in 2005 by **concurrent resolutions** of the GA and SC (A/RES/60/180 and S/RES/1645) following the 2005 World Summit. An **intergovernmental advisory body** of both organs; it reports to both.
-
-- **31 members**: 7 elected by the GA, 7 by the SC (including the P5), 7 by ECOSOC, the **5 largest financial contributors** and the **5 largest troop and police contributors**. Two-year terms.
-
-- Works by **consensus**; does not adopt binding decisions. It advises the SC, convenes actors (international financial institutions, regional organizations, civil society), focuses attention and keeps donors engaged.
-
-- Has worked on Burundi, Sierra Leone, Guinea-Bissau, the Central African Republic, Liberia, Guinea and regional situations (the Sahel, the Great Lakes, West Africa).
-
-- Supported by the **Peacebuilding Support Office (PBSO)** in DPPA and linked to the **Peacebuilding Fund (PBF)** (2006), the SG's fund for fast, catalytic financing. Since 2024, some assessed contributions go to the PBF.
-
-- **Sustaining peace** twin resolutions (2016: A/RES/70/262 and S/RES/2282) made prevention and peacebuilding a task for the whole UN system throughout the conflict cycle.
-
-- The peacebuilding architecture is reviewed every five years; the latest review concluded in 2025.
-
-### Transitions (NMUN 2027 PBC topic 1)
-
-When a mission leaves (UNAMID in Darfur in 2020, MINUSMA in 2023, MONUSCO drawing down), gains can collapse. S/RES/2594 (2021) asks for early, integrated transition planning with national ownership, protection of civilians and continued financing. The PBC's role is to keep attention and money on the country after the peacekeepers leave.
 
 ### Related agendas
 
 Women, Peace and Security (S/RES/1325); Youth, Peace and Security (S/RES/2250); SDG 16 (peace, justice and strong institutions); *A New Agenda for Peace* (2023); the Pact for the Future (2024).
 
 ### In depth
-
-#### Peacekeeping history in phases
-
-| Period | Character | Examples |
-| --- | --- | --- |
-| 1948–1988 | Cold War: mostly unarmed observers and lightly armed buffer forces monitoring ceasefires between states; 13 missions | UNTSO, UNMOGIP, UNEF I (1956–67), ONUC (Congo, 1960–64), UNFICYP (1964), UNEF II (1973), UNDOF (1974), UNIFIL (1978); short missions in Yemen, West New Guinea and the Dominican Republic |
-| 1989–1999 | Post-Cold War surge: complex missions inside states, elections, transitional administrations; then failures | Namibia (UNTAG), Cambodia (UNTAC), Mozambique; failures in Somalia (1993), Rwanda (1994), Srebrenica (1995) |
-| 2000s–2010s | Large, multidimensional missions with protection-of-civilians mandates under Chapter VII | MONUC/MONUSCO, UNMIL (Liberia), UNAMID (Darfur, with the AU), MINUSTAH (Haiti), MINUSMA (Mali) |
-| 2020s | Contraction: host governments asking missions to leave, budget cuts, more reliance on regional forces | MINUSMA closed (2023), UNAMID ended (2020), MONUSCO drawing down, UNIFIL to end after 2026 |
-
-#### How a mission is created and run
-
-- The SC adopts a resolution with a **mandate** (tasks, size, duration, usually renewed every year).
-
-- The Secretariat (DPO with DOS) plans and asks member states for troops and police; the GA Fifth Committee approves the budget.
-
-- A Special Representative of the Secretary-General heads the mission; a Force Commander leads the military component.
-
-- Troop-contributing countries keep command over discipline and criminal jurisdiction over their soldiers; the UN reimburses them per soldier.
 
 #### Facts that come up
 
@@ -1748,8 +1293,6 @@ Women, Peace and Security (S/RES/1325); Youth, Peace and Security (S/RES/2250); 
 
 - Women are still under 10% of military peacekeepers; the UN has set gender targets under its Uniformed Gender Parity Strategy.
 
-- **Scandals:** cholera introduced to Haiti by peacekeepers (2010, about 10,000 deaths; the UN apologized in 2016); sexual exploitation and abuse in several missions, leading to a zero-tolerance policy.
-
 #### Peacekeeping vs other tools
 
 | Tool | What it is |
@@ -1760,16 +1303,6 @@ Women, Peace and Security (S/RES/1325); Youth, Peace and Security (S/RES/2250); 
 | Peace enforcement | Coercive force authorized under Chapter VII, possibly without consent (e.g. Korea, Kuwait, or AU forces in Somalia) |
 | Peacebuilding | Long-term work on the causes of conflict: institutions, rule of law, economy, reconciliation |
 | Special political missions | Civilian missions run by DPPA (UNAMA in Afghanistan, UNSMIL in Libya, envoy offices) |
-
-#### The PBC in more depth
-
-- It works through **country configurations** (Burundi, Sierra Leone, Liberia, Guinea-Bissau, Central African Republic, Guinea) chaired by a member state, and increasingly through flexible meetings on regions (Sahel, Great Lakes, West Africa, Colombia, the Gambia) at a country's request.
-
-- Its added value: **convening** (governments, international financial institutions, regional bodies, civil society, women and youth), **sustained attention** after the SC moves on, **advice** to the SC and GA, and **resource mobilization**.
-
-- The **Peacebuilding Fund** (2006) has allocated over $1.5 billion to dozens of countries; it is fast and risk-tolerant, often first money in. The GA agreed to give it some assessed funding from 2025.
-
-- Main criticism: no power or money of its own beyond the Fund; its influence depends on whether the SC listens to its advice.
 
 ---
 
@@ -1787,37 +1320,6 @@ Women, Peace and Security (S/RES/1325); Youth, Peace and Security (S/RES/2250); 
 
 - **Review Conferences** every five years. The **2026 RevCon** (New York, April–May 2026) ended on 22 May **without a consensus final document**, the third failure in a row after 2015 and 2022. The last successful outcome was in 2010.
 
-### The IAEA
-
-- International Atomic Energy Agency, founded **1957** after Eisenhower's "Atoms for Peace" speech (1953). Based in **Vienna**; Director-General **Rafael Grossi** (Argentina) since 2019. Nobel Peace Prize 2005.
-
-- An independent related organization that reports to the GA and, on safeguards violations, to the SC.
-
-- Organs: the **General Conference** (all members, every September) and the **Board of Governors** (35 members, the real decision-maker).
-
-- Jobs: **safeguards** (verifying nuclear material is not diverted to weapons; the Additional Protocol allows stronger inspections), nuclear **safety and security**, and **technical cooperation** (nuclear medicine, agriculture, water: "Atoms for Peace and Development").
-
-- Nuclear plants in conflict: since 2022 the IAEA has kept experts at **Zaporizhzhia** (Ukraine) and set out **seven indispensable pillars** and five concrete principles for nuclear safety and security in war.
-
-- Iran: the 2015 deal (JCPOA) collapsed; Israel and the United States struck Iranian nuclear sites in June 2025; Iran suspended cooperation with the IAEA; UN sanctions were reimposed through the "snapback" process in September 2025.
-
-### Other treaties
-
-| Treaty | Status |
-| --- | --- |
-| Treaty on the Prohibition of Nuclear Weapons (TPNW) | Adopted 2017, in force 22 January 2021; no nuclear-armed state has joined |
-| Comprehensive Nuclear-Test-Ban Treaty (CTBT) | Adopted 1996; **not in force** (needs 44 specific states, including the US, China, India, Pakistan, Iran, Israel, Egypt and the DPRK). Russia withdrew its ratification in 2023 |
-| Nuclear-weapon-free zones | Latin America and the Caribbean (**Tlatelolco**, 1967), South Pacific (Rarotonga), Southeast Asia (Bangkok), Africa (**Pelindaba**), Central Asia (Semipalatinsk). Egypt has long pushed for a Middle East zone free of weapons of mass destruction |
-| Chemical Weapons Convention | 1993; implemented by the OPCW (Nobel 2013) |
-| Biological Weapons Convention | 1972; no verification body |
-| Arms Trade Treaty (ATT) | 2013; regulates conventional arms transfers |
-| Convention on Certain Conventional Weapons (CCW) | 1980; Group of Governmental Experts on lethal autonomous weapons since 2017 |
-| Ottawa (anti-personnel mines) and Oslo (cluster munitions) conventions | Several European states announced withdrawal from Ottawa in 2025 |
-
-### Machinery
-
-GA First Committee (all members, resolutions), UN Disarmament Commission (deliberative), **Conference on Disarmament** (Geneva, 65 members, consensus-based, deadlocked since 1996), and UNODA (the Office for Disarmament Affairs).
-
 ### In depth
 
 #### The nuclear-armed states
@@ -1831,49 +1333,9 @@ GA First Committee (all members, resolutions), UN Disarmament Commission (delibe
 
 About 12,000 warheads exist worldwide, about 90% held by Russia and the US. **New START**, the last US–Russia arms control treaty, expired in February 2026. **South Africa** is the only state to have built and then dismantled its own nuclear weapons; it joined the NPT in **1991**. Ukraine, Belarus and Kazakhstan gave up Soviet weapons on their soil in the 1990s.
 
-#### NPT Review Conferences
-
-| Year | Outcome |
-| --- | --- |
-| 1995 | Indefinite extension, with a resolution on a Middle East zone free of weapons of mass destruction (the price for Arab states' agreement) |
-| 2000 | "13 practical steps" towards disarmament |
-| 2005 | Failed |
-| 2010 | 64-point action plan; last successful final document |
-| 2015, 2022, 2026 | Failed (2022: Russia blocked over Zaporizhzhia language; 2026: disputes including Iran) |
-
-The Middle East zone remains unrealized; since 2019 a UN conference, pushed by Egypt and Arab states, meets annually on it, without Israel's participation.
-
-#### The IAEA in more depth
-
-- Founded 1957 under its own Statute; 180+ member states; reports annually to the GA and, on safeguards non-compliance, to the SC.
-
-- **Board of Governors** (35 members) makes most decisions (e.g. finding Iran in non-compliance); the **General Conference** (all members) meets each September and approves the budget.
-
-- **Safeguards:** comprehensive safeguards agreements for NPT non-nuclear states; the **Additional Protocol** (1997) allows short-notice inspections of undeclared sites.
-
-- **Nuclear security in war:** Grossi's seven indispensable pillars (2022) include physical integrity of facilities, working safety systems, staff able to work without pressure, secure off-site power, supply chains, radiation monitoring and communication with the regulator. IAEA teams have been stationed at Ukraine's nuclear plants since 2022.
-
-- **Development:** technical cooperation in cancer care (Rays of Hope), food and agriculture (Atoms4Food with the FAO), zoonotic disease (ZODIAC), water and plastic pollution (NUTEC Plastics).
-
-#### Iran in brief
-
-The 2015 Joint Comprehensive Plan of Action (endorsed by S/RES/2231) limited enrichment in exchange for sanctions relief. The US left in 2018; Iran then expanded enrichment to 60%. In June 2025 Israel and the US struck Iranian nuclear facilities; Iran suspended cooperation with the IAEA. The E3 (France, Germany, UK) triggered the "snapback" and UN sanctions returned in late September 2025.
-
-#### Conventional arms and new domains
-
-- **Small arms:** the UN Programme of Action (2001) and the Arms Trade Treaty (2013).
-
-- **Landmines and cluster munitions:** Ottawa Convention (1997), Convention on Cluster Munitions (2008).
-
-- **Outer space:** Outer Space Treaty (1967) bans nuclear weapons in orbit; talks on preventing an arms race in outer space (PAROS).
-
-- **Cyberspace:** GA open-ended working groups on ICT security since 2019 agreed non-binding norms of responsible state behaviour and a permanent mechanism.
-
-- **Autonomous weapons:** CCW Group of Governmental Experts; GA resolutions since 2023; calls for a treaty.
-
 ---
 
-## SDGs, development finance and climate
+## SDGs and climate
 
 ### From MDGs to SDGs
 
@@ -1894,16 +1356,6 @@ The 2015 Joint Comprehensive Plan of Action (endorsed by S/RES/2231) limited enr
 | 13 Climate action | 14 Life below water | 15 Life on land |
 | 16 Peace, justice and strong institutions | 17 Partnerships for the goals |  |
 
-### Financing for development
-
-- Conferences: Monterrey (2002), Doha (2008), **Addis Ababa Action Agenda** (2015), and the 4th conference (**FfD4**) in **Sevilla**, Spain (30 June–3 July 2025), which adopted the **Compromiso de Sevilla** (the United States walked out of the process).
-
-- The SDG financing gap for developing countries is estimated at over **$4 trillion a year**.
-
-- Recurring issues: debt distress (many low-income countries spend more on debt service than on health or education), reform of the IMF and World Bank, tax cooperation (a **UN Framework Convention on International Tax Cooperation** is being negotiated), **illicit financial flows**, and the 0.7% of GNI aid target that most donors miss. Aid fell sharply in 2025 as major donors cut budgets.
-
-- Groupings: **G77 and China** (about 134 developing states, the main negotiating bloc), Least Developed Countries (LDCs), Small Island Developing States (SIDS), Landlocked Developing Countries (LLDCs).
-
 ### Climate
 
 | Instrument | Key facts |
@@ -1911,59 +1363,3 @@ The 2015 Joint Comprehensive Plan of Action (endorsed by S/RES/2231) limited enr
 | **UNFCCC** | Adopted 9 May 1992, opened at the **Rio Earth Summit** (June 1992), in force 21 March 1994; 198 parties. Goal: prevent "dangerous" human interference with the climate. Principle of **common but differentiated responsibilities**. The annual **COP** is its supreme body; secretariat in Bonn |
 | Kyoto Protocol | 1997, in force 2005; binding cuts for developed countries only |
 | **Paris Agreement** | Adopted 12 December 2015 at **COP21**, in force 4 November 2016. Keep warming "well below 2°C" and pursue 1.5°C. Every party submits **Nationally Determined Contributions (NDCs)** every five years; a **Global Stocktake** every five years (first at COP28). The US withdrawal took effect in January 2026 |
-| Recent COPs | COP28 Dubai (2023): first call to "transition away from fossil fuels" and a loss and damage fund. COP29 Baku (2024): new finance goal of $300 billion a year by 2035. COP30 Belém, Brazil (2025). **COP31** is in Antalya, Türkiye, in November 2026 |
-
-The three **Rio conventions** (1992): UNFCCC (climate), CBD (biodiversity) and UNCCD (desertification and land degradation). The **right to a clean, healthy and sustainable environment** was recognized by HRC resolution 48/13 (2021) and GA resolution A/RES/76/300 (2022).
-
-### In depth
-
-#### The 2030 Agenda in more depth
-
-- Built around the "5 Ps": **People, Planet, Prosperity, Peace, Partnership**; pledge to "leave no one behind".
-
-- Negotiated by all member states (the MDGs were drafted largely by UN staff), after an Open Working Group of the GA proposed the goals.
-
-- Indicators (about 230) are set by the UN Statistical Commission; progress is tracked in the SG's annual SDG Report.
-
-- Follow-up: the HLPF reviews a set of goals each year in depth; states present VNRs voluntarily (most states have done at least one).
-
-#### The eight MDGs and why they fell short
-
-(1) End extreme poverty and hunger; (2) universal primary education; (3) gender equality; (4) reduce child mortality; (5) improve maternal health; (6) combat HIV/AIDS, malaria and other diseases; (7) environmental sustainability; (8) global partnership for development. Successes: extreme poverty roughly halved (largely thanks to China and India), primary enrolment and child survival rose. Weaknesses: designed top-down, applied only to developing countries, silent on inequality, governance, peace and climate, and uneven progress, especially in sub-Saharan Africa and conflict-affected states.
-
-#### Development financing history
-
-| Year | Conference | Outcome |
-| --- | --- | --- |
-| 2002 | Monterrey | Monterrey Consensus: aid, trade, debt, domestic resources |
-| 2008 | Doha | Review amid the financial crisis |
-| 2015 | Addis Ababa | Addis Ababa Action Agenda, financing framework for the SDGs |
-| 2025 | Sevilla (FfD4) | Compromiso de Sevilla: debt, tax cooperation, multilateral development bank reform; the US did not join |
-
-Other key groups: **Least Developed Countries** (about 44; Doha Programme of Action 2022–2031), **Landlocked Developing Countries** (32), **Small Island Developing States** (Antigua and Barbuda Agenda, 2024).
-
-#### Climate in more depth
-
-- **IPCC** (1988, set up by WMO and UNEP) assesses the science; its 2021–23 Sixth Assessment found human influence on warming "unequivocal".
-
-- **Rio Earth Summit (1992)** produced the Rio Declaration, Agenda 21, the UNFCCC, the CBD and the process leading to the UNCCD (1994).
-
-- **Kyoto (1997):** binding targets for developed (Annex I) countries only; the US never ratified; second period agreed in Doha (2012).
-
-- **Copenhagen (COP15, 2009)** failed to agree a successor, but produced the pledge of $100 billion a year in climate finance by 2020 (reached only in 2022).
-
-- **Paris (2015):** bottom-up NDCs from all parties, a "ratchet" to raise ambition every five years, transparency rules, adaptation goals, carbon markets (Art. 6) and loss and damage (Art. 8).
-
-- Recent COPs: **COP26 Glasgow** (2021, "phase down" coal); **COP27 Sharm el-Sheikh** (2022, hosted by Egypt: agreed to create a loss and damage fund); **COP28 Dubai** (2023, first Global Stocktake: "transitioning away from fossil fuels", fund made operational); **COP29 Baku** (2024, $300 billion a year by 2035); **COP30 Belém** (2025); **COP31 Antalya** (November 2026).
-
-- The US withdrew from the Paris Agreement again (effective January 2026).
-
-#### Other environmental milestones
-
-- **Montreal Protocol** (1987) on ozone-depleting substances: universally ratified, often called the most successful environmental treaty.
-
-- **Kunming-Montreal Global Biodiversity Framework** (2022): protect 30% of land and sea by 2030 ("30x30").
-
-- **High Seas Treaty (BBNJ)**, adopted 2023, in force January 2026: marine protected areas in waters beyond national jurisdiction.
-
-- **Plastics treaty** negotiations (since 2022) failed to agree a text in 2024 and 2025.

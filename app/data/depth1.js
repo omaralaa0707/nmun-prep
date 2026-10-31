@@ -1,6 +1,6 @@
 // "In depth" sections appended to existing units (id -> extra minutes + html). Part 1: foundations and principal organs.
 window.UNIT_DEPTH = Object.assign(window.UNIT_DEPTH || {}, {
-lon: { mins: 8, html: `
+lon: { mins: 6, html: `
 <h3>From war to Covenant</h3>
 <ul>
 <li><strong>8 January 1918:</strong> Wilson presents his Fourteen Points to Congress. Point 14 calls for "a general association of nations" to guarantee political independence and territorial integrity "to great and small states alike".</li>
@@ -20,19 +20,9 @@ lon: { mins: 8, html: `
 <tr><td>International Labour Organization</td><td>Labour standards</td><td>Still exists: first UN specialized agency</td></tr>
 <tr><td>Health Organisation, Nansen Office for refugees</td><td>Epidemics, refugee passports</td><td>WHO, UNHCR</td></tr>
 </table>
-<p><strong>The mandates system</strong> placed colonies taken from the defeated powers under "advanced nations": Class A (Middle East: Iraq, Syria, Lebanon, Palestine, Transjordan) were closest to independence; Class B (central Africa: Tanganyika, Cameroons, Togoland, Ruanda-Urundi); Class C (South West Africa and Pacific islands) were run almost as colonies. The UN turned most remaining mandates into Trust Territories; South West Africa (Namibia) only became independent in 1990.</p>
-<h3>Successes worth naming</h3>
-<ul>
-<li><strong>Åland Islands (1921):</strong> awarded to Finland with autonomy for the Swedish-speaking population; Sweden accepted.</li>
-<li><strong>Upper Silesia (1921)</strong> partitioned between Germany and Poland after a plebiscite.</li>
-<li><strong>Greece–Bulgaria (1925):</strong> the League stopped a border war and Greece paid compensation.</li>
-<li><strong>Refugees:</strong> the Nansen passport (1922) gave stateless refugees travel documents; Fridtjof Nansen won the 1922 Nobel Peace Prize.</li>
-<li><strong>Social work:</strong> the 1926 Slavery Convention, campaigns against leprosy and malaria, drug trafficking controls.</li>
-</ul>
 <h3>The failures, in order</h3>
 <table>
 <tr><th>Year</th><th>Crisis</th><th>What the League did</th></tr>
-<tr><td class="mono">1923</td><td>Corfu: Mussolini bombarded and occupied the Greek island</td><td>Council deferred to the great powers; Greece forced to pay Italy compensation</td></tr>
 <tr><td class="mono">1931–33</td><td>Japan invades Manchuria, sets up the puppet state Manchukuo</td><td>Lytton Commission took a year, condemned Japan; Japan left in 1933. No sanctions</td></tr>
 <tr><td class="mono">1932–34</td><td>World Disarmament Conference</td><td>Collapsed; Germany walked out and left the League (1933)</td></tr>
 <tr><td class="mono">1935–36</td><td>Italy invades Ethiopia (Abyssinia)</td><td>Sanctions, but not on oil, and the Suez Canal stayed open; the secret Hoare–Laval Pact offered Italy much of Ethiopia. Emperor Haile Selassie's appeal in Geneva went unanswered. Italy left in 1937</td></tr>
@@ -45,7 +35,7 @@ lon: { mins: 8, html: `
 <tr><th></th><th>League of Nations</th><th>United Nations</th></tr>
 <tr><td>Created</td><td>After WWI ended, by the victors</td><td>Planned during WWII; drafted by 50 states at San Francisco</td></tr>
 <tr><td>Decisions</td><td>Unanimity: every member had a de facto veto</td><td>Majority voting; veto only for the P5 on substantive SC votes</td></tr>
-<tr><td>Ban on war</td><td>Delayed war (cooling-off periods); no outright ban. The separate Kellogg–Briand Pact (1928) renounced war but had no enforcement</td><td>Article 2(4) bans the threat or use of force; exceptions only for self-defence and SC authorization</td></tr>
+<tr><td>Ban on war</td><td>Delayed war (cooling-off periods); no outright ban.</td><td>Article 2(4) bans the threat or use of force; exceptions only for self-defence and SC authorization</td></tr>
 <tr><td>Enforcement</td><td>No forces; sanctions depended on willing members</td><td>Chapter VII binding sanctions and force; peacekeeping</td></tr>
 <tr><td>Great powers</td><td>US never joined; others left or were expelled</td><td>All great powers inside with permanent seats</td></tr>
 <tr><td>Scope</td><td>Mainly security, some social work</td><td>Security plus development, human rights and humanitarian work (ECOSOC, agencies)</td></tr>
@@ -80,7 +70,7 @@ founding: { mins: 7, html: `
 <li>Headquarters: temporarily at Lake Success, New York. John D. Rockefeller Jr. gave $8.5 million to buy the Manhattan site on the East River (December 1946). The Secretariat building was occupied in 1951 and the GA first met in its new hall on 14 October 1952.</li>
 </ul>` },
 
-charter: { mins: 6, html: `
+charter: { mins: 3, html: `
 <h3>The Preamble</h3>
 <p>It opens with <strong>"We the peoples of the United Nations"</strong>, not "we the states", and states four determinations: to save succeeding generations from the scourge of war; to reaffirm faith in fundamental human rights, the dignity and worth of the human person and the equal rights of men and women and of nations large and small; to establish conditions for justice and respect for international law; and to promote social progress and better standards of life in larger freedom. "In Larger Freedom" became the title of Kofi Annan's 2005 reform report.</p>
 <h3>All seven principles of Article 2</h3>
@@ -93,40 +83,10 @@ charter: { mins: 6, html: `
 <li>Ensure that <strong>non-member</strong> states act in line with these principles as far as necessary for peace and security.</li>
 <li>No UN intervention in matters essentially within domestic jurisdiction, but this does not prejudice Chapter VII enforcement.</li>
 </ol>
-<h3>Articles people forget</h3>
-<table>
-<tr><th>Art.</th><th>Content</th><th>Why it comes up</th></tr>
-<tr><td>7(2)</td><td>Subsidiary organs may be established</td><td>Legal basis for the HRC, PBC, UNICEF and hundreds more</td></tr>
-<tr><td>8</td><td>No restrictions on men and women participating equally in UN bodies</td><td>Gender equality is in the Charter from day one</td></tr>
-<tr><td>11–14</td><td>GA may discuss peace and security, call situations to the SC's attention, initiate studies, recommend peaceful adjustment</td><td>The GA's powers in security, short of action</td></tr>
-<tr><td>24(2)</td><td>The SC acts under specific powers in Chapters VI, VII, VIII and XII</td><td>The SC's powers are not unlimited</td></tr>
-<tr><td>29</td><td>SC may establish subsidiary organs</td><td>Sanctions committees, peacekeeping missions, tribunals</td></tr>
-<tr><td>43–47</td><td>Agreements to provide forces; Military Staff Committee</td><td>Never implemented: the UN has no standing army, which is why peacekeeping relies on volunteers</td></tr>
-<tr><td>53</td><td>Regional organizations may take enforcement action only with SC authorization</td><td>Debates on the AU, NATO and ECOWAS interventions</td></tr>
-<tr><td>56</td><td>Members pledge joint and separate action for Article 55 aims</td><td>Basis for development and human rights obligations</td></tr>
-<tr><td>57, 63</td><td>Specialized agencies brought into relationship with the UN via ECOSOC agreements</td><td>How WHO, ILO and others connect</td></tr>
-<tr><td>73</td><td>Administering powers of Non-Self-Governing Territories accept a "sacred trust" and report to the UN</td><td>Basis of decolonization work (Fourth Committee, C-24)</td></tr>
-<tr><td>102</td><td>Treaties must be registered with the Secretariat or cannot be invoked before UN organs</td><td>Ends secret treaties</td></tr>
-<tr><td>104–105</td><td>The UN's legal capacity, privileges and immunities</td><td>Basis of the 1946 Convention on Privileges and Immunities</td></tr>
-<tr><td>106–107</td><td>"Enemy state" clauses about WWII Axis states</td><td>Obsolete; the 2005 World Summit resolved to delete them, but no amendment has followed</td></tr>
-<tr><td>109</td><td>A General Conference to review the Charter</td><td>Never held</td></tr>
-<tr><td>110–111</td><td>Ratification; Chinese, French, Russian, English and Spanish texts equally authentic</td><td>Why Arabic is official but not an "authentic" Charter language</td></tr>
-</table>
 <h3>How the amendments were made</h3>
 <p>All five amendments came from the wave of decolonization: membership grew from 51 (1945) to 117 (1965) and 135 (1973), so the Security Council and ECOSOC had to grow to keep regional representation fair. They were adopted by the GA (the 1963 resolutions entered into force in 1965) and ratified by two-thirds of members including all permanent members. No amendment has been adopted since 1973. The phrase "Republic of China" and "Union of Soviet Socialist Republics" in Article 23 has never been changed; the seats are held by the PRC (since 1971) and the Russian Federation (since December 1991, as continuator state of the USSR, accepted without a vote).</p>` },
 
-membership: { mins: 7, html: `
-<h3>How membership grew</h3>
-<table>
-<tr><th>Period</th><th>What happened</th></tr>
-<tr><td class="mono">1945</td><td>51 original members</td></tr>
-<tr><td class="mono">1946–55</td><td>Cold War deadlock: the US and USSR blocked each other's candidates. A <strong>1955 "package deal"</strong> admitted 16 states at once (including Italy, Austria, Ireland, Jordan, Spain, Hungary)</td></tr>
-<tr><td class="mono">1960</td><td>"Year of Africa": 17 new members, 16 of them African. Decolonization made the Global South the GA majority</td></tr>
-<tr><td class="mono">1973</td><td>Both German states admitted (unified in 1990 as one member)</td></tr>
-<tr><td class="mono">1990s</td><td>Former Soviet and Yugoslav republics, Czech Republic and Slovakia (split 1993), Eritrea, Palau</td></tr>
-<tr><td class="mono">2002</td><td>Switzerland (after a referendum; it had stayed out for neutrality) and Timor-Leste</td></tr>
-<tr><td class="mono">2006 / 2011</td><td>Montenegro; South Sudan (193rd)</td></tr>
-</table>
+membership: { mins: 6, html: `
 <h3>Observers: three kinds</h3>
 <ul>
 <li><strong>Non-member observer states:</strong> the Holy See (it has chosen not to seek membership, to keep its religious neutrality) and Palestine.</li>
@@ -159,42 +119,14 @@ membership: { mins: 7, html: `
 <li><strong>Article 19</strong> is applied every year: the Secretary-General notifies the GA of members in arrears, and the GA sometimes grants exemptions when non-payment is beyond a state's control.</li>
 </ul>` },
 
-ga: { mins: 8, html: `
+ga: { mins: 4, html: `
 <h3>Recent Presidents of the General Assembly</h3>
 <table>
 <tr><th>Session</th><th>Years</th><th>President</th><th>Regional group</th></tr>
-<tr><td>75th</td><td class="mono">2020–21</td><td>Volkan Bozkır (Türkiye)</td><td>WEOG</td></tr>
-<tr><td>76th</td><td class="mono">2021–22</td><td>Abdulla Shahid (Maldives)</td><td>Asia-Pacific</td></tr>
-<tr><td>77th</td><td class="mono">2022–23</td><td>Csaba Kőrösi (Hungary)</td><td>Eastern Europe</td></tr>
-<tr><td>78th</td><td class="mono">2023–24</td><td>Dennis Francis (Trinidad and Tobago)</td><td>GRULAC</td></tr>
-<tr><td>79th</td><td class="mono">2024–25</td><td>Philemon Yang (Cameroon)</td><td>Africa</td></tr>
 <tr><td>80th</td><td class="mono">2025–26</td><td>Annalena Baerbock (Germany)</td><td>WEOG</td></tr>
 <tr><td>81st</td><td class="mono">2026–27</td><td>Khalilur Rahman (Bangladesh)</td><td>Asia-Pacific</td></tr>
 </table>
 <p>The presidency rotates among the five regional groups. The first President was Paul-Henri Spaak (Belgium, 1946). By tradition <strong>Brazil speaks first</strong> in the general debate and the host country, the <strong>United States, second</strong>.</p>
-<h3>The GA's year</h3>
-<ul>
-<li><strong>June:</strong> elections of the next PGA, the Main Committee chairs and the non-permanent SC members.</li>
-<li><strong>September:</strong> the session opens; high-level week and general debate; summits held alongside (SDG Summit, high-level meetings on health topics).</li>
-<li><strong>October–December:</strong> the six Main Committees work through their agendas; elections to the HRC (October) and ECOSOC; ICJ elections every three years.</li>
-<li><strong>December:</strong> plenary adopts the committees' resolutions and the budget.</li>
-<li><strong>January–August:</strong> the "resumed" part: working groups, special and emergency sessions, high-level meetings, negotiations on outcome documents.</li>
-</ul>
-<h3>The eleven emergency special sessions</h3>
-<table>
-<tr><th>#</th><th>Year</th><th>Subject</th></tr>
-<tr><td>1</td><td class="mono">1956</td><td>Suez Crisis (created UNEF I)</td></tr>
-<tr><td>2</td><td class="mono">1956</td><td>Soviet intervention in Hungary</td></tr>
-<tr><td>3</td><td class="mono">1958</td><td>Lebanon and Jordan</td></tr>
-<tr><td>4</td><td class="mono">1960</td><td>Congo</td></tr>
-<tr><td>5</td><td class="mono">1967</td><td>Middle East (Six-Day War)</td></tr>
-<tr><td>6</td><td class="mono">1980</td><td>Soviet invasion of Afghanistan</td></tr>
-<tr><td>7</td><td class="mono">1980</td><td>Question of Palestine</td></tr>
-<tr><td>8</td><td class="mono">1981</td><td>Namibia</td></tr>
-<tr><td>9</td><td class="mono">1982</td><td>Occupied Arab territories (Golan Heights)</td></tr>
-<tr><td>10</td><td class="mono">1997–</td><td>Occupied East Jerusalem and the rest of the Occupied Palestinian Territory; repeatedly resumed (Wall advisory opinion request 2003, Gaza resolutions since 2023, Palestine's rights 2024)</td></tr>
-<tr><td>11</td><td class="mono">2022–</td><td>Ukraine (<span class="sym">A/RES/ES-11/1</span>, March 2022: 141 votes deploring Russia's aggression); resumed several times</td></tr>
-</table>
 <h3>Subsidiary organs, by type</h3>
 <table>
 <tr><th>Type</th><th>Examples</th></tr>
@@ -215,10 +147,9 @@ ga: { mins: 8, html: `
 <tr><td>Meets</td><td>Regular session September to December, resumed through the year</td><td>Continuously; must be able to meet at any time</td></tr>
 <tr><td>Strength</td><td>Universal legitimacy; sets norms; controls the budget</td><td>Power to act</td></tr>
 </table>
-<h3>Ways of adopting</h3>
-<p><strong>Consensus / without a vote</strong>: the President asks if there is any objection and declares it adopted; about two-thirds of resolutions pass this way. <strong>Recorded vote</strong>: a state requests it and each delegation's yes/no/abstain is published. <strong>Acclamation</strong>: used for elections with one candidate. Explanations of vote can be given before or after.</p>` },
+` },
 
-sc: { mins: 9, html: `
+sc: { mins: 5, html: `
 <h3>How the Council works day to day</h3>
 <ul>
 <li><strong>Formats:</strong> public meetings (briefings and open debates, where non-members can speak under Rule 37), private meetings, and closed <strong>consultations</strong> where most negotiation happens. <strong>Arria-formula meetings</strong> are informal sessions convened by a member to hear civil society or other voices.</li>
@@ -227,25 +158,6 @@ sc: { mins: 9, html: `
 <li><strong>Outcomes, from strongest to weakest:</strong> resolutions (S/RES/…), presidential statements, press statements, and letters.</li>
 <li>Non-members directly affected may take part without a vote (Article 31), and parties to a dispute are invited (Article 32).</li>
 </ul>
-<h3>Resolutions every applicant should recognize</h3>
-<table>
-<tr><th>Resolution</th><th>Year</th><th>Subject</th></tr>
-<tr><td class="sym">S/RES/82–84</td><td class="mono">1950</td><td>Korea: UN Command authorized while the USSR was boycotting the Council</td></tr>
-<tr><td class="sym">S/RES/242</td><td class="mono">1967</td><td>After the Six-Day War: withdrawal from occupied territories and the right of every state to live in peace ("land for peace")</td></tr>
-<tr><td class="sym">S/RES/678</td><td class="mono">1990</td><td>Authorized "all necessary means" to expel Iraq from Kuwait</td></tr>
-<tr><td class="sym">S/RES/827 / 955</td><td class="mono">1993 / 1994</td><td>Created the ICTY and ICTR</td></tr>
-<tr><td class="sym">S/RES/1244</td><td class="mono">1999</td><td>Kosovo: UNMIK and the international security presence</td></tr>
-<tr><td class="sym">S/RES/1267</td><td class="mono">1999</td><td>Sanctions on the Taliban, later Al-Qaida and ISIL</td></tr>
-<tr><td class="sym">S/RES/1325</td><td class="mono">2000</td><td>Women, Peace and Security</td></tr>
-<tr><td class="sym">S/RES/1373</td><td class="mono">2001</td><td>Binding counter-terrorism obligations on all states</td></tr>
-<tr><td class="sym">S/RES/1540</td><td class="mono">2004</td><td>Keeping weapons of mass destruction from non-state actors</td></tr>
-<tr><td class="sym">S/RES/1718</td><td class="mono">2006</td><td>DPRK sanctions after its first nuclear test</td></tr>
-<tr><td class="sym">S/RES/1973</td><td class="mono">2011</td><td>Libya: no-fly zone and protection of civilians</td></tr>
-<tr><td class="sym">S/RES/2231</td><td class="mono">2015</td><td>Endorsed the Iran nuclear deal (JCPOA); its "snapback" was used in 2025</td></tr>
-<tr><td class="sym">S/RES/2334</td><td class="mono">2016</td><td>Israeli settlements have "no legal validity" (US abstained)</td></tr>
-<tr><td class="sym">S/RES/2417</td><td class="mono">2018</td><td>Conflict-induced hunger</td></tr>
-<tr><td class="sym">S/RES/2728</td><td class="mono">2024</td><td>Demanded a Gaza ceasefire during Ramadan (US abstained)</td></tr>
-</table>
 <h3>The veto in practice</h3>
 <ul>
 <li>The first veto was cast by the USSR in February 1946 (on troop withdrawals from Syria and Lebanon). The USSR cast most vetoes in the early Cold War, partly to block new members.</li>
@@ -254,16 +166,10 @@ sc: { mins: 9, html: `
 <li>The UK and France have not used the veto since 1989.</li>
 <li>A member that is a party to a dispute should abstain on Chapter VI decisions about it (Art. 27(3)), but this is rarely enforced.</li>
 </ul>
-<h3>Peacekeeping operations in the field (late 2026)</h3>
-<p>UNTSO (Middle East, 1948), UNMOGIP (India–Pakistan, 1949), UNFICYP (Cyprus, 1964), UNDOF (Golan, 1974), UNIFIL (Lebanon, 1978; ending after 31 December 2026), MINURSO (Western Sahara, 1991), UNMIK (Kosovo, 1999), MONUSCO (DR Congo), UNISFA (Abyei), UNMISS (South Sudan), MINUSCA (Central African Republic). Political missions such as UNAMA (Afghanistan) and UNSMIL (Libya) are run by DPPA. In Haiti the SC authorized a non-UN multinational force rather than blue helmets.</p>
-<h3>Sanctions</h3>
-<p>Around 14 sanctions regimes, each overseen by a committee with a panel of experts. Examples: ISIL and Al-Qaida (1267), DPRK (1718), Libya (1970), DR Congo (1533), South Sudan (2206), Yemen (2140), Haiti (2653). Tools: arms embargoes, asset freezes, travel bans, commodity bans (diamonds, oil, charcoal). Since 2022, <span class="sym">S/RES/2664</span> exempts humanitarian aid from asset freezes. Criticism: sanctions can hurt civilians, are hard to monitor, and Russia's veto ended the Mali regime and its panel (2023).</p>
 <h3>Working with regional organizations</h3>
 <p>Chapter VIII partnership with the <strong>African Union Peace and Security Council</strong> is the closest: the "A3" (the three African members) coordinate positions; <span class="sym">S/RES/2719</span> (2023) allows UN assessed funding for AU-led operations case by case. The SC has also worked with ECOWAS, the EU and NATO, and authorized regional forces (e.g. the AU mission in Somalia).</p>` },
 
-ecosoc: { mins: 6, html: `
-<h3>The ECOSOC year</h3>
-<p>Its cycle runs from <strong>July to July</strong>, with a one-year President. Main segments and forums: Youth Forum; Partnership Forum; <strong>Financing for Development Forum</strong>; Operational Activities for Development segment (oversight of UN development work); <strong>Humanitarian Affairs segment</strong>; Integration and Coordination segments; the <strong>High-Level Political Forum</strong> each July; and a Management segment for elections and subsidiary reports.</p>
+ecosoc: { mins: 3, html: `
 <h3>Full subsidiary machinery</h3>
 <table>
 <tr><th>Type</th><th>Bodies</th></tr>
@@ -274,61 +180,22 @@ ecosoc: { mins: 6, html: `
 </table>
 <h3>Specialized agencies it coordinates</h3>
 <p>Under Articles 57 and 63, each agency signs a relationship agreement with ECOSOC: ILO, FAO, UNESCO, WHO, the World Bank Group, IMF, ICAO, IMO, ITU, UPU, WMO, WIPO, IFAD, UNIDO and UN Tourism. The IMF and World Bank are formally specialized agencies but run largely independently with weighted voting.</p>
-<h3>The Commission on Narcotic Drugs (often confused with CCPCJ)</h3>
-<p>Created in 1946, 53 members, Vienna. It oversees the three drug control conventions (<strong>1961 Single Convention</strong>, <strong>1971 Psychotropic Substances</strong>, <strong>1988 Trafficking</strong>) and decides which substances are placed under international control; in 2020 it removed cannabis from the strictest schedule. UNODC is the secretariat for both CND and CCPCJ.</p>
-<h3>Why ECOSOC is criticized</h3>
-<p>Overlap with the GA Second and Third Committees, a sprawling subsidiary system, and little real authority over agencies that have their own governing bodies and budgets. Reforms (2013 and 2018 GA resolutions) refocused it on SDG follow-up, which is why the HLPF and Financing for Development Forum are now its centrepiece.</p>` },
+` },
 
-icj: { mins: 7, html: `
-<h3>Key articles of the ICJ Statute</h3>
-<table>
-<tr><th>Art.</th><th>Content</th></tr>
-<tr><td>2–3</td><td>15 independent judges of high moral character, elected regardless of nationality; no two from the same state</td></tr>
-<tr><td>9</td><td>The bench as a whole should represent the main forms of civilization and principal legal systems</td></tr>
-<tr><td>31</td><td>Judges ad hoc</td></tr>
-<tr><td>34</td><td>Only states may be parties in contentious cases</td></tr>
-<tr><td>36</td><td>Jurisdiction: special agreements, treaty clauses, and the optional clause (36(2))</td></tr>
-<tr><td>38</td><td>Sources of law the Court applies</td></tr>
-<tr><td>41</td><td>Provisional measures (binding, as the Court confirmed in <em>LaGrand</em>, 2001)</td></tr>
-<tr><td>59</td><td>Decisions bind only the parties and only for that case (no formal precedent)</td></tr>
-<tr><td>60</td><td>Judgments are final, without appeal</td></tr>
-<tr><td>65</td><td>Advisory opinions</td></tr>
-</table>
-<h3>How a case runs</h3>
-<ol>
-<li>A state files an application (or both notify a special agreement).</li>
-<li>Requests for <strong>provisional measures</strong> are heard fast if there is urgency and a risk of irreparable harm.</li>
-<li>Preliminary objections: the respondent often challenges jurisdiction or admissibility first.</li>
-<li>Written phase (memorial, counter-memorial), then oral hearings in the Great Hall of Justice.</li>
-<li>Deliberation in private; the judgment is read in public. Judges can attach separate or dissenting opinions.</li>
-</ol>
-<p>Cases often take years. If a party fails to comply, the other may go to the Security Council (Charter Art. 94(2)), where the veto can block enforcement, as with <em>Nicaragua v. United States</em>.</p>
+icj: { mins: 2, html: `
 <h3>Landmark cases and opinions</h3>
 <table>
 <tr><th>Case</th><th>Year</th><th>Why it matters</th></tr>
-<tr><td>Corfu Channel (UK v. Albania)</td><td class="mono">1949</td><td>First case; state responsibility for mines in its waters</td></tr>
-<tr><td>Reparation for Injuries (advisory)</td><td class="mono">1949</td><td>The UN has international legal personality and can bring claims</td></tr>
-<tr><td>Asylum (Colombia v. Peru)</td><td class="mono">1950</td><td>Regional custom must be proven</td></tr>
-<tr><td>Western Sahara (advisory)</td><td class="mono">1975</td><td>Self-determination applies to the territory</td></tr>
 <tr><td>Nicaragua v. United States</td><td class="mono">1986</td><td>US support for the Contras and mining of harbours violated the ban on force and non-intervention; the US rejected the ruling</td></tr>
-<tr><td>Legality of Nuclear Weapons (advisory)</td><td class="mono">1996</td><td>Threat or use generally contrary to IHL; the Court could not decide on extreme self-defence</td></tr>
 <tr><td>The Wall (advisory)</td><td class="mono">2004</td><td>Israel's separation wall in the occupied West Bank is contrary to international law</td></tr>
-<tr><td>Bosnia v. Serbia</td><td class="mono">2007</td><td>Srebrenica was genocide; Serbia failed to prevent it, but was not directly responsible</td></tr>
 <tr><td>Kosovo (advisory)</td><td class="mono">2010</td><td>Declaration of independence not unlawful</td></tr>
-<tr><td>Germany v. Italy</td><td class="mono">2012</td><td>State immunity applies even for alleged serious violations; jus cogens does not remove immunity before foreign courts</td></tr>
-<tr><td>Chagos (advisory)</td><td class="mono">2019</td><td>Decolonization of Mauritius incomplete; UK should end its administration. A UK–Mauritius agreement followed in 2025</td></tr>
 <tr><td>The Gambia v. Myanmar</td><td class="mono">2019–</td><td>Rohingya genocide; any party to the Genocide Convention can sue (erga omnes partes)</td></tr>
-<tr><td>Ukraine v. Russia</td><td class="mono">2022–</td><td>Russia ordered to suspend military operations (provisional measures, not complied with)</td></tr>
-<tr><td>South Africa v. Israel</td><td class="mono">2023–</td><td>Genocide Convention; several provisional measures orders in 2024</td></tr>
-<tr><td>Occupied Palestinian Territory (advisory)</td><td class="mono">2024</td><td>Occupation unlawful; states should not recognize or aid it</td></tr>
-<tr><td>Climate change (advisory)</td><td class="mono">2025</td><td>Legal duties to prevent significant climate harm</td></tr>
-<tr><td>Israel's obligations on UN and humanitarian presence (advisory)</td><td class="mono">October 2025</td><td>Requested by the GA in late 2024 after Israel restricted UNRWA; the Court found Israel must allow and facilitate UN relief, including UNRWA</td></tr>
 </table>
 <h3>Correcting a common mistake</h3>
 <p>All 193 UN members are automatically parties to the ICJ Statute (Charter Art. 93). The US and Israel <em>are</em> parties; what they have not done is accept the Court's <strong>compulsory</strong> jurisdiction under the optional clause. A non-UN state can become a party to the Statute on conditions set by the GA and SC (Switzerland did before joining the UN). Kosovo is <em>not</em> a party. Palestine has appeared through a declaration accepting the Court's jurisdiction under SC resolution 9 (1946).</p>
 <p><strong>Vice-President:</strong> Julia Sebutinde (Uganda), alongside President Iwasawa Yuji. Five judges are elected every three years in November, by simultaneous but separate votes in the GA and SC.</p>` },
 
-secretariat: { mins: 8, html: `
+secretariat: { mins: 7, html: `
 <h3>The Secretaries-General in more depth</h3>
 <ul>
 <li><strong>Trygve Lie (1946–52):</strong> former Norwegian foreign minister. Backed the UN action in Korea in 1950, so the USSR refused to deal with him; the GA extended his term over Soviet objections and he resigned in November 1952.</li>
@@ -350,8 +217,6 @@ secretariat: { mins: 8, html: `
 </ul>
 <h3>The 2016 reform of the selection</h3>
 <p><span class="sym">A/RES/69/321</span> (2015) made the race public for the first time: candidates are formally announced in a joint letter of the GA and SC Presidents, publish vision statements and CVs, and answer member states and civil society in live interactive dialogues. Guterres won the 2016 race this way. The 2026 race follows the same process, with strong calls for the first woman SG and for a Latin American and Caribbean candidate.</p>
-<h3>Structure and staff</h3>
-<p>The Secretariat employs tens of thousands of staff at Headquarters, the offices in Geneva, Vienna and Nairobi, the regional commissions and field missions. Main departments: DPPA (Political and Peacebuilding Affairs), DPO (Peace Operations; DPKO until 2019), DOS (Operational Support), DMSPC (Management Strategy, Policy and Compliance), DESA (Economic and Social Affairs), OCHA (humanitarian coordination), ODA (Disarmament), OLA (Legal Affairs), DGACM (General Assembly and Conference Management), DSS (Safety and Security), DGC (Global Communications). Staff are selected on merit with regard to "as wide a geographical basis as possible" (Art. 101(3)).</p>
 <h3>GA Fifth Committee vs the Secretariat</h3>
 <p>The <strong>Secretariat</strong> (led by the SG) prepares the budget proposal and spends the money. The <strong>Fifth Committee</strong> (all member states, advised by the ACABQ) reviews, negotiates and approves it; the GA plenary then adopts it. In short: the Secretariat proposes and implements, member states decide.</p>
 <h3>The 11 Trust Territories</h3>

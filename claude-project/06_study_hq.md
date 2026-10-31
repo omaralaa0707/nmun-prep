@@ -42,7 +42,7 @@ Use this file when I'm not doing a mock: planning my day, re-planning when I fal
 
 ## Rules of the plan
 
-- Flashcards: 400 new on Friday and the remaining 401 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.
+- Flashcards: 400 new on Friday and the remaining 312 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.
 - Read the day's part of the Google Doc first, then its flashcards, so every new card is something you have just read.
 - Study in 45–60 minute blocks with 10–15 minute breaks.
 - A 20-minute voice quiz every day, except on mock days. Voice sessions run in the NMUN Interview Coach Claude Project: start a chat, tap voice, say the phrase.
@@ -51,26 +51,26 @@ Use this file when I'm not doing a mock: planning my day, re-planning when I fal
 
 ## The day-by-day plan (as it is in the app)
 
-### Fri 30 Oct: Parts 1 + 2: UN foundations to the Secretariat (about 6.4 h)
+### Fri 30 Oct: Parts 1 + 2: UN foundations to the Secretariat (about 6 h)
 
 - Flashcards: 400 new + everything due (180 min)
-- Read The League of Nations (1920–1946) (16 min)
+- Read The League of Nations (1920–1946) (14 min)
 - Read Road to the UN, 1941–1946 (14 min)
-- Read The UN Charter (18 min)
-- Read Membership, observers and non-members (15 min)
+- Read The UN Charter (15 min)
+- Read Membership, observers and non-members (14 min)
 - Read The UN system, money and current agenda (10 min)
 - Read Regional groups and negotiating blocs (8 min)
 - Read Agencies, funds and programmes (10 min)
-- Read The General Assembly and its six committees (20 min)
-- Read The Security Council (21 min)
+- Read The General Assembly and its six committees (16 min)
+- Read The Security Council (17 min)
 - Voice quiz on today's reading (20 min) — say: "Rapid-fire on UN foundations, the General Assembly and the Security Council."
-- Read ECOSOC and its commissions (15 min)
-- Read The International Court of Justice (16 min)
-- Read The Secretariat and the Secretary-General (18 min)
+- Read ECOSOC and its commissions (12 min)
+- Read The International Court of Justice (11 min)
+- Read The Secretariat and the Secretary-General (17 min)
 
-### Sat 31 Oct: Mozambique, GA1, PMSCs + Mock #1 (45 min), then autonomous weapons to the end (about 12.1 h)
+### Sat 31 Oct: Mozambique, GA1, PMSCs + Mock #1 (45 min), then autonomous weapons to the end (about 10.6 h)
 
-- Flashcards: 401 new (the rest) + everything due (180 min)
+- Flashcards: 312 new (the rest) + everything due (150 min)
 - Read Mozambique: country profile (35 min)
 - Read Mozambique in GA1 and UNHCR: its record and statements (15 min)
 - Read GA First Committee: full committee sheet (35 min)
@@ -84,14 +84,14 @@ Use this file when I'm not doing a mock: planning my day, re-planning when I fal
 - Read Interview: your pitch, NMUN rules and situations (30 min)
 - Draft your personal answers: about you, why NMUN, why Mozambique, why GA1 and UNHCR, your weakness (30 min)
 - Voice quiz on today's reading (20 min) — say: "Rapid-fire on UNHCR, psychosocial support and migration routes."
-- Read International law essentials (20 min)
-- Read UN vocabulary and documents (6 min)
-- Read Use of force and the laws of war (13 min)
-- Read The human rights system and the HRC (24 min)
-- Read Responsibility to Protect (R2P) (10 min)
-- Read Peacekeeping, peacebuilding and the PBC (18 min)
-- Read Disarmament and non-proliferation (16 min)
-- Read SDGs, development finance and climate (17 min)
+- Read International law essentials (15 min)
+- Read UN vocabulary and documents (4 min)
+- Read Use of force and the laws of war (10 min)
+- Read The human rights system and the HRC (8 min)
+- Read Responsibility to Protect (R2P) (6 min)
+- Read Peacekeeping and peacebuilding (8 min)
+- Read Disarmament and non-proliferation (5 min)
+- Read SDGs and climate (6 min)
 - Read Speeches and resolution writing (8 min)
 - Voice quiz on today's reading (20 min) — say: "Rapid-fire on international law, human rights, peacekeeping and disarmament."
 

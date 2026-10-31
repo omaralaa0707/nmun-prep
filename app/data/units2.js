@@ -81,7 +81,7 @@ html: `
 <p>Humanity, neutrality, impartiality, independence (<span class="sym">A/RES/46/182</span>, 1991, which also created the humanitarian coordination system now run by OCHA).</p>`
 },
 {
-id: 'hr', group: 'Law, rights and security', title: 'The human rights system and the HRC', mins: 14,
+id: 'hr', group: 'Law, rights and security', title: 'The human rights system and the HRC', mins: 8,
 html: `
 <h2>The International Bill of Human Rights</h2>
 <table>
@@ -91,8 +91,6 @@ html: `
 <tr><td><strong>ICESCR</strong></td><td>16 Dec 1966, in force 3 Jan 1976</td><td>Yes</td><td>Work, social security, health, education, food, housing. "Progressive realization" within available resources. Optional Protocol (2008) for complaints</td></tr>
 </table>
 <p>Both covenants were adopted together by <span class="sym">A/RES/2200 A (XXI)</span>, split along Cold War lines (West stressing civil and political rights, East stressing economic and social rights).</p>
-<h2>The nine core treaties, each with a monitoring committee (treaty body)</h2>
-<p>ICERD (racial discrimination, 1965); ICCPR and ICESCR (1966); <strong>CEDAW</strong> (women, 1979); <strong>CAT</strong> (torture, 1984); <strong>CRC</strong> (children, 1989, the most ratified; the US is the only state not party); ICRMW (migrant workers, 1990); <strong>CRPD</strong> (persons with disabilities, 2006); CPED (enforced disappearance, 2006).</p>
 <h2>The Human Rights Council</h2>
 <ul>
 <li>Created by <span class="sym">A/RES/60/251</span> on 15 March 2006 as a <strong>subsidiary organ of the GA</strong>, replacing the discredited <strong>Commission on Human Rights</strong> (an ECOSOC commission, 1946–2006), which was criticized for politicization and for abusive states sitting on it. First session June 2006, in <strong>Geneva</strong>.</li>
@@ -100,23 +98,12 @@ html: `
 <li>Seats: <strong>Africa 13, Asia-Pacific 13, Latin America and Caribbean 8, Western Europe and Others 7, Eastern Europe 6</strong>.</li>
 <li>Suspension by a <strong>two-thirds GA vote</strong> for gross and systematic violations: Libya (2011), Russia (April 2022).</li>
 <li>At least three regular sessions a year (roughly February–April, June–July, September–October), at least ten weeks in total. A <strong>special session</strong> can be called by one-third of members.</li>
-<li>The President and four Vice-Presidents form the Bureau, one per regional group, for a one-year cycle. 2026 President: Ambassador Sidharto Reza Suryodipuro (Indonesia).</li>
 <li>Resolutions are <strong>not binding</strong>; its power is scrutiny, investigation, naming and standard-setting.</li>
 <li>The United States withdrew from the Council again in 2025.</li>
 </ul>
-<h3>The Institution-Building Package (HRC resolution 5/1, June 2007)</h3>
-<table>
-<tr><th>Mechanism</th><th>What it does</th></tr>
-<tr><td><strong>Universal Periodic Review (UPR)</strong></td><td>A peer review of <strong>every</strong> UN member's human rights record, roughly every 4.5 years. Three states (a "troika") act as rapporteurs; others make recommendations, which the state "supports" or "notes". The fourth cycle runs 2022–2027</td></tr>
-<tr><td><strong>Special Procedures</strong></td><td>Independent, unpaid experts (Special Rapporteurs, Independent Experts, Working Groups) with <strong>thematic</strong> mandates (such as freedom of expression or the rights of persons with disabilities) or <strong>country</strong> mandates (such as Myanmar, the DPRK, Iran or the Occupied Palestinian Territory). Terms of three years, renewable once</td></tr>
-<tr><td><strong>Advisory Committee</strong></td><td>A think tank of 18 experts that does studies on request; cannot adopt resolutions</td></tr>
-<tr><td><strong>Complaint Procedure</strong></td><td>Confidential handling of consistent patterns of gross violations, through the Working Group on Communications and then the Working Group on Situations</td></tr>
-</table>
-<p>The HRC also creates <strong>commissions of inquiry and fact-finding missions</strong> (Syria, Ukraine, Sudan, the Occupied Palestinian Territory) and holds forums and expert mechanisms (such as the Expert Mechanism on the Rights of Indigenous Peoples).</p>
 <h2>OHCHR</h2>
 <p>The Office of the High Commissioner for Human Rights, created by <span class="sym">A/RES/48/141</span> (December 1993) following the <strong>Vienna Declaration and Programme of Action</strong> (World Conference on Human Rights, June 1993, which declared all rights "universal, indivisible and interdependent"). It is the HRC's secretariat and supports treaty bodies, field offices and technical cooperation. <strong>High Commissioner: Volker Türk (Austria)</strong> since October 2022.</p>
-<h2>HRC vs GA Third Committee</h2>
-<p>The HRC is a 47-member specialist body in Geneva that meets most of the year and runs investigative mechanisms. The Third Committee includes all 193 members in New York, meets in the autumn, adopts norm-setting resolutions and reviews the HRC's annual report and Special Procedures' reports to the GA.</p>`
+`
 },
 {
 id: 'r2p', group: 'Law, rights and security', title: 'Responsibility to Protect (R2P)', mins: 6,
@@ -142,12 +129,11 @@ html: `
 <li>First major use: <span class="sym">S/RES/1973</span> (2011, Libya), authorizing force to protect civilians. NATO's campaign ended in regime change, which made Russia, China and many Global South states suspicious of pillar three. Brazil proposed "Responsibility while Protecting" (2011) in response.</li>
 <li>Syria showed the limits: repeated vetoes blocked action.</li>
 <li>Veto restraint initiatives: the <strong>France–Mexico</strong> initiative (2015) asks the P5 voluntarily not to veto in mass-atrocity situations; the <strong>ACT Group's Code of Conduct</strong> (2015) asks all SC members not to vote against credible action to prevent atrocities, with 120+ supporters.</li>
-<li>There is a UN Special Adviser on R2P, working with the Special Adviser on the Prevention of Genocide.</li>
 </ul>
 <div class="say">If asked: "R2P reframes sovereignty as responsibility. It is strongest on pillars one and two, prevention and assistance, which most states support; pillar three remains contested after Libya, which is why many delegations prefer prevention and early warning."</div>`
 },
 {
-id: 'peace', group: 'Law, rights and security', title: 'Peacekeeping, peacebuilding and the PBC', mins: 11,
+id: 'peace', group: 'Law, rights and security', title: 'Peacekeeping and peacebuilding', mins: 5,
 html: `
 <h2>Peacekeeping basics</h2>
 <ul>
@@ -160,33 +146,13 @@ html: `
 <li>The UN has <strong>no army</strong>. States volunteer troops and police (largest contributors: Nepal, Bangladesh, India, Rwanda, Pakistan; Egypt is among the top contributors). Peacekeepers wear the <strong>blue helmet or beret</strong> to show UN neutrality.</li>
 <li>Funded by a separate assessed budget; the largest payers are the US and China. The budget and number of missions have shrunk since 2023. MINUSMA (Mali) closed in 2023; the SC decided UNIFIL (Lebanon) will end after a final extension to 31 December 2026.</li>
 </ul>
-<h2>Evolution</h2>
-<table>
-<tr><th>Generation</th><th>What</th></tr>
-<tr><td>Traditional</td><td>Monitor ceasefires between states (UNEF, UNDOF, UNFICYP)</td></tr>
-<tr><td>Multidimensional (after 1989)</td><td>Rebuild states: elections, police, protection of civilians, disarmament and reintegration (DDR) (Namibia, Cambodia, MONUSCO, UNMISS)</td></tr>
-<tr><td>Robust</td><td>Chapter VII mandates to protect civilians, including the Force Intervention Brigade in the DRC (2013)</td></tr>
-</table>
-<p>Key reviews: the <strong>Brahimi Report</strong> (2000), the <strong>HIPPO</strong> report (2015), <strong>Action for Peacekeeping (A4P)</strong> (2018).</p>
 <h2>From peacekeeping to peacebuilding</h2>
 <p>Boutros-Ghali's <em>An Agenda for Peace</em> (1992) defined the toolbox: <strong>preventive diplomacy</strong> (before conflict), <strong>peacemaking</strong> (negotiating an end), <strong>peacekeeping</strong> (holding a ceasefire) and <strong>post-conflict peacebuilding</strong> (preventing relapse by building institutions, the economy and reconciliation). About half of countries emerging from conflict used to relapse within a decade.</p>
-<h2>The Peacebuilding Commission (PBC)</h2>
-<ul>
-<li>Created in 2005 by <strong>concurrent resolutions</strong> of the GA and SC (<span class="sym">A/RES/60/180</span> and <span class="sym">S/RES/1645</span>) following the 2005 World Summit. An <strong>intergovernmental advisory body</strong> of both organs; it reports to both.</li>
-<li><strong>31 members</strong>: 7 elected by the GA, 7 by the SC (including the P5), 7 by ECOSOC, the <strong>5 largest financial contributors</strong> and the <strong>5 largest troop and police contributors</strong>. Two-year terms.</li>
-<li>Works by <strong>consensus</strong>; does not adopt binding decisions. It advises the SC, convenes actors (international financial institutions, regional organizations, civil society), focuses attention and keeps donors engaged.</li>
-<li>Has worked on Burundi, Sierra Leone, Guinea-Bissau, the Central African Republic, Liberia, Guinea and regional situations (the Sahel, the Great Lakes, West Africa).</li>
-<li>Supported by the <strong>Peacebuilding Support Office (PBSO)</strong> in DPPA and linked to the <strong>Peacebuilding Fund (PBF)</strong> (2006), the SG's fund for fast, catalytic financing. Since 2024, some assessed contributions go to the PBF.</li>
-<li><strong>Sustaining peace</strong> twin resolutions (2016: <span class="sym">A/RES/70/262</span> and <span class="sym">S/RES/2282</span>) made prevention and peacebuilding a task for the whole UN system throughout the conflict cycle.</li>
-<li>The peacebuilding architecture is reviewed every five years; the latest review concluded in 2025.</li>
-</ul>
-<h2>Transitions (NMUN 2027 PBC topic 1)</h2>
-<p>When a mission leaves (UNAMID in Darfur in 2020, MINUSMA in 2023, MONUSCO drawing down), gains can collapse. <span class="sym">S/RES/2594</span> (2021) asks for early, integrated transition planning with national ownership, protection of civilians and continued financing. The PBC's role is to keep attention and money on the country after the peacekeepers leave.</p>
 <h2>Related agendas</h2>
 <p>Women, Peace and Security (<span class="sym">S/RES/1325</span>); Youth, Peace and Security (<span class="sym">S/RES/2250</span>); SDG 16 (peace, justice and strong institutions); <em>A New Agenda for Peace</em> (2023); the Pact for the Future (2024).</p>`
 },
 {
-id: 'disarm', group: 'Law, rights and security', title: 'Disarmament and non-proliferation', mins: 10,
+id: 'disarm', group: 'Law, rights and security', title: 'Disarmament and non-proliferation', mins: 3,
 html: `
 <h2>The NPT</h2>
 <ul>
@@ -196,32 +162,10 @@ html: `
 <li><strong>Outside the NPT:</strong> India, Pakistan and Israel (never joined) and South Sudan. The <strong>DPRK</strong> announced its withdrawal in 2003. Iran <strong>is</strong> a party.</li>
 <li><strong>Review Conferences</strong> every five years. The <strong>2026 RevCon</strong> (New York, April–May 2026) ended on 22 May <strong>without a consensus final document</strong>, the third failure in a row after 2015 and 2022. The last successful outcome was in 2010.</li>
 </ul>
-<h2>The IAEA</h2>
-<ul>
-<li>International Atomic Energy Agency, founded <strong>1957</strong> after Eisenhower's "Atoms for Peace" speech (1953). Based in <strong>Vienna</strong>; Director-General <strong>Rafael Grossi</strong> (Argentina) since 2019. Nobel Peace Prize 2005.</li>
-<li>An independent related organization that reports to the GA and, on safeguards violations, to the SC.</li>
-<li>Organs: the <strong>General Conference</strong> (all members, every September) and the <strong>Board of Governors</strong> (35 members, the real decision-maker).</li>
-<li>Jobs: <strong>safeguards</strong> (verifying nuclear material is not diverted to weapons; the Additional Protocol allows stronger inspections), nuclear <strong>safety and security</strong>, and <strong>technical cooperation</strong> (nuclear medicine, agriculture, water: "Atoms for Peace and Development").</li>
-<li>Nuclear plants in conflict: since 2022 the IAEA has kept experts at <strong>Zaporizhzhia</strong> (Ukraine) and set out <strong>seven indispensable pillars</strong> and five concrete principles for nuclear safety and security in war.</li>
-<li>Iran: the 2015 deal (JCPOA) collapsed; Israel and the United States struck Iranian nuclear sites in June 2025; Iran suspended cooperation with the IAEA; UN sanctions were reimposed through the "snapback" process in September 2025.</li>
-</ul>
-<h2>Other treaties</h2>
-<table>
-<tr><th>Treaty</th><th>Status</th></tr>
-<tr><td>Treaty on the Prohibition of Nuclear Weapons (TPNW)</td><td>Adopted 2017, in force 22 January 2021; no nuclear-armed state has joined</td></tr>
-<tr><td>Comprehensive Nuclear-Test-Ban Treaty (CTBT)</td><td>Adopted 1996; <strong>not in force</strong> (needs 44 specific states, including the US, China, India, Pakistan, Iran, Israel, Egypt and the DPRK). Russia withdrew its ratification in 2023</td></tr>
-<tr><td>Nuclear-weapon-free zones</td><td>Latin America and the Caribbean (<strong>Tlatelolco</strong>, 1967), South Pacific (Rarotonga), Southeast Asia (Bangkok), Africa (<strong>Pelindaba</strong>), Central Asia (Semipalatinsk). Egypt has long pushed for a Middle East zone free of weapons of mass destruction</td></tr>
-<tr><td>Chemical Weapons Convention</td><td>1993; implemented by the OPCW (Nobel 2013)</td></tr>
-<tr><td>Biological Weapons Convention</td><td>1972; no verification body</td></tr>
-<tr><td>Arms Trade Treaty (ATT)</td><td>2013; regulates conventional arms transfers</td></tr>
-<tr><td>Convention on Certain Conventional Weapons (CCW)</td><td>1980; Group of Governmental Experts on lethal autonomous weapons since 2017</td></tr>
-<tr><td>Ottawa (anti-personnel mines) and Oslo (cluster munitions) conventions</td><td>Several European states announced withdrawal from Ottawa in 2025</td></tr>
-</table>
-<h2>Machinery</h2>
-<p>GA First Committee (all members, resolutions), UN Disarmament Commission (deliberative), <strong>Conference on Disarmament</strong> (Geneva, 65 members, consensus-based, deadlocked since 1996), and UNODA (the Office for Disarmament Affairs).</p>`
+`
 },
 {
-id: 'dev', group: 'Law, rights and security', title: 'SDGs, development finance and climate', mins: 10,
+id: 'dev', group: 'Law, rights and security', title: 'SDGs and climate', mins: 6,
 html: `
 <h2>From MDGs to SDGs</h2>
 <ul>
@@ -238,22 +182,14 @@ html: `
 <tr><td>13 Climate action</td><td>14 Life below water</td><td>15 Life on land</td></tr>
 <tr><td>16 Peace, justice and strong institutions</td><td>17 Partnerships for the goals</td><td></td></tr>
 </table>
-<h2>Financing for development</h2>
-<ul>
-<li>Conferences: Monterrey (2002), Doha (2008), <strong>Addis Ababa Action Agenda</strong> (2015), and the 4th conference (<strong>FfD4</strong>) in <strong>Sevilla</strong>, Spain (30 June–3 July 2025), which adopted the <strong>Compromiso de Sevilla</strong> (the United States walked out of the process).</li>
-<li>The SDG financing gap for developing countries is estimated at over <strong>$4 trillion a year</strong>.</li>
-<li>Recurring issues: debt distress (many low-income countries spend more on debt service than on health or education), reform of the IMF and World Bank, tax cooperation (a <strong>UN Framework Convention on International Tax Cooperation</strong> is being negotiated), <strong>illicit financial flows</strong>, and the 0.7% of GNI aid target that most donors miss. Aid fell sharply in 2025 as major donors cut budgets.</li>
-<li>Groupings: <strong>G77 and China</strong> (about 134 developing states, the main negotiating bloc), Least Developed Countries (LDCs), Small Island Developing States (SIDS), Landlocked Developing Countries (LLDCs).</li>
-</ul>
 <h2>Climate</h2>
 <table>
 <tr><th>Instrument</th><th>Key facts</th></tr>
 <tr><td><strong>UNFCCC</strong></td><td>Adopted 9 May 1992, opened at the <strong>Rio Earth Summit</strong> (June 1992), in force 21 March 1994; 198 parties. Goal: prevent "dangerous" human interference with the climate. Principle of <strong>common but differentiated responsibilities</strong>. The annual <strong>COP</strong> is its supreme body; secretariat in Bonn</td></tr>
 <tr><td>Kyoto Protocol</td><td>1997, in force 2005; binding cuts for developed countries only</td></tr>
 <tr><td><strong>Paris Agreement</strong></td><td>Adopted 12 December 2015 at <strong>COP21</strong>, in force 4 November 2016. Keep warming "well below 2°C" and pursue 1.5°C. Every party submits <strong>Nationally Determined Contributions (NDCs)</strong> every five years; a <strong>Global Stocktake</strong> every five years (first at COP28). The US withdrawal took effect in January 2026</td></tr>
-<tr><td>Recent COPs</td><td>COP28 Dubai (2023): first call to "transition away from fossil fuels" and a loss and damage fund. COP29 Baku (2024): new finance goal of $300 billion a year by 2035. COP30 Belém, Brazil (2025). <strong>COP31</strong> is in Antalya, Türkiye, in November 2026</td></tr>
 </table>
-<p>The three <strong>Rio conventions</strong> (1992): UNFCCC (climate), CBD (biodiversity) and UNCCD (desertification and land degradation). The <strong>right to a clean, healthy and sustainable environment</strong> was recognized by HRC resolution 48/13 (2021) and GA resolution <span class="sym">A/RES/76/300</span> (2022).</p>`
+`
 },
 {
 id: 'clauses', group: 'Country and conference skills', title: 'Speeches and resolution writing', mins: 8,

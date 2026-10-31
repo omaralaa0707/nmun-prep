@@ -91,7 +91,7 @@ window.PLAN = {
     }
   },
   "rules": [
-    "Flashcards: 400 new on Friday and the remaining 401 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.",
+    "Flashcards: 400 new on Friday and the remaining 312 on Saturday (matching that day's reading), then everything due every day. On uni days, do them in class on your phone.",
     "Read the day's part of the Google Doc first, then its flashcards, so every new card is something you have just read.",
     "Study in 45–60 minute blocks with 10–15 minute breaks.",
     "A 20-minute voice quiz every day, except on mock days. Voice sessions run in the NMUN Interview Coach Claude Project: start a chat, tap voice, say the phrase.",
@@ -114,7 +114,7 @@ window.PLAN = {
         {
           "kind": "read",
           "text": "Read The League of Nations (1920–1946)",
-          "mins": 16,
+          "mins": 14,
           "unit": "lon",
           "key": "v4:2026-10-30#3"
         },
@@ -128,14 +128,14 @@ window.PLAN = {
         {
           "kind": "read",
           "text": "Read The UN Charter",
-          "mins": 18,
+          "mins": 15,
           "unit": "charter",
           "key": "v4:2026-10-30#5"
         },
         {
           "kind": "read",
           "text": "Read Membership, observers and non-members",
-          "mins": 15,
+          "mins": 14,
           "unit": "membership",
           "key": "v4:2026-10-30#6"
         },
@@ -163,14 +163,14 @@ window.PLAN = {
         {
           "kind": "read",
           "text": "Read The General Assembly and its six committees",
-          "mins": 20,
+          "mins": 16,
           "unit": "ga",
           "key": "v4:2026-10-30#10"
         },
         {
           "kind": "read",
           "text": "Read The Security Council",
-          "mins": 21,
+          "mins": 17,
           "unit": "sc",
           "key": "v4:2026-10-30#11"
         },
@@ -184,21 +184,21 @@ window.PLAN = {
         {
           "kind": "read",
           "text": "Read ECOSOC and its commissions",
-          "mins": 15,
+          "mins": 12,
           "unit": "ecosoc",
           "key": "v4:2026-10-31#1"
         },
         {
           "kind": "read",
           "text": "Read The International Court of Justice",
-          "mins": 16,
+          "mins": 11,
           "unit": "icj",
           "key": "v4:2026-10-31#2"
         },
         {
           "kind": "read",
           "text": "Read The Secretariat and the Secretary-General",
-          "mins": 18,
+          "mins": 17,
           "unit": "secretariat",
           "key": "v4:2026-10-31#3"
         }
@@ -211,8 +211,8 @@ window.PLAN = {
       "tasks": [
         {
           "kind": "cards",
-          "text": "Flashcards: 401 new (the rest) + everything due",
-          "mins": 180,
+          "text": "Flashcards: 312 new (the rest) + everything due",
+          "mins": 150,
           "href": "#cards/session/all",
           "key": "v4:2026-11-01#0"
         },
@@ -309,56 +309,56 @@ window.PLAN = {
         {
           "kind": "read",
           "text": "Read International law essentials",
-          "mins": 20,
+          "mins": 15,
           "unit": "intlaw",
           "key": "v4:2026-11-02#1"
         },
         {
           "kind": "read",
           "text": "Read UN vocabulary and documents",
-          "mins": 6,
+          "mins": 4,
           "unit": "vocab",
           "key": "v4:2026-11-02#2"
         },
         {
           "kind": "read",
           "text": "Read Use of force and the laws of war",
-          "mins": 13,
+          "mins": 10,
           "unit": "force",
           "key": "v4:2026-11-02#3"
         },
         {
           "kind": "read",
           "text": "Read The human rights system and the HRC",
-          "mins": 24,
+          "mins": 8,
           "unit": "hr",
           "key": "v4:2026-11-02#4"
         },
         {
           "kind": "read",
           "text": "Read Responsibility to Protect (R2P)",
-          "mins": 10,
+          "mins": 6,
           "unit": "r2p",
           "key": "v4:2026-11-02#5"
         },
         {
           "kind": "read",
-          "text": "Read Peacekeeping, peacebuilding and the PBC",
-          "mins": 18,
+          "text": "Read Peacekeeping and peacebuilding",
+          "mins": 8,
           "unit": "peace",
           "key": "v4:2026-11-02#6"
         },
         {
           "kind": "read",
           "text": "Read Disarmament and non-proliferation",
-          "mins": 16,
+          "mins": 5,
           "unit": "disarm",
           "key": "v4:2026-11-02#7"
         },
         {
           "kind": "read",
-          "text": "Read SDGs, development finance and climate",
-          "mins": 17,
+          "text": "Read SDGs and climate",
+          "mins": 6,
           "unit": "dev",
           "key": "v4:2026-11-02#8"
         },
