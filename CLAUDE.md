@@ -33,5 +33,5 @@ Pushing to `main` deploys to production automatically (Vercel is linked to this 
 No moderated or unmoderated caucuses: informal debate is a "motion to suspend the meeting". Only points of order exist (no personal privilege, inquiry or information). Working papers need sponsors plus signatories equal to 20% of the committee. Closure of debate needs a two-thirds vote. No pre-written or AI-written clauses.
 
 ## The plan (summary)
-- The old plan (to 8 Nov) was deleted on 1 Nov and is being rebuilt with the user for 12 Nov. A copy is in `archive/plan-v5-nov8.js`.
+- The old plan (to 8 Nov) was deleted on 1 Nov. The new plan is approved but not built yet: see `plan-draft-nov12.md`. Fix the Doc and flashcards first. A copy is in `archive/plan-v5-nov8.js`.
 - Availability: Sun/Wed/Thu uni until 5:15, study 5:15–6:30, calisthenics 6:30–8:30, then study; Mon uni 10:30–5:15, then study; Tue free except 3–6; Fri and Sat full days; bedtime around 2 am. Cards can be done in class on the phone.
