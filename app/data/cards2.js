@@ -6,7 +6,6 @@ window.CARDS_MORE = [
 ['lon', 'When did the Paris Peace Conference open?', '18 January 1919.'],
 ['lon', 'Which Covenant article worried the US Senate most?', 'Article 10: collective defence of members\' territory, which senators feared would commit the US to wars.'],
 ['lon', 'First Secretary-General of the League', 'Sir Eric Drummond (UK).'],
-['lon', 'Hoare–Laval Pact', 'Secret 1935 British–French plan to give Italy much of Ethiopia; undermined League sanctions.'],
 ['lon', 'Last significant act of the League', 'Expelling the USSR in December 1939 for attacking Finland.'],
 ['lon', 'Peak League membership vs UN membership', 'League: 58 states at its peak. UN: 193.'],
 ['lon', 'How did the League\'s approach to war differ from the UN Charter?', 'The Covenant only delayed war (cooling-off periods); the Charter bans the threat or use of force outright (Art. 2(4)).'],
@@ -41,19 +40,11 @@ window.CARDS_MORE = [
 // Membership
 ['membership', 'Three kinds of UN observers', 'Non-member states (Holy See, Palestine); intergovernmental organizations (EU, AU…); other entities (ICRC, IOC, IPU, Order of Malta).'],
 ['membership', 'Why is the Holy See not a member?', 'It chooses not to seek membership, to preserve its religious neutrality.'],
-['membership', 'A/RES/3237 (1974)', 'Gave the PLO observer status.'],
-['membership', 'Vote on A/RES/67/19 (2012)', '138 for, 9 against, 41 abstentions: Palestine becomes a non-member observer state.'],
-['membership', 'Vote on A/RES/ES-10/23 (May 2024)', '143 for, 9 against, 25 abstentions.'],
-['membership', 'What happened to Palestine at UNESCO in 2011?', 'It became a full member.'],
-['membership', 'What is UNMIK?', 'UN Interim Administration Mission in Kosovo, created by S/RES/1244 (1999).'],
 ['membership', 'When did Kosovo declare independence?', '17 February 2008.'],
 ['membership', 'Why does the AU oppose recognizing Somaliland?', 'It defends colonial-era borders (uti possidetis) and fears a precedent for secession across Africa.'],
-['membership', 'What did Ethiopia sign with Somaliland in January 2024?', 'A memorandum of understanding on sea access, which Somalia called a violation of its sovereignty.'],
 ['membership', 'ICJ advisory opinion on Western Sahara (1975)', 'Historical ties to Morocco and Mauritania, but no tie of territorial sovereignty; self-determination applies.'],
-['membership', 'What was the Green March?', 'Morocco\'s mass march into Western Sahara in November 1975.'],
 ['membership', 'What was MINURSO created to do (1991)?', 'Monitor the ceasefire and organize a referendum on self-determination in Western Sahara (never held).'],
 ['membership', 'When did Morocco propose its autonomy plan for Western Sahara?', '2007.'],
-['membership', 'S/RES/541 (1983)', 'Declared the "Turkish Republic of Northern Cyprus" legally invalid.'],
 ['membership', 'What does the Credentials Committee decide in contested cases?', 'Which government\'s delegates represent a state (e.g. China until 1971, South Africa 1974, Afghanistan and Myanmar since 2021).'],
 
 // Regional groups and blocs
@@ -72,27 +63,21 @@ window.CARDS_MORE = [
 // Agencies
 ['agencies', 'UNICEF: founded and HQ', '1946, New York. Children. Nobel 1965.'],
 ['agencies', 'UNRWA', 'UN Relief and Works Agency for Palestine Refugees (1949): education, health, relief in Gaza, West Bank, Jordan, Lebanon, Syria.'],
-['agencies', 'WFP: HQ and head', 'Rome. Executive Director Cindy McCain. Nobel 2020.'],
 ['agencies', 'UNDP: founded and flagship', '1965, New York; Human Development Report and Index.'],
 ['agencies', 'UNEP: founded and HQ', '1972, Nairobi; governed by UNEA.'],
-['agencies', 'UNCTAD: head and new name', 'Rebeca Grynspan; now called UN Trade and Development.'],
 ['agencies', 'UN Women: founded and role', '2010; gender equality; secretariat of the CSW.'],
 ['agencies', 'UNODC: seat and role', 'Vienna; drugs, crime, corruption, terrorism; secretariat of the CND and CCPCJ.'],
 ['agencies', 'OCHA', 'Office for the Coordination of Humanitarian Affairs (1998); coordinates emergencies and runs CERF.'],
 ['agencies', 'ILO\'s unique feature', 'Tripartite: governments, employers and workers all vote.'],
-['agencies', 'WHO: HQ and head', 'Geneva; Director-General Tedros Adhanom Ghebreyesus. US withdrawal effective January 2026.'],
-['agencies', 'FAO: HQ', 'Rome.'],
 ['agencies', 'Bretton Woods institutions', 'IMF and World Bank (1944), Washington; specialized agencies with weighted voting.'],
 ['agencies', 'Which body would implement a proposal on refugee mental health?', 'UNHCR, with WHO and the IASC MHPSS guidelines.'],
 ['agencies', 'Which body would implement a proposal on cybercrime capacity-building?', 'UNODC.'],
 ['agencies', 'When did IOM join the UN system?', '2016, as a related organization.'],
-['agencies', 'WTO head', 'Ngozi Okonjo-Iweala.'],
 
 // GA
 ['ga', 'Who speaks first in the GA general debate?', 'Brazil by tradition, then the host, the United States.'],
 ['ga', 'A/RES/ES-11/1', 'March 2022: GA deplores Russia\'s aggression against Ukraine (141 votes in favour).'],
 ['ga', 'International Law Commission', 'GA subsidiary (1947) of 34 experts that drafts and codifies international law.'],
-['ga', 'COPUOS', 'GA Committee on the Peaceful Uses of Outer Space.'],
 ['ga', 'C-24', 'GA Special Committee on Decolonization.'],
 ['ga', 'ACABQ', 'Advisory Committee on Administrative and Budgetary Questions; advises the Fifth Committee.'],
 ['ga', 'Roughly what share of GA resolutions pass without a vote?', 'About two-thirds.'],
@@ -102,8 +87,6 @@ window.CARDS_MORE = [
 ['sc', 'What is a "penholder" in the SC?', 'The member that drafts texts on a given situation, mostly the US, UK and France.'],
 ['sc', 'Rule 37 of the SC\'s rules', 'Lets non-member states speak in Council meetings.'],
 ['sc', 'S/RES/1540 (2004)', 'Keeping weapons of mass destruction away from non-state actors.'],
-['sc', 'S/RES/2664 (2022)', 'Humanitarian exemption from UN asset freezes.'],
-['sc', 'First veto in UN history', 'USSR, February 1946, on foreign troop withdrawals from Syria and Lebanon.'],
 ['sc', 'When did the UK and France last use the veto?', '1989.'],
 ['sc', 'How did the SC authorize force in Korea in 1950 despite the USSR?', 'The USSR was boycotting the Council, so it was absent and could not veto.'],
 ['sc', 'What is the "A3"?', 'The three African elected SC members coordinating positions.'],
@@ -113,7 +96,6 @@ window.CARDS_MORE = [
 ['ecosoc', 'Committee on NGOs', '19 members; recommends NGO consultative status to ECOSOC.'],
 ['ecosoc', 'Committee for Development Policy', 'ECOSOC expert body that reviews which countries are Least Developed Countries.'],
 ['ecosoc', 'Permanent Forum on Indigenous Issues', 'ECOSOC advisory body created in 2000.'],
-['ecosoc', 'Founding years of the regional commissions', 'ECE and ESCAP 1947, ECLAC 1948, ECA 1958, ESCWA 1973.'],
 ['ecosoc', 'Main criticism of ECOSOC', 'Overlap with GA committees, sprawling subsidiaries and little real authority over agencies.'],
 
 // ICJ
@@ -132,15 +114,9 @@ window.CARDS_MORE = [
 ['secretariat', 'A/RES/69/321', '2015 resolution that made SG selection public: vision statements, interactive dialogues.'],
 ['secretariat', 'What was DPO called before 2019?', 'DPKO, the Department of Peacekeeping Operations (created 1992).'],
 ['secretariat', 'Secretariat vs Fifth Committee on the budget', 'The Secretariat proposes and spends; the Fifth Committee (member states) reviews and approves.'],
-['secretariat', 'What did Togoland (British) become?', 'Part of Ghana (1957).'],
-['secretariat', 'What happened to the British Cameroons in 1961?', 'North joined Nigeria; South joined Cameroon.'],
-['secretariat', 'Ruanda-Urundi became…', 'Rwanda and Burundi (1962).'],
 
 // International law
-['intlaw', 'Example of a regional custom case', 'Asylum case (Colombia v. Peru, 1950): Colombia failed to prove a Latin American custom of diplomatic asylum.'],
-['intlaw', 'Persistent objector case', 'Anglo-Norwegian Fisheries (ICJ, 1951).'],
 ['intlaw', 'Friendly Relations Declaration', 'A/RES/2625 (1970): restates Charter principles including self-determination and territorial integrity; seen as custom.'],
-['intlaw', 'GA resolution 1541 (1960)', 'Three options for decolonized territories: independence, free association, integration.'],
 ['intlaw', 'Occupation vs annexation', 'Occupation: effective control without sovereignty (lawful status, regulated by IHL). Annexation: claiming sovereignty by force (unlawful, not to be recognized).'],
 
 // Vocabulary

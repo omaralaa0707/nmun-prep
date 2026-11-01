@@ -1,15 +1,7 @@
 (() => {
   'use strict';
 
-  // Base units, with their "In depth" sections appended and new units slotted in after their anchor.
-  const DEPTH = window.UNIT_DEPTH || {};
-  const UNITS = (window.UNITS || []).map((u) => (DEPTH[u.id]
-    ? { ...u, mins: u.mins + DEPTH[u.id].mins, html: `${u.html}<h2 class="depth-head">In depth</h2>${DEPTH[u.id].html}` }
-    : u));
-  (window.UNITS_NEW || []).forEach((n) => { const i = UNITS.findIndex((u) => u.id === n.after); UNITS.splice(i < 0 ? UNITS.length : i + 1, 0, n); });
-  // Delegation units (country, committees, topics) go right after the principal organs.
-  const afterOrgans = UNITS.map((u) => u.group).lastIndexOf('Principal organs');
-  UNITS.splice(afterOrgans < 0 ? 0 : afterOrgans + 1, 0, ...(window.UNITS_MINE || []));
+  const UNITS = window.UNITS || [];
   const CARDS_RAW = (window.CARDS || []).concat(window.CARDS_MORE || [], window.CARDS_MINE || []);
 
   const DAY = 86400000;
