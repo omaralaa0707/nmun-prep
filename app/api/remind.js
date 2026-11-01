@@ -31,7 +31,7 @@ function buildMessage(today) {
     return { title: `Study time · ${level}`, body: `${day.title}. ${day.tasks.length} tasks · ${left} day${left === 1 ? '' : 's'} to the interview.`, url: '/#plan' };
   }
   if (left > 0) return { title: 'Study time', body: `${left} day${left === 1 ? '' : 's'} to the interview. Flashcards first, then your next reading unit.`, url: '/#cards' };
-  if (left === 0) return { title: 'Good luck', body: 'Breathe, answer the question asked, Point-Evidence-Link. You are ready.', url: '/#plan' };
+  if (left === 0) return null; // the 8:20 pm reminder would arrive after the 1:45 pm interview
   return { title: 'Study time', body: 'Keep your knowledge fresh: 20 minutes of flashcards tonight.', url: '/#cards' };
 }
 
@@ -44,13 +44,15 @@ export default async function handler(req, res) {
   try {
     const today = cairoDate();
     const before = await loadSubs();
+    const message = buildMessage(today);
+    if (!message) return res.status(200).json({ skipped: 'interview day' });
     if (req.query.dry === '1') {
-      return res.status(200).json({ date: today, devices: before.subs.length, lastSent: before.lastSent, message: buildMessage(today) });
+      return res.status(200).json({ date: today, devices: before.subs.length, lastSent: before.lastSent, message });
     }
     if (before.lastSent === today && req.query.force !== '1') {
       return res.status(200).json({ skipped: 'already sent today' });
     }
-    const { data, sent, failed, removed } = await sendToAll(buildMessage(today));
+    const { data, sent, failed, removed } = await sendToAll(message);
     data.lastSent = today;
     await writeJson(SUBS_PATH, data);
     return res.status(200).json({ date: today, sent, failed, removed });

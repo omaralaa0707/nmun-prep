@@ -6,8 +6,7 @@
 
   const DAY = 86400000;
   const MAX_INTERVAL_DAYS = 10;
-  const NEW_PER_DAY = 401; // fixed daily target: every card gets introduced over Fri 30 and Sat 31 Oct
-  const CARDS_RESET = Date.parse('2026-10-30T12:39:45.964Z'); // flashcard progress from before this moment is ignored (fresh start)
+  const CARDS_RESET = Date.parse('2026-11-01T22:18:22.000Z'); // flashcard progress from before this moment is ignored (fresh start)
   const LS_PROGRESS = 'nmun.progress.v1';
   const LS_PW = 'nmun.pw';
 
@@ -156,6 +155,15 @@
   const afterReset = (e) => (e && (e.t || 0) >= CARDS_RESET ? e : null);
   function newToday() { const e = afterReset(P.newLog[todayKey()]); return e ? e.n : 0; }
   function cardState(id) { return afterReset(P.cards[id]); }
+  // New cards allowed so far: the plan's per-day numbers up to today, minus cards already started. Unused ones roll over.
+  function newLeftToday() {
+    const plan = (window.PLAN && window.PLAN.newCards) || {};
+    const dates = Object.keys(plan).sort();
+    const k = todayKey();
+    if (dates.length && k > dates[dates.length - 1]) return Infinity;
+    const target = dates.filter((d) => d <= k).reduce((n, d) => n + plan[d], 0);
+    return Math.max(0, target - CARDS.filter((c) => cardState(c.id)).length);
+  }
   function isDue(c, now = Date.now()) { const s = cardState(c.id); return s && s.d <= now; }
   function schedule(s, grade, now = Date.now()) {
     const st = s ? { ...s } : { r: 0, i: 0, e: 2.5, d: now, l: 0 };
@@ -367,7 +375,7 @@
       }).join('')}
       <section class="panel stack">
         <h2>Daily target</h2>
-        <p style="margin:0"><strong>${NEW_PER_DAY} new cards a day</strong>, plus every card that's due. <span class="muted">${Math.min(newToday(), NEW_PER_DAY)}/${NEW_PER_DAY} new done today.</span></p>
+        <p style="margin:0"><strong>${newLeftToday() === Infinity ? 'All' : newLeftToday()} new cards left today</strong>, plus every card that's due. <span class="muted">${newToday()} new done today.</span></p>
       </section>
       ${syncMode === 'remote' ? '<section class="panel stack" id="remind-panel"></section>' : ''}
     </div>`;
@@ -380,7 +388,7 @@
     const list = cardsInScope(scope);
     const now = Date.now();
     const due = list.filter((c) => isDue(c, now)).sort((a, b) => cardState(a.id).d - cardState(b.id).d);
-    const newLeft = dueOnly ? 0 : Math.max(0, NEW_PER_DAY - newToday());
+    const newLeft = dueOnly ? 0 : newLeftToday();
     const fresh = list.filter((c) => !cardState(c.id)).slice(0, newLeft);
     let queue = [...due, ...fresh];
     let reviewed = 0; let flipped = false; let current = null; let cram = false;

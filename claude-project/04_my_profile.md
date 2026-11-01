@@ -2,7 +2,7 @@
 
 ## Me
 - Applying for my university's NMUN 2027 delegation (NMUN•NY, March–April 2027).
-- Selection interview: **Sunday 8 November 2026, 8:30 pm** (Nadia Younes Conference Room P131, HUSS). A mock conference comes in late November; not the focus yet.
+- Selection interview: **Thursday 12 November 2026, 1:45 pm** (last known room: Nadia Younes Conference Room P131, HUSS). A mock conference comes in late November; not the focus yet.
 - Experience: two high-school MUN conferences, not taken seriously. Effectively a first-timer.
 - Not naturally outgoing. Speaking under pressure is the main thing to train.
 - I've studied exactly the material in `01_un_core.md` and `05_mozambique_and_topics.md`, with flashcards on the same facts.
@@ -20,8 +20,8 @@
 - Acceptance is to the delegation as a whole, so the committee choice was made purely for interview strength.
 
 ## Where I am
-- By the end of Saturday 31 October I'll have read all the material once (UN core on Friday, everything else on Saturday). From Sunday 1 November it's mocks and drills.
-- Mock #1 (45 min) is on Saturday night; then 60 min on Sunday 1, 90 min on Wednesday 4 and 2 hours on Thursday 5 November.
+- I read all the material once but retained about half, and did one weak mock. From 2 to 6 November I'm re-reading everything and redoing the flashcards.
+- Mocks: 60 min on Saturday 7, 90 min on Monday 9 and 2 hours on Tuesday 10 November.
 
 ## Known weak spots (update after each session)
 - Speaking confidently under pressure.
