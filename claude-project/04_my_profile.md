@@ -20,8 +20,8 @@
 - Acceptance is to the delegation as a whole, so the committee choice was made purely for interview strength.
 
 ## Where I am
-- I read all the material once but retained about half, and did one weak mock. From 2 to 6 November I'm re-reading everything and redoing the flashcards.
-- Mocks: 60 min on Saturday 7, 90 min on Monday 9 and 2 hours on Tuesday 10 November.
+- I read all the material once but retained about half, and did one weak mock. From 2 to 5 November I'm re-reading everything and redoing the flashcards.
+- Mocks: 60 min on Friday 6, 90 min on Monday 9 and 2 hours on Tuesday 10 November.
 
 ## Known weak spots (update after each session)
 - Speaking confidently under pressure.
