@@ -146,14 +146,6 @@ window.PLAN = {
           "key": "v6:2026-11-02#8"
         },
         {
-          "kind": "voice",
-          "text": "Voice quiz: UN foundations",
-          "mins": 20,
-          "say": "Rapid-fire on UN history, the Charter and membership.",
-          "when": "Tonight + 5:15–6:15 pm",
-          "key": "v6:2026-11-02#9"
-        },
-        {
           "kind": "read",
           "text": "Read The General Assembly and its six committees",
           "mins": 16,
@@ -209,14 +201,6 @@ window.PLAN = {
           "key": "v8:2026-11-02#16"
         },
         {
-          "kind": "voice",
-          "text": "Voice quiz: principal organs",
-          "mins": 20,
-          "say": "Rapid-fire on the principal organs.",
-          "when": "Evening",
-          "key": "v8:2026-11-02#17"
-        },
-        {
           "kind": "read",
           "text": "Read Mozambique: country profile",
           "mins": 35,
@@ -254,14 +238,6 @@ window.PLAN = {
           "mins": 10,
           "when": "Evening",
           "key": "v8:2026-11-02#22"
-        },
-        {
-          "kind": "voice",
-          "text": "Voice quiz: Mozambique",
-          "mins": 20,
-          "say": "Rapid-fire on Mozambique's profile and its record at the UN.",
-          "when": "Evening",
-          "key": "v8:2026-11-02#23"
         },
         {
           "kind": "read",
@@ -317,14 +293,6 @@ window.PLAN = {
           "mins": 10,
           "when": "Late",
           "key": "v8:2026-11-02#30"
-        },
-        {
-          "kind": "voice",
-          "text": "Voice quiz: the two GA1 topics",
-          "mins": 20,
-          "say": "Rapid-fire on private military companies and lethal autonomous weapons.",
-          "when": "Late",
-          "key": "v8:2026-11-02#31"
         }
       ]
     },
@@ -395,14 +363,6 @@ window.PLAN = {
           "mins": 10,
           "when": "Evening",
           "key": "v8:2026-11-03#7"
-        },
-        {
-          "kind": "voice",
-          "text": "Voice quiz: UNHCR and its two topics",
-          "mins": 20,
-          "say": "Rapid-fire on UNHCR, psychosocial support and migration routes.",
-          "when": "Evening",
-          "key": "v8:2026-11-03#8"
         }
       ]
     },
@@ -434,14 +394,6 @@ window.PLAN = {
           "href": "#cards/session/unit:situations",
           "when": "9:30 pm",
           "key": "v8:2026-11-04#2"
-        },
-        {
-          "kind": "voice",
-          "text": "Voice quiz: situational questions",
-          "mins": 20,
-          "say": "Situational round.",
-          "when": "9:30 pm",
-          "key": "v8:2026-11-04#3"
         },
         {
           "kind": "read",
@@ -537,14 +489,6 @@ window.PLAN = {
           "unit": "modelanswers",
           "when": "Evening",
           "key": "v8:2026-11-04#15"
-        },
-        {
-          "kind": "voice",
-          "text": "Voice quiz: mixed",
-          "mins": 20,
-          "say": "Rapid-fire on my two committees, my four topics and the UN basics.",
-          "when": "Before 1:30 am",
-          "key": "v8:2026-11-04#16"
         }
       ]
     },
