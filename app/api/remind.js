@@ -24,7 +24,7 @@ function loadPlan() {
 
 function buildMessage(today) {
   const plan = loadPlan();
-  const left = Math.round((new Date((plan && plan.interviewDate) || '2026-11-08') - new Date(today)) / 86400000);
+  const left = Math.round((new Date((plan && plan.interviewDate) || '2026-11-12') - new Date(today)) / 86400000);
   const day = plan && plan.days.find((d) => d.date === today);
   if (day && left > 0) {
     const level = (plan.levels[day.level] || {}).label || '';

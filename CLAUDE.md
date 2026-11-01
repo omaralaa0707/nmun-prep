@@ -1,6 +1,6 @@
 # NMUN 2027 interview prep
 
-This folder is a study system for one goal: the user's NMUN 2027 delegation selection interview on **Sunday 8 November 2026 at 8:30 pm** (Nadia Younes Conference Room P131, HUSS). Delegation: **Mozambique**, committees **GA1** (first preference) and **UNHCR** (second). Acceptance is to the delegation as a whole. Interviews last year often ran 1–2 hours, rarely 3–4. The user has no real MUN experience; weak spots are speaking confidence, facts and country policy.
+This folder is a study system for one goal: the user's NMUN 2027 delegation selection interview on **Thursday 12 November 2026 at 1:45 pm** (postponed from 8 November; last known room: Nadia Younes Conference Room P131, HUSS). Delegation: **Mozambique**, committees **GA1** (first preference) and **UNHCR** (second). Acceptance is to the delegation as a whole. Interviews last year often ran 1–2 hours, rarely 3–4. The user has no real MUN experience; weak spots are speaking confidence, facts and country policy.
 
 ## How the user likes to work
 - Discuss before building. Propose, then wait for a yes on anything big.
@@ -10,11 +10,11 @@ This folder is a study system for one goal: the user's NMUN 2027 delegation sele
 
 ## What's in here
 - `app/`: the study web app, live at https://nmun-prep.vercel.app (Vercel project `nmun-prep`). Vanilla JS with hash routing. Two tabs: **Plan** and **Flashcards**.
-  - `app/data/plan.js`: the day-by-day plan (30 Oct – 8 Nov), `interviewDate`, `readingsUrl`, `docLinks` (unit id → Doc heading URL). Every task has an explicit `key` so ticks survive reshuffles: never change an existing key. Tasks support `when`, `unit`, `href`, `say`, `mins`.
+  - `app/data/plan.js`: the day-by-day plan, `interviewDate`, `readingsUrl`, `docLinks` (unit id → Doc heading URL). Every task has an explicit `key` so ticks survive reshuffles: never change an existing key. Tasks support `when`, `unit`, `href`, `say`, `mins`.
   - Unit content: `units.js`, `units2.js`, `depth1.js`, `depth2.js` (UN foundations, organs, law, skills) and `mine1.js` / `mine2.js` (`window.UNITS_MINE`, group "My delegation: Mozambique": moz, mozrecord, ga1, pmsc, laws, unhcr, mhpss, routes, situations).
   - Flashcards: `cards.js`, `cards2.js`, `cards_mine.js` as `[unitId, front, back]`. Card IDs derive from unit id + front text, so edit fronts sparingly (editing a back is safe). 644 cards in total.
   - `app.js`: `NEW_PER_DAY` (currently 401) and `CARDS_RESET` (progress older than this timestamp is ignored). Cards are introduced in reading order. There is a "Due only" deck at `#cards/session/due:all`.
-  - After any change to `app/`, bump the `?v=N` cache-buster on every script tag in `app/index.html` (currently `v=26`).
+  - After any change to `app/`, bump the `?v=N` cache-buster on every script tag in `app/index.html` (currently `v=28`).
   - `app/api/progress.js` syncs progress to Vercel Blob; `app/api/remind.js` + `push.js` send the 8:20 pm Cairo push reminder. Secrets (`APP_PASSWORD`, `REMIND_SECRET`, `BLOB_READ_WRITE_TOKEN`) live only in Vercel env vars. Never write them into files, commits or chat.
 - `claude-project/`: instructions and knowledge files for the claude.ai Project "NMUN Interview Coach", which is only an interview coach (no study planning). `01_un_core.md` and `05_mozambique_and_topics.md` are generated from the readings Google Doc: after Doc changes, save the Docs connector's `read_doc` JSON and run `node claude-project/build-from-doc.mjs <doc.json> claude-project`, then tell the user which files to re-upload. See `claude-project/SETUP.md`.
 - `docs/`, `archive/`: generated Doc HTML and older versions of files (plans, data) kept for reference.
@@ -33,8 +33,5 @@ Pushing to `main` deploys to production automatically (Vercel is linked to this 
 No moderated or unmoderated caucuses: informal debate is a "motion to suspend the meeting". Only points of order exist (no personal privilege, inquiry or information). Working papers need sponsors plus signatories equal to 20% of the committee. Closure of debate needs a two-thirds vote. No pre-written or AI-written clauses.
 
 ## The plan (summary)
-- Fri 30 Oct: UN foundations to the Secretariat (400 new cards).
-- Sat 31 Oct: all the remaining readings (Mozambique through the end of the Doc), then all the remaining new cards, then Mock #1 (45 min). Nothing else.
-- Sun 1 Nov: Mock #2 (60 min). Mon 2: situational quiz. Tue 3: follow-up ladder on Mozambique's positions. Wed 4: Mock #3 (90 min). Thu 5: Mock #4 (2 hours). Fri 6: deep dives. Sat 7: final polish, stop by midnight. Sun 8: free until the interview.
-- A 20-minute voice quiz every non-mock day. Mocks run in the Coach Project.
+- The old plan (to 8 Nov) was deleted on 1 Nov and is being rebuilt with the user for 12 Nov. A copy is in `archive/plan-v5-nov8.js`.
 - Availability: Sun/Wed/Thu uni until 5:15, study 5:15–6:30, calisthenics 6:30–8:30, then study; Mon uni 10:30–5:15, then study; Tue free except 3–6; Fri and Sat full days; bedtime around 2 am. Cards can be done in class on the phone.
