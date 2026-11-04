@@ -28,7 +28,7 @@ function buildMessage(today) {
   const day = plan && plan.days.find((d) => d.date === today);
   if (day && left > 0) {
     const level = (plan.levels[day.level] || {}).label || '';
-    return { title: `Study time · ${level}`, body: `${day.title}. ${day.tasks.length} tasks · ${left} day${left === 1 ? '' : 's'} to the interview.`, url: '/#plan' };
+    return { title: level ? `Study time · ${level}` : 'Study time', body: `${day.title}. ${day.tasks.length} tasks · ${left} day${left === 1 ? '' : 's'} to the interview.`, url: '/#plan' };
   }
   if (left > 0) return { title: 'Study time', body: `${left} day${left === 1 ? '' : 's'} to the interview. Flashcards first, then your next reading unit.`, url: '/#cards' };
   if (left === 0) return null; // the 8:20 pm reminder would arrive after the 1:45 pm interview

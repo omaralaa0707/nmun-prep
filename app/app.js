@@ -261,7 +261,7 @@
       <summary>
         <span class="pd-date"><span class="mono">${esc(dayLabel(d))}</span>${current ? '<span class="chip accent">Today</span>' : ''}</span>
         <span class="pd-title">${esc(d.title)}</span>
-        <span class="row"><span class="chip level-${d.level}">${esc(lv.label || '')} · ${esc(lv.hours || '')}</span><span class="chip done-count">${done}/${d.tasks.length} done</span><span class="chip">${fmtMins(mins)} planned</span></span>
+        <span class="row">${lv.label ? `<span class="chip level-${d.level}">${esc(lv.label)} · ${esc(lv.hours || '')}</span>` : ''}<span class="chip done-count">${done}/${d.tasks.length} done</span><span class="chip">${fmtMins(mins)} planned</span></span>
       </summary>
       <ul class="tasks">${d.tasks.map((t, i) => taskRow(d, t, i)).join('')}</ul>
     </details>`;
@@ -404,6 +404,8 @@
     const fresh = list.filter((c) => !cardState(c.id)).slice(0, newLeft);
     let queue = [...due, ...fresh];
     let reviewed = 0; let flipped = false; let current = null; let cram = false;
+    let back = []; // cards already passed this session, for Previous
+    const done = new Set(); // graded this session and not coming back, so a revisit can't grade them twice
     const title = dueOnly ? 'Due cards' : scope === 'all' ? 'All units' : scope.startsWith('unit:') ? (unitById[scope.slice(5)] || {}).title : decodeURIComponent(scope.slice(6));
 
     // Past the daily limit: pull more unseen cards into this session.
@@ -415,17 +417,26 @@
     // Cram: run through every card in the deck. Seen cards keep their schedule; new ones get scheduled normally.
     function startCram() {
       cram = true;
+      back = []; done.clear();
       queue = shuffle(list);
       render();
     }
 
+    // Skipped: passed with Next and never graded. They keep their schedule.
+    function skippedCards() {
+      const seen = new Set();
+      return back.filter((c) => !done.has(c.id) && !seen.has(c.id) && seen.add(c.id));
+    }
     function render() {
       current = queue.shift();
       if (!current) {
         const c = scopeCounts(list);
+        const skipped = skippedCards();
         view.innerHTML = `<div class="narrow stack"><a href="#cards" class="muted">← Decks</a>
-          <div class="panel stack"><p class="eyebrow">${esc(title)}</p><h1>${reviewed ? 'Session done' : 'Nothing due right now'}</h1>
+          <div class="panel stack"><p class="eyebrow">${esc(title)}</p><h1>${skipped.length ? 'End of the cards' : reviewed ? 'Session done' : 'Nothing due right now'}</h1>
           ${reviewed ? `<p>You reviewed <strong>${reviewed}</strong> card${reviewed === 1 ? '' : 's'}.</p>` : ''}
+          ${skipped.length ? `<p>You skipped <strong>${skipped.length}</strong> card${skipped.length === 1 ? '' : 's'}. Skipped cards keep their schedule.</p>
+          <div class="row"><button class="btn primary" id="review-skipped">Go through ${skipped.length} skipped</button><button class="btn" id="prev-end">← Previous</button></div>` : ''}
           <p class="muted">${c.fresh ? `${c.fresh} new card${c.fresh === 1 ? '' : 's'} left in this deck. You can keep going past today's limit.` : 'Every card in this deck has been seen at least once.'}</p>
           <div class="row">
             ${c.fresh ? `<button class="btn primary" id="more-20">Keep going: ${Math.min(20, c.fresh)} more new</button>` : ''}
@@ -437,23 +448,40 @@
         const m20 = $('#more-20'); if (m20) m20.addEventListener('click', () => addNew(20));
         const mAll = $('#more-all'); if (mAll) mAll.addEventListener('click', () => addNew(Infinity));
         $('#cram').addEventListener('click', startCram);
+        const rs = $('#review-skipped'); if (rs) rs.addEventListener('click', () => { queue = skipped; back = []; render(); });
+        const pe = $('#prev-end'); if (pe) pe.addEventListener('click', goPrev);
         return;
       }
       flipped = false;
       const s = cardState(current.id);
       const unit = unitById[current.unit];
       view.innerHTML = `<div class="narrow stack">
-        <div class="row between"><a href="#cards" class="muted">← Decks</a><span class="row">${cram ? '<span class="chip warn">Cram</span>' : ''}<span class="chip">${queue.length + 1} left</span>${s ? '' : '<span class="chip accent">New</span>'}</span></div>
+        <div class="row between"><a href="#cards" class="muted">← Decks</a><span class="row">${cram ? '<span class="chip warn">Cram</span>' : ''}<span class="chip">${queue.filter((c) => !done.has(c.id)).length + (done.has(current.id) ? 0 : 1)} left</span>${s ? '' : '<span class="chip accent">New</span>'}</span></div>
         <div class="flash" id="flash">
           <p class="eyebrow">${esc(unit ? unit.title : '')}</p>
           <div class="front">${esc(current.front)}</div>
           <div class="back" id="back" hidden>${esc(current.back)}</div>
         </div>
         <div id="controls"><button class="btn primary" id="show" style="width:100%">Show answer <span class="kbd">Space</span></button></div>
-        <div class="row" style="justify-content:flex-end"><button type="button" class="btn ghost" id="del-card" title="Remove this card for good (5 seconds to undo)">Delete card</button></div>
+        <div class="row between"><span class="row"><button type="button" class="btn ghost" id="prev-card" ${back.length ? '' : 'disabled'}>← Previous</button><button type="button" class="btn ghost" id="next-card" title="Move on without grading. The card keeps its schedule.">Next →</button></span><button type="button" class="btn ghost" id="del-card" title="Remove this card for good (5 seconds to undo)">Delete card</button></div>
       </div>`;
       $('#show').addEventListener('click', flip);
       $('#del-card').addEventListener('click', deleteCurrent);
+      $('#prev-card').addEventListener('click', goPrev);
+      $('#next-card').addEventListener('click', goNext);
+    }
+    function goNext() {
+      if (!current) return;
+      back.push(current);
+      render();
+    }
+    function goPrev() {
+      if (!back.length) return;
+      if (current) queue.unshift(current);
+      const card = back.pop();
+      queue = queue.filter((c) => c.id !== card.id);
+      queue.unshift(card);
+      render();
     }
     function deleteCurrent() {
       if (!current) return;
@@ -462,6 +490,7 @@
       rebuildCards();
       list = list.filter((c) => c.id !== card.id);
       queue = queue.filter((c) => c.id !== card.id);
+      back = back.filter((c) => c.id !== card.id);
       undoBar('Card deleted', () => {
         put('deleted', card.id, { x: 0 });
         rebuildCards();
@@ -475,17 +504,20 @@
     function flip() {
       if (flipped || !current) return;
       flipped = true; $('#back').hidden = false;
+      if (done.has(current.id)) { $('#controls').innerHTML = '<p class="muted" style="margin:0">Already graded this session.</p>'; return; }
       const s = cardState(current.id); const now = Date.now();
       const labels = [['again', 'Again', 1], ['hard', 'Hard', 2], ['good', 'Good', 3], ['easy', 'Easy', 4]];
       $('#controls').innerHTML = `<div class="grades">${labels.map(([cls, label, g]) => `<button class="grade ${cls}" data-g="${g}">${label}<small>${fmtInterval(schedule(s, g, now).d - now)} · ${g}</small></button>`).join('')}</div>`;
       $('#controls').querySelectorAll('[data-g]').forEach((b) => b.addEventListener('click', () => grade(Number(b.dataset.g))));
     }
     function grade(g) {
-      if (!flipped || !current) return;
+      if (!flipped || !current || done.has(current.id)) return;
+      back.push(current);
       const wasNew = !cardState(current.id);
       reviewed++;
       if (cram && !wasNew) {
         if (g === 1) queue.splice(Math.min(queue.length, 3), 0, current);
+        else done.add(current.id);
         render();
         return;
       }
@@ -493,12 +525,15 @@
       put('cards', current.id, st);
       if (wasNew) put('newLog', todayKey(), { n: newToday() + 1 });
       if (st.d - Date.now() < 20 * 60 * 1000) queue.splice(Math.min(queue.length, g === 1 ? 3 : 6), 0, current);
+      else done.add(current.id);
       render();
     }
     keyHandler = (e) => {
       if (e.target.matches('input, select, textarea')) return;
       if (e.code === 'Space' || e.key === 'Enter') { e.preventDefault(); flip(); }
       else if (['1', '2', '3', '4'].includes(e.key)) grade(Number(e.key));
+      else if (e.key === 'ArrowRight') goNext();
+      else if (e.key === 'ArrowLeft') goPrev();
     };
     render();
   }

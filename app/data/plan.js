@@ -11,17 +11,9 @@ window.PLAN = {
     "2026-11-07": 216
   },
   "levels": {
-    "most": {
-      "label": "Full study day",
-      "hours": "all day"
-    },
     "some": {
       "label": "Free except 3–6 pm",
       "hours": "~10 h"
-    },
-    "least": {
-      "label": "Uni + calisthenics",
-      "hours": "~5 h"
     },
     "interview": {
       "label": "Interview 1:45 pm",
