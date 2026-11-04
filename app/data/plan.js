@@ -5,10 +5,10 @@
 window.PLAN = {
   "interviewDate": "2026-11-12",
   "newCards": {
-    "2026-11-04": 204,
-    "2026-11-05": 144,
-    "2026-11-06": 95,
-    "2026-11-07": 118
+    "2026-11-04": 448,
+    "2026-11-05": 238,
+    "2026-11-06": 187,
+    "2026-11-07": 216
   },
   "levels": {
     "most": {
@@ -75,8 +75,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: UN foundations (105 new + any due)",
-          "mins": 71,
+          "text": "Flashcards: UN foundations (228 new + any due)",
+          "mins": 103,
           "href": "#cards/session/group:UN%20foundations",
           "key": "v9:2026-11-04#5"
         },
@@ -112,8 +112,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Principal organs (99 new + any due)",
-          "mins": 67,
+          "text": "Flashcards: Principal organs (220 new + any due)",
+          "mins": 99,
           "href": "#cards/session/group:Principal%20organs",
           "key": "v9:2026-11-04#11"
         },
@@ -163,8 +163,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Law, rights and security (55 new + any due)",
-          "mins": 37,
+          "text": "Flashcards: Law, rights and security (129 new + any due)",
+          "mins": 58,
           "href": "#cards/session/group:Law%2C%20rights%20and%20security",
           "key": "v9:2026-11-05#5"
         },
@@ -176,8 +176,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Mozambique: country profile (45 new + any due)",
-          "mins": 31,
+          "text": "Flashcards: Mozambique: country profile (76 new + any due)",
+          "mins": 34,
           "href": "#cards/session/unit:moz",
           "key": "v9:2026-11-05#7"
         },
@@ -189,8 +189,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Mozambique record (15 new + any due)",
-          "mins": 10,
+          "text": "Flashcards: Mozambique record (28 new + any due)",
+          "mins": 13,
           "href": "#cards/session/unit:mozrecord",
           "key": "v9:2026-11-05#9"
         },
@@ -202,8 +202,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Interview: your pitch, NMUN rules and situations (29 new + any due)",
-          "mins": 20,
+          "text": "Flashcards: Interview: your pitch, NMUN rules and situations (5 new + any due)",
+          "mins": 5,
           "href": "#cards/session/unit:situations",
           "key": "v9:2026-11-05#11"
         },
@@ -229,8 +229,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: GA First Committee (44 new + any due)",
-          "mins": 30,
+          "text": "Flashcards: GA First Committee (79 new + any due)",
+          "mins": 36,
           "href": "#cards/session/unit:ga1",
           "key": "v9:2026-11-06#1"
         },
@@ -242,8 +242,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Private military and security companies (27 new + any due)",
-          "mins": 18,
+          "text": "Flashcards: Private military and security companies (58 new + any due)",
+          "mins": 26,
           "href": "#cards/session/unit:pmsc",
           "key": "v9:2026-11-06#3"
         },
@@ -255,8 +255,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Lethal autonomous weapon systems (24 new + any due)",
-          "mins": 16,
+          "text": "Flashcards: Lethal autonomous weapon systems (50 new + any due)",
+          "mins": 23,
           "href": "#cards/session/unit:laws",
           "key": "v9:2026-11-06#5"
         },
@@ -282,8 +282,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: UNHCR (62 new + any due)",
-          "mins": 42,
+          "text": "Flashcards: UNHCR (97 new + any due)",
+          "mins": 44,
           "href": "#cards/session/unit:unhcr",
           "key": "v9:2026-11-07#1"
         },
@@ -295,8 +295,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Psychosocial support (31 new + any due)",
-          "mins": 21,
+          "text": "Flashcards: Psychosocial support (66 new + any due)",
+          "mins": 30,
           "href": "#cards/session/unit:mhpss",
           "key": "v9:2026-11-07#3"
         },
@@ -308,8 +308,8 @@ window.PLAN = {
         },
         {
           "kind": "cards",
-          "text": "Flashcards: Protection along migration routes (25 new + any due)",
-          "mins": 17,
+          "text": "Flashcards: Protection along migration routes (53 new + any due)",
+          "mins": 24,
           "href": "#cards/session/unit:routes",
           "key": "v9:2026-11-07#5"
         },

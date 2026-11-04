@@ -276,3 +276,7 @@ input[type="password"], input[type="text"], select {
 .say-line { margin-top: 6px; font-size: 0.9375rem; display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
 .say-line q { font-family: var(--display); }
 .rules { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+
+.toast.undo { display: flex; align-items: center; gap: 14px; }
+.toast.undo[hidden] { display: none; }
+.undo-btn { background: transparent; border: 0; color: var(--paper); font: inherit; font-weight: 700; text-decoration: underline; cursor: pointer; padding: 4px 6px; }

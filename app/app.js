@@ -2,11 +2,11 @@
   'use strict';
 
   const UNITS = window.UNITS || [];
-  const CARDS_RAW = (window.CARDS || []).concat(window.CARDS_MORE || [], window.CARDS_MINE || []);
+  const CARDS_RAW = window.CARDS || [];
 
   const DAY = 86400000;
   const MAX_INTERVAL_DAYS = 10;
-  const CARDS_RESET = Date.parse('2026-11-01T22:18:22.000Z'); // flashcard progress from before this moment is ignored (fresh start)
+  const CARDS_RESET = Date.parse('2026-11-04T18:40:00.000Z'); // flashcard progress from before this moment is ignored (fresh start)
   const LS_PROGRESS = 'nmun.progress.v1';
   const LS_PW = 'nmun.pw';
 
@@ -25,6 +25,16 @@
     const t = $('#toast'); t.textContent = msg; t.hidden = false;
     clearTimeout(toast._t); toast._t = setTimeout(() => { t.hidden = true; }, 2200);
   }
+  // Bar with an Undo button that stays for 5 seconds.
+  function undoBar(msg, onUndo) {
+    let b = $('#undo-bar');
+    if (!b) { b = document.createElement('div'); b.id = 'undo-bar'; b.className = 'toast undo'; b.setAttribute('role', 'status'); document.body.appendChild(b); }
+    b.innerHTML = `<span>${esc(msg)}</span> <button type="button" class="undo-btn">Undo</button>`;
+    b.hidden = false;
+    clearTimeout(undoBar._t);
+    undoBar._t = setTimeout(() => { b.hidden = true; }, 5000);
+    b.querySelector('button').addEventListener('click', () => { clearTimeout(undoBar._t); b.hidden = true; onUndo(); });
+  }
   async function copyText(text, el) {
     try { await navigator.clipboard.writeText(text); toast('Copied'); }
     catch {
@@ -38,12 +48,16 @@
   const GROUPS = [...new Set(UNITS.map((u) => u.group))];
   // New cards are introduced in reading order (foundations, organs, delegation, then the rest).
   const unitOrder = Object.fromEntries(UNITS.map((u, i) => [u.id, i]));
-  const CARDS = CARDS_RAW.map(([unit, front, back]) => ({ id: `${unit}:${hash(front)}`, unit, front, back }))
+  const ALL_CARDS = CARDS_RAW.map(([unit, front, back]) => ({ id: `${unit}:${hash(front)}`, unit, front, back }))
     .map((c, i) => [c, i]).sort((a, b) => ((unitOrder[a[0].unit] ?? 1e9) - (unitOrder[b[0].unit] ?? 1e9)) || a[1] - b[1]).map(([c]) => c);
+  // Cards the user deleted (synced in progress.deleted) are hidden everywhere.
+  let CARDS = ALL_CARDS;
+  const isDeleted = (id) => { const e = P.deleted[id]; return !!(e && e.x); };
+  function rebuildCards() { CARDS = ALL_CARDS.filter((c) => !isDeleted(c.id)); }
   const groupOf = (unitId) => (unitById[unitId] ? unitById[unitId].group : 'Other');
 
   // ---------- progress store (local-first, merged per entry by timestamp) ----------
-  const SECTIONS = ['cards', 'quiz', 'read', 'plan', 'speak', 'newLog', 'settings'];
+  const SECTIONS = ['cards', 'quiz', 'read', 'plan', 'speak', 'newLog', 'settings', 'deleted'];
   function emptyProgress() { const p = { v: 1 }; SECTIONS.forEach((s) => { p[s] = {}; }); return p; }
   function loadLocal() {
     try { const p = JSON.parse(lsGet(LS_PROGRESS)); if (p && p.v === 1) { SECTIONS.forEach((s) => { p[s] = p[s] || {}; }); return p; } } catch { /* fall through */ }
@@ -62,6 +76,7 @@
     return out;
   }
   let P = loadLocal();
+  rebuildCards();
   const setting = (k, def) => (P.settings[k] ? P.settings[k].v : def);
   function put(section, key, value) {
     P[section][key] = { ...value, t: Date.now() };
@@ -97,7 +112,7 @@
       const got = await api('GET');
       if (got.status === 401) { syncMode = 'local'; lsDel(LS_PW); pill('err', 'Signed out'); return; }
       if (got.status !== 200) throw new Error(String(got.status));
-      P = merge(P, got.data.progress);
+      P = merge(P, got.data.progress); rebuildCards();
       lsSet(LS_PROGRESS, JSON.stringify(P));
       const putRes = await api('PUT', { progress: P });
       if (putRes.status !== 200) throw new Error(String(putRes.status));
@@ -110,7 +125,7 @@
     if (syncMode !== 'remote') return;
     try {
       const got = await api('GET');
-      if (got.status === 200) { P = merge(P, got.data.progress); lsSet(LS_PROGRESS, JSON.stringify(P)); pill('ok', 'Synced'); route(); }
+      if (got.status === 200) { P = merge(P, got.data.progress); rebuildCards(); lsSet(LS_PROGRESS, JSON.stringify(P)); pill('ok', 'Synced'); route(); }
     } catch { pill('err', 'Offline'); }
   }
 
@@ -124,7 +139,7 @@
     if (probe.status === 503) { syncMode = 'nostore'; startApp(); pill('err', 'Not synced'); toast('Sync storage is not connected yet. Progress stays on this device.'); return; }
     if (probe.status === 200) {
       syncMode = 'remote';
-      P = merge(P, probe.data.progress); lsSet(LS_PROGRESS, JSON.stringify(P));
+      P = merge(P, probe.data.progress); rebuildCards(); lsSet(LS_PROGRESS, JSON.stringify(P));
       startApp(); pill('ok', 'Synced'); scheduleSync(); return;
     }
     syncMode = 'local'; startApp(); pill('err', 'Offline');
@@ -382,7 +397,7 @@
   function viewSession(view, scope) {
     const dueOnly = scope.startsWith('due:'); // "due:<scope>" reviews due cards only, no new ones
     if (dueOnly) scope = scope.slice(4);
-    const list = cardsInScope(scope);
+    let list = cardsInScope(scope);
     const now = Date.now();
     const due = list.filter((c) => isDue(c, now)).sort((a, b) => cardState(a.id).d - cardState(b.id).d);
     const newLeft = dueOnly ? 0 : newLeftToday();
@@ -435,8 +450,27 @@
           <div class="back" id="back" hidden>${esc(current.back)}</div>
         </div>
         <div id="controls"><button class="btn primary" id="show" style="width:100%">Show answer <span class="kbd">Space</span></button></div>
+        <div class="row" style="justify-content:flex-end"><button type="button" class="btn ghost" id="del-card" title="Remove this card for good (5 seconds to undo)">Delete card</button></div>
       </div>`;
       $('#show').addEventListener('click', flip);
+      $('#del-card').addEventListener('click', deleteCurrent);
+    }
+    function deleteCurrent() {
+      if (!current) return;
+      const card = current;
+      put('deleted', card.id, { x: 1 });
+      rebuildCards();
+      list = list.filter((c) => c.id !== card.id);
+      queue = queue.filter((c) => c.id !== card.id);
+      undoBar('Card deleted', () => {
+        put('deleted', card.id, { x: 0 });
+        rebuildCards();
+        list = cardsInScope(scope);
+        if (current) queue.unshift(current);
+        queue.unshift(card);
+        render();
+      });
+      render();
     }
     function flip() {
       if (flipped || !current) return;
