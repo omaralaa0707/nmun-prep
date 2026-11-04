@@ -218,8 +218,6 @@
   const PLAN = window.PLAN || { days: [], levels: {}, rules: [] };
   const KIND_LABEL = { cards: 'Flashcards', read: 'Read', voice: 'Voice', write: 'Write', chat: 'Claude Code', news: 'News', other: 'Task' };
   const KIND_CLASS = { cards: '', read: 'accent', voice: 'warn', write: 'good', chat: 'good', news: '', other: '' };
-  // Readings live in a Google Doc; each unit links to its heading there.
-  const docLink = (unitId) => (PLAN.docLinks && PLAN.docLinks[unitId]) || PLAN.readingsUrl || '';
   const taskKey = (day, i) => day.tasks[i].key || `v4:${day.date}#${i}`; // explicit keys keep ticks stable when tasks are removed
   const isDone = (day, i) => !!(P.plan[taskKey(day, i)] && P.plan[taskKey(day, i)].v);
   function todayIndex() {
@@ -232,8 +230,7 @@
   function dayLabel(d) { return parseDay(d.date).toLocaleDateString(undefined, { weekday: 'long', day: 'numeric', month: 'short' }); }
   function taskRow(day, t, i) {
     const done = isDone(day, i); const id = `task-${day.date}-${i}`;
-    const doc = t.unit && docLink(t.unit);
-    const link = doc ? `<a href="${doc}" target="_blank" rel="noopener">Open in Doc</a>` : t.href ? `<a href="${t.href}">Open</a>` : '';
+    const link = t.href ? `<a href="${t.href}">Open</a>` : '';
     return `<li class="task ${done ? 'done' : ''}">
       <input type="checkbox" id="${id}" data-day="${day.date}" data-i="${i}" ${done ? 'checked' : ''}>
       <div><label for="${id}" class="task-text">${esc(t.text)}</label>
@@ -367,7 +364,7 @@
     view.innerHTML = `<div class="stack-lg">
       <div class="page-head"><p class="eyebrow">Spaced repetition</p><h1>Flashcards</h1>
         <p class="muted">Grade yourself honestly. "Again" brings a card back in a minute; "Good" pushes it out by days. Intervals are capped at ${MAX_INTERVAL_DAYS} days so everything comes back before the interview.</p></div>
-      <section class="deck-grid">${(() => { const n = scopeCounts(CARDS).due; return `<a class="deck" href="#cards/session/due:all"><span class="t">Due only</span><span class="muted">Reviews that are due, no new cards</span><span class="row"><span class="chip ${n ? 'warn' : ''}">${n} due</span></span></a>`; })()}${deckBtn('all', 'Everything', 'All units together')}${PLAN.readingsUrl ? `<a class="deck" href="${PLAN.readingsUrl}" target="_blank" rel="noopener"><span class="t">Readings</span><span class="muted">Google Doc with every unit</span></a>` : ''}</section>
+      <section class="deck-grid">${(() => { const n = scopeCounts(CARDS).due; return `<a class="deck" href="#cards/session/due:all"><span class="t">Due only</span><span class="muted">Reviews that are due, no new cards</span><span class="row"><span class="chip ${n ? 'warn' : ''}">${n} due</span></span></a>`; })()}${deckBtn('all', 'Everything', 'All units together')}</section>
       ${GROUPS.map((g) => {
         const units = UNITS.filter((u) => u.group === g && CARDS.some((c) => c.unit === u.id));
         if (!units.length) return '';
