@@ -31,134 +31,9 @@ window.PLAN = {
   ],
   "days": [
     {
-      "date": "2026-11-04",
-      "level": "least",
-      "title": "UN Basics + flashcards",
-      "tasks": [
-        {
-          "kind": "read",
-          "text": "Read The League of Nations",
-          "mins": 18,
-          "key": "v9:2026-11-04#0"
-        },
-        {
-          "kind": "read",
-          "text": "Read Road to the UN",
-          "mins": 20,
-          "key": "v9:2026-11-04#1"
-        },
-        {
-          "kind": "read",
-          "text": "Read The UN Charter",
-          "mins": 9,
-          "key": "v9:2026-11-04#2"
-        },
-        {
-          "kind": "read",
-          "text": "Read Membership",
-          "mins": 20,
-          "key": "v9:2026-11-04#3"
-        },
-        {
-          "kind": "read",
-          "text": "Read The UN system, money and agenda",
-          "mins": 8,
-          "key": "v9:2026-11-04#4"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: UN foundations (139 new + any due)",
-          "mins": 83,
-          "href": "#cards/session/group:UN%20foundations",
-          "key": "v9:2026-11-04#5"
-        },
-        {
-          "kind": "read",
-          "text": "Read The General Assembly",
-          "mins": 17,
-          "key": "v9:2026-11-04#6"
-        },
-        {
-          "kind": "read",
-          "text": "Read The Security Council",
-          "mins": 9,
-          "key": "v9:2026-11-04#7"
-        },
-        {
-          "kind": "read",
-          "text": "Read ECOSOC",
-          "mins": 9,
-          "key": "v9:2026-11-04#8"
-        },
-        {
-          "kind": "read",
-          "text": "Read The International Court of Justice",
-          "mins": 8,
-          "key": "v9:2026-11-04#9"
-        },
-        {
-          "kind": "read",
-          "text": "Read The Secretariat and the Secretary-General",
-          "mins": 20,
-          "key": "v9:2026-11-04#10"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: Principal organs (92 new + any due)",
-          "mins": 55,
-          "href": "#cards/session/group:Principal%20organs",
-          "key": "v9:2026-11-04#11"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-05",
-      "level": "least",
-      "title": "Law, rights and security + Mozambique + flashcards",
-      "tasks": [
-        {
-          "kind": "read",
-          "text": "Read International law essentials",
-          "mins": 23,
-          "key": "v9:2026-11-05#0"
-        },
-        {
-          "kind": "read",
-          "text": "Read The Human Rights Council",
-          "mins": 8,
-          "key": "v9:2026-11-05#1"
-        },
-        {
-          "kind": "read",
-          "text": "Read The Responsibility to Protect",
-          "mins": 6,
-          "key": "v9:2026-11-05#2"
-        },
-        {
-          "kind": "read",
-          "text": "Read Peacekeeping",
-          "mins": 15,
-          "key": "v9:2026-11-05#3"
-        },
-        {
-          "kind": "read",
-          "text": "Read SDGs and climate",
-          "mins": 3,
-          "key": "v9:2026-11-05#4"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: Law, rights and security (70 new + any due)",
-          "mins": 42,
-          "href": "#cards/session/group:Law%2C%20rights%20and%20security",
-          "key": "v9:2026-11-05#5"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "level": "most",
-      "title": "GA1 + flashcards",
+      "title": "Mozambique, GA1, UNHCR + flashcards",
       "tasks": [
         {
           "kind": "read",
@@ -224,14 +99,7 @@ window.PLAN = {
           "mins": 12,
           "href": "#cards/session/unit:laws",
           "key": "v9:2026-11-06#5"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-07",
-      "level": "most",
-      "title": "UNHCR + flashcards",
-      "tasks": [
+        },
         {
           "kind": "read",
           "text": "Read UNHCR: full committee sheet",

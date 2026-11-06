@@ -272,16 +272,14 @@
     const daysLeft = Math.max(0, Math.ceil((interview - parseDay(todayKey())) / DAY));
     const total = PLAN.days.reduce((n, d) => n + d.tasks.length, 0);
     const done = PLAN.days.reduce((n, d) => n + d.tasks.filter((t, i) => isDone(d, i)).length, 0);
-    const behind = PLAN.days.slice(0, Math.max(0, ti)).reduce((n, d) => n + d.tasks.filter((t, i) => !isDone(d, i)).length, 0);
     view.innerHTML = `<div class="narrow stack-lg">
       <section class="hero">
         <div class="page-head"><p class="eyebrow">Road to the interview</p><h1>Plan</h1>
-          <p class="muted">${done}/${total} tasks done${behind ? ` · <strong>${behind} unfinished from earlier days</strong>` : ''}</p></div>
+          <p class="muted">${done}/${total} tasks done</p></div>
         <div class="countdown"><div class="num">${daysLeft}</div><div class="muted">days to go<br><span class="mono">${esc(interview.toLocaleDateString(undefined, { day: 'numeric', month: 'short' }))}</span></div></div>
       </section>
       <div class="progress"><span style="width:${total ? Math.round((done / total) * 100) : 0}%"></span></div>
       <section class="stack">${PLAN.days.map((d, k) => (k >= ti ? dayBlock(d, k, k === ti) : '')).join('')}</section>
-      ${ti > 0 ? `<details class="panel"><summary class="muted">Earlier days (${ti})</summary><div class="stack" style="margin-top:12px">${PLAN.days.slice(0, ti).map((d, k) => dayBlock(d, k, false)).join('')}</div></details>` : ''}
       <section class="panel stack"><h3>Ground rules</h3><ul class="rules">${(PLAN.rules || []).map((r) => `<li>${esc(r)}</li>`).join('')}</ul></section>
     </div>`;
     view.querySelectorAll('input[data-day]').forEach((cb) => cb.addEventListener('change', () => {
