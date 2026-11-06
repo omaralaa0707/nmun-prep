@@ -108,13 +108,6 @@ window.PLAN = {
           "mins": 55,
           "href": "#cards/session/group:Principal%20organs",
           "key": "v9:2026-11-04#11"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "key": "v9:2026-11-04#12"
         }
       ]
     },
@@ -159,7 +152,14 @@ window.PLAN = {
           "mins": 42,
           "href": "#cards/session/group:Law%2C%20rights%20and%20security",
           "key": "v9:2026-11-05#5"
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "level": "most",
+      "title": "GA1 + flashcards",
+      "tasks": [
         {
           "kind": "read",
           "text": "Read Mozambique: country profile",
@@ -186,33 +186,6 @@ window.PLAN = {
           "href": "#cards/session/unit:mozrecord",
           "key": "v9:2026-11-05#9"
         },
-        {
-          "kind": "read",
-          "text": "Read Interview: questions about you",
-          "mins": 2,
-          "key": "v9:2026-11-05#10"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: Interview: your pitch, NMUN rules and situations (5 new + any due)",
-          "mins": 5,
-          "href": "#cards/session/unit:situations",
-          "key": "v9:2026-11-05#11"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "key": "v9:2026-11-05#12"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-06",
-      "level": "most",
-      "title": "GA1 + flashcards",
-      "tasks": [
         {
           "kind": "read",
           "text": "Read GA First Committee: full committee sheet",
@@ -251,13 +224,6 @@ window.PLAN = {
           "mins": 12,
           "href": "#cards/session/unit:laws",
           "key": "v9:2026-11-06#5"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "key": "v9:2026-11-06#6"
         }
       ]
     },
@@ -304,13 +270,6 @@ window.PLAN = {
           "mins": 16,
           "href": "#cards/session/unit:routes",
           "key": "v9:2026-11-07#5"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "key": "v9:2026-11-07#6"
         }
       ]
     },
@@ -326,14 +285,6 @@ window.PLAN = {
           "say": "Full mock, 60 minutes.",
           "when": "9:30 pm",
           "key": "v9:2026-11-08#0"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "when": "In class",
-          "key": "v9:2026-11-08#1"
         }
       ]
     },
@@ -349,14 +300,6 @@ window.PLAN = {
           "say": "Full mock, 60 minutes.",
           "when": "9:30 pm",
           "key": "v9:2026-11-09#0"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "when": "5:15–6:15 pm",
-          "key": "v9:2026-11-09#1"
         }
       ]
     },
@@ -372,14 +315,6 @@ window.PLAN = {
           "say": "Full mock, 60 minutes.",
           "when": "1:45 pm",
           "key": "v9:2026-11-10#0"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "when": "Morning",
-          "key": "v9:2026-11-10#1"
         }
       ]
     },
@@ -395,14 +330,6 @@ window.PLAN = {
           "say": "Full mock, 60 minutes.",
           "when": "9:30 pm",
           "key": "v9:2026-11-11#0"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: any due",
-          "mins": 30,
-          "href": "#cards/session/due:all",
-          "when": "In class",
-          "key": "v9:2026-11-11#1"
         }
       ]
     },
@@ -411,14 +338,6 @@ window.PLAN = {
       "level": "interview",
       "title": "Final review, then the interview",
       "tasks": [
-        {
-          "kind": "cards",
-          "text": "Flashcards: everything due",
-          "mins": 20,
-          "href": "#cards/session/due:all",
-          "when": "11:30 am",
-          "key": "v8:2026-11-12#0"
-        },
         {
           "kind": "read",
           "text": "Quick review of the delegation sections",
