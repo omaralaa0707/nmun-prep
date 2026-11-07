@@ -1,5 +1,5 @@
 // Interview plan, 4–12 Nov 2026 (interview Thursday 12 Nov, 1:45 pm). Mozambique: GA1 + UNHCR.
-// Read 7–8 Nov, one mock a day 9–11 Nov, final review 12 Nov. Cards: each day's new cards plus anything due.
+// Read 7–8 Nov, one mock a day 9–11 Nov. Cards: each day's new cards plus anything due.
 // newCards: cumulative new flashcards allowed per day, in deck order (see units.js); unused ones roll over. After the last date there is no limit.
 // kind: cards | read | voice | write | other. "when" is the time slot; "say" starts a Claude Project voice session. Never change an existing task key.
 window.PLAN = {
@@ -14,10 +14,6 @@ window.PLAN = {
     "some": {
       "label": "Free except 3–6 pm",
       "hours": "~10 h"
-    },
-    "interview": {
-      "label": "Interview 1:45 pm",
-      "hours": "light"
     }
   },
   "days": [
@@ -155,26 +151,6 @@ window.PLAN = {
           "say": "Full mock, 60 minutes.",
           "when": "1:45 pm",
           "key": "v9:2026-11-10#0"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-12",
-      "level": "interview",
-      "title": "Final review, then the interview",
-      "tasks": [
-        {
-          "kind": "read",
-          "text": "Quick review of the delegation sections",
-          "mins": 40,
-          "when": "Before leaving",
-          "key": "v8:2026-11-12#1"
-        },
-        {
-          "kind": "other",
-          "text": "Interview at 1:45 pm. Confirm the room first (last known: Nadia Younes P131, HUSS)",
-          "when": "1:45 pm",
-          "key": "v8:2026-11-12#2"
         }
       ]
     }
