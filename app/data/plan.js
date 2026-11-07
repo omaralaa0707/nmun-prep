@@ -1,5 +1,5 @@
 // Interview plan, 4–12 Nov 2026 (interview Thursday 12 Nov, 1:45 pm). Mozambique: GA1 + UNHCR.
-// Read 4–7 Nov, one mock a day 8–11 Nov, final review 12 Nov. Cards: each day's new cards plus anything due.
+// Read 7–8 Nov, one mock a day 9–11 Nov, final review 12 Nov. Cards: each day's new cards plus anything due.
 // newCards: cumulative new flashcards allowed per day, in deck order (see units.js); unused ones roll over. After the last date there is no limit.
 // kind: cards | read | voice | write | other. "when" is the time slot; "say" starts a Claude Project voice session. Never change an existing task key.
 window.PLAN = {
@@ -33,7 +33,7 @@ window.PLAN = {
     {
       "date": "2026-11-07",
       "level": "most",
-      "title": "Mozambique, GA1, UNHCR + flashcards",
+      "title": "Mozambique, GA1 + flashcards",
       "tasks": [
         {
           "kind": "read",
@@ -99,7 +99,14 @@ window.PLAN = {
           "mins": 12,
           "href": "#cards/session/unit:laws",
           "key": "v9:2026-11-06#5"
-        },
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "level": "least",
+      "title": "UNHCR + flashcards",
+      "tasks": [
         {
           "kind": "read",
           "text": "Read UNHCR: full committee sheet",
@@ -142,7 +149,7 @@ window.PLAN = {
       ]
     },
     {
-      "date": "2026-11-08",
+      "date": "2026-11-09",
       "level": "least",
       "title": "Mock 1",
       "tasks": [
@@ -157,8 +164,8 @@ window.PLAN = {
       ]
     },
     {
-      "date": "2026-11-09",
-      "level": "least",
+      "date": "2026-11-10",
+      "level": "most",
       "title": "Mock 2",
       "tasks": [
         {
@@ -172,8 +179,8 @@ window.PLAN = {
       ]
     },
     {
-      "date": "2026-11-10",
-      "level": "most",
+      "date": "2026-11-11",
+      "level": "least",
       "title": "Mock 3",
       "tasks": [
         {
@@ -183,21 +190,6 @@ window.PLAN = {
           "say": "Full mock, 60 minutes.",
           "when": "1:45 pm",
           "key": "v9:2026-11-10#0"
-        }
-      ]
-    },
-    {
-      "date": "2026-11-11",
-      "level": "least",
-      "title": "Mock 4",
-      "tasks": [
-        {
-          "kind": "voice",
-          "text": "Mock 4: 60 minutes",
-          "mins": 60,
-          "say": "Full mock, 60 minutes.",
-          "when": "9:30 pm",
-          "key": "v9:2026-11-11#0"
         }
       ]
     },
