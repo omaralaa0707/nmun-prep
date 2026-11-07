@@ -33,34 +33,8 @@ window.PLAN = {
     {
       "date": "2026-11-07",
       "level": "most",
-      "title": "Mozambique, GA1 + flashcards",
+      "title": "GA1",
       "tasks": [
-        {
-          "kind": "read",
-          "text": "Read Mozambique: country profile",
-          "mins": 36,
-          "key": "v9:2026-11-05#6"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: Mozambique: country profile (47 new + any due)",
-          "mins": 28,
-          "href": "#cards/session/unit:moz",
-          "key": "v9:2026-11-05#7"
-        },
-        {
-          "kind": "read",
-          "text": "Read Mozambique in GA1 and UNHCR: its record and statements",
-          "mins": 18,
-          "key": "v9:2026-11-05#8"
-        },
-        {
-          "kind": "cards",
-          "text": "Flashcards: Mozambique record (10 new + any due)",
-          "mins": 6,
-          "href": "#cards/session/unit:mozrecord",
-          "key": "v9:2026-11-05#9"
-        },
         {
           "kind": "read",
           "text": "Read GA First Committee: full committee sheet",
@@ -105,7 +79,7 @@ window.PLAN = {
     {
       "date": "2026-11-08",
       "level": "least",
-      "title": "UNHCR + flashcards",
+      "title": "UNHCR",
       "tasks": [
         {
           "kind": "read",
