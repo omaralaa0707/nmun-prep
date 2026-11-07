@@ -230,7 +230,7 @@
   }
 
   // ---------- plan ----------
-  const PLAN = window.PLAN || { days: [], levels: {}, rules: [] };
+  const PLAN = window.PLAN || { days: [], levels: {} };
   const KIND_LABEL = { cards: 'Flashcards', read: 'Read', voice: 'Voice', write: 'Write', chat: 'Claude Code', news: 'News', other: 'Task' };
   const KIND_CLASS = { cards: '', read: 'accent', voice: 'warn', write: 'good', chat: 'good', news: '', other: '' };
   const taskKey = (day, i) => day.tasks[i].key || `v4:${day.date}#${i}`; // explicit keys keep ticks stable when tasks are removed
@@ -280,7 +280,6 @@
       </section>
       <div class="progress"><span style="width:${total ? Math.round((done / total) * 100) : 0}%"></span></div>
       <section class="stack">${PLAN.days.map((d, k) => (k >= ti ? dayBlock(d, k, k === ti) : '')).join('')}</section>
-      <section class="panel stack"><h3>Ground rules</h3><ul class="rules">${(PLAN.rules || []).map((r) => `<li>${esc(r)}</li>`).join('')}</ul></section>
     </div>`;
     view.querySelectorAll('input[data-day]').forEach((cb) => cb.addEventListener('change', () => {
       const d = PLAN.days.find((x) => x.date === cb.dataset.day);

@@ -20,15 +20,6 @@ window.PLAN = {
       "hours": "light"
     }
   },
-  "rules": [
-    "New cards follow the day's reading. If you miss a day, its cards roll over to the next day. Every card that's due comes up each day until the interview.",
-    "Read a section, then do its cards straight away, so every new card is something you have just read.",
-    "After each section, close the Doc, say the main points out loud from memory, then check what you missed.",
-    "Study in 45–60 minute blocks with 10–15 minute breaks. On uni days, do due cards in class on your phone.",
-    "Voice sessions run in the NMUN Interview Coach Claude Project: start a chat, tap voice, say the phrase.",
-    "After every mock, add the suggested line to the session log in 04_my_profile.md.",
-    "Real interviews last year often ran 1–2 hours (rarely 3–4)."
-  ],
   "days": [
     {
       "date": "2026-11-07",
